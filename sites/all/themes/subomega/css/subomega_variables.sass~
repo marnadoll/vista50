@@ -1,0 +1,9 @@
+$grid: 12;
+
+.V50_Page {
+@include breakpoint ($breakpoint-tablet) {
+@include grid-span(6,1);
+}
+}
+
+
