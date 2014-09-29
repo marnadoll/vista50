@@ -1,9 +1,10 @@
 name = 'v50theme'
-description = ''
+description = 'This a sub theme of omega fit to Vista50 micro site'
 core = '7.x'
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'omega'
+
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
 regions[content] = 'Content'
@@ -32,7 +33,9 @@ zones[branding] = 'Branding'
 zones[menu] = 'Menu'
 zones[preface] = 'Preface'
 zones[postscript] = 'Postscript'
-css[global.css][name] = 'Your custom global styles'
-css[global.css][description] = 'This file holds all the globally active custom CSS of your theme.'
-css[global.css][options][weight] = '10'
+
+stylesheets[all][] = css/menu.css
+stylesheets[all][] = css/gloabal.css
+stylesheets[all][] = css/_colors.sass
+
 version = '1.x'

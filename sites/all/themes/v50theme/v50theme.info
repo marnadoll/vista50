@@ -1,5 +1,5 @@
 name = 'v50theme'
-description = ''
+description = 'This a sub theme of omega fit to Vista50 micro site'
 core = '7.x'
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
@@ -12,6 +12,7 @@ regions[user_first] = 'User Bar First'
 regions[user_second] = 'User Bar Second'
 regions[branding] = 'Branding'
 regions[menu] = 'Menu'
+regions[menu_sticky] = "sticky Menu
 regions[sidebar_first] = 'Sidebar First'
 regions[sidebar_second] = 'Sidebar Second'
 regions[header_first] = 'Header First'
@@ -36,6 +37,6 @@ zones[postscript] = 'Postscript'
 
 stylesheets[all][] = css/menu.css
 stylesheets[all][] = css/gloabal.css
-
+stylesheets[all][] = css/_colors.sass
 
 version = '1.x'

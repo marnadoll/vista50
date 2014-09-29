@@ -74,4 +74,12 @@
 <?php print render($page['content']); ?>
 
 
+ <!--/* sectioning off columns in grid*/ --> 
+<div class="row" role="navigation">
+  		<div class="sixteen columns nav">
+        <?php print render($page['menu']); ?>
+        </div>
+  </div>
+
+
 
