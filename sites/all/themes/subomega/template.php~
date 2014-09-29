@@ -23,4 +23,3 @@ function velocity_process_zone(&$vars) {
   }
 }
 
-

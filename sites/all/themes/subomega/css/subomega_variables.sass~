@@ -1,9 +1,9 @@
 $grid: 12;
 
-.V50_Page {
-@include breakpoint ($breakpoint-tablet) {
+.v50_Page {
 @include grid-span(6,1);
 }
+
+.Main_menu {
+@import "global/header/nav/";
 }
-
-

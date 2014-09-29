@@ -11,16 +11,4 @@
  * for more information on this topic.
  */
 
-function velocity_process_zone(&$vars) {
-  $theme = subomega();
-
-  if ($vars['elements']['#zone'] == 'title') {
-    $vars['breadcrumb'] = $theme->page['breadcrumb'];
-    $vars['title_prefix'] = $theme->page['title_prefix'];
-    $vars['title'] = $theme->page['title'];
-    $vars['title_suffix'] = $theme->page['title_suffix'];
-    $vars['title_hidden'] = $theme->page['title_hidden'];
-  }
-}
-
 
