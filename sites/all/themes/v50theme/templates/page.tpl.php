@@ -1,21 +1,66 @@
-<?php if ($main_menu): ?>
-      <div id="main-menu" class="navigation">
-        <?php print theme('links__system_main_menu', array(
-          'links' => $main_menu,
-          'attributes' => array(
-            'id' => 'main-menu-links',
-            'class' => array('links', 'clearfix'),
-          ),
-          'heading' => array(
-            'text' => t('Main menu'),
-            'level' => 'h2',
-            'class' => array('element-invisible'),
-          ),
-        )); ?>
-      </div> <!-- /#main-menu -->
-    <?php endif; ?>
 
-    <?php if ($secondary_menu): ?>
+<div<?php print $attributes; ?>>
+  <?php if (isset($page['header'])) : ?>
+    <?php print render($page['header']); ?>
+  <?php endif; ?>
+
+     <?php if ($title): ?>
+	<div class="zone-wrapper zone-title-wrapper clearfix" id="zone-title-wrapper">  
+	<div class="zone zone-title clearfix container-12" id="zone-title">   
+		<?php if ($breadcrumb): ?>
+		<div id="breadcrumb" class="grid-<?php print $columns; ?>"><?php print $breadcrumb; ?></div>
+	<?php endif; ?>
+	<?php print render($title_prefix); ?> 
+
+
+<div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-12">
+    <div class="grid-9 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+        <nav class="navigation">
+      <h2 class="element-invisible">Main menu</h2><ul id="main-menu" class="links inline clearfix main-menu"><li class="menu-788 first"><a href="/node/2">Home</a></li><li class="menu-728"><a href="http://v50/summits" title="Link to the solutions summit section">Solutions Summits</a></li><li class="menu-779"><a href="http://home/join" title="">Join the Conversation</a></li><li class="menu-729"><a href="http://v50/incubator" title="Link to solutions incubator section">Solutions Incubator</a></li><li class="menu-778"><a href="http://home/organize" title="">Organize your Community</a></li><li class="menu-780 last"><a href="http://home/future" title="">$50 for the Future</a></li></ul>          </nav>
+        <div class="alpha-debug-block"><h2>Menu</h2><p>This is a debugging block</p></div>  </div>
+</div>
+  </div>
+</div>
+
+
+
+<div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-12">
+    <div class="grid-12 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+            <div class="logo-img">
+        <a href="/" rel="home" title="" class="active"><img src="http://vista.localhost/sites/default/files/Main_Logo_5.png" alt="" id="logo"></a>      </div>
+                </div>
+      
+</div>  
+</div>
+</div>
+
+
+   
+  <?php if (isset($page['content'])) : ?>
+    <?php print render($page['content']); ?>
+  <?php endif; ?>  
+  
+  <?php if (isset($page['footer'])) : ?>
+    <?php print render($page['footer']); ?>
+  <?php endif; ?>
+</div>
+
+ <?php if ($title_hidden): ?><div class="element-invisible"><?php endif; ?>
+		<h1 class="title" id="page-title"><?php print $title; ?></h1>
+    <?php if ($title_hidden): ?></div><?php endif; ?>
+    
+    <?php print render($title_suffix); ?>
+	</div>
+	</div>
+<?php endif; ?>
+
+
+ <?php if ($secondary_menu): ?>
       <div id="secondary-menu" class="navigation">
         <?php print theme('links__system_secondary_menu', array(
           'links' => $secondary_menu,
@@ -31,55 +76,5 @@
         )); ?>
       </div> <!-- /#secondary-menu -->
     <?php endif; ?>
-
-
-<div id="page-wrapper"><div id="page">
-
-  <div id="header" class="<?php print $secondary_menu ? 'with-secondary-menu': 'without-secondary-menu'; ?>"><div class="section clearfix">
-
-    <?php if ($logo): ?>
-      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-      </a>
-    <?php endif; ?>
-
-    <?php if ($site_name || $site_slogan): ?>
-      <div id="name-and-slogan"<?php if ($hide_site_name && $hide_site_slogan) { print ' class="element-invisible"'; } ?>>
-
-        <?php if ($site_name): ?>
-          <?php if ($title): ?>
-            <div id="site-name"<?php if ($hide_site_name) { print ' class="element-invisible"'; } ?>>
-              <strong>
-                <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-              </strong>
-            </div>
-          <?php else: /* Use h1 when the content title is empty */ ?>
-            <h1 id="site-name"<?php if ($hide_site_name) { print ' class="element-invisible"'; } ?>>
-              <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-            </h1>
-          <?php endif; ?>
-        <?php endif; ?>
-
-        <?php if ($site_slogan): ?>
-          <div id="site-slogan"<?php if ($hide_site_slogan) { print ' class="element-invisible"'; } ?>>
-            <?php print $site_slogan; ?>
-          </div>
-        <?php endif; ?>
-
-      </div> <!-- /#name-and-slogan -->
-    <?php endif; ?>
-
-    <?php print render($page['header']); ?>
-
-<?php print render($page['content']); ?>
-
-
- <!--/* sectioning off columns in grid*/ --> 
-<div class="row" role="navigation">
-  		<div class="sixteen columns nav">
-        <?php print render($page['menu']); ?>
-        </div>
-  </div>
-
 
 

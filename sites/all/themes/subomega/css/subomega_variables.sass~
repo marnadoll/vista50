@@ -1,9 +1,0 @@
-$grid: 12;
-
-.v50_Page {
-@include grid-span(6,1);
-}
-
-.Main_menu {
-@import "global/header/nav/";
-}

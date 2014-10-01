@@ -1,7 +1,0 @@
-$grid: 12;
-
-.V50_Page {
-@include grid-span(6,1);
-}
-
-

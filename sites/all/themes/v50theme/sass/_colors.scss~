@@ -1,0 +1,22 @@
+// Color Pallette
+$V50_Blue: #184778;
+$V50_LtBlue: lighten($V50_Blue, 40%);
+$V50_DkBlue: darken($V50_Blue, 40%);
+$V50_Gold: #f4ab1d;
+$V50_LtGold: lighten($V50_Gold, 15%);
+$V50_Red: #9e1d3a;
+$V50_LtRed: lighten($V50_Red, 10%);
+$V50_White: #FFF;
+$V50_Black: #000;
+$V50_Grey: #ccc;
+$V50_LtGrey: #C4C4C4;
+$V50_DkGrey: darken($V50_Grey, 20%);
+$V50_TRANS_Grey: rgba(0,0,0,0.30);
+$V50_Tan: #f9f6f0;
+$V50_DkTan: darken($V50_Tan, 20%);
+$V50_FontGrey: #33281F;
+
+// Buttons
+$V50_BtnFill: #EDEDED;
+$V50_BtnFillHover: darken($V50_BtnFill, 20%);
+$V50_BtnStroke: #B6B7B7;

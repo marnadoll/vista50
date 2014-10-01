@@ -8,35 +8,49 @@ base theme = 'omega'
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
 regions[content] = 'Content'
-regions[user_first] = 'User Bar First'
-regions[user_second] = 'User Bar Second'
-regions[branding] = 'Branding'
+
 regions[menu] = 'Menu'
-regions[menu_sticky] = "sticky Menu
-regions[sidebar_first] = 'Sidebar First'
-regions[sidebar_second] = 'Sidebar Second'
-regions[header_first] = 'Header First'
-regions[header_second] = 'Header Second'
+regions[branding] = 'Branding'
+regions[menu_sticky] = "Sticky Menu
+regions[header_region] = 'Header'
+regions[full_width] = 'Full Width'
+regions[feature] = 'Feature'
+
 regions[preface_first] = 'Preface First'
 regions[preface_second] = 'Preface Second'
 regions[preface_third] = 'Preface Third'
+
 regions[postscript_first] = 'Postscript First'
 regions[postscript_second] = 'Postscript Second'
 regions[postscript_third] = 'Postscript Third'
 regions[postscript_fourth] = 'Postscript Fourth'
+
 regions[footer_first] = 'Footer First'
 regions[footer_second] = 'Footer Second'
+
 zones[header] = 'Header'
 zones[content] = 'Content'
 zones[footer] = 'Footer'
+zones[full_width] = 'Full Width'
 zones[user] = 'User'
-zones[branding] = 'Branding'
 zones[menu] = 'Menu'
+zones[feature] = 'Feature'
+zones[branding] = 'Branding'
 zones[preface] = 'Preface'
 zones[postscript] = 'Postscript'
 
 stylesheets[all][] = css/menu.css
+stylesheets[all][] = css/v50.css
+stylesheets[all][] = css/grid.css
 stylesheets[all][] = css/gloabal.css
-stylesheets[all][] = css/_colors.sass
+stylesheets[all][] = scss/_variables.scss
+stylesheets[all][] = scss/_colors.scss
+stylesheets[all][] = scss/_grid.scss
+stylesheets[all][] = scss/style.scss
+
+
+
+
+scripts[] = scss/library/js/mediaelement.js
 
 version = '1.x'
