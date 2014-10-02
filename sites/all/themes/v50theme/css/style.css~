@@ -7,16 +7,18 @@ body {
 
 	font-size: $font-size;
 	background: $rand;
-
 	
 	.main {
-		width: 1200;
+		width: 960;
 		margin: 0 auto;
 	}
 }
 
 
-.navigation {
-	@include "grid-span" (3,9);	
+.main-menu {
+	@include grid-span (1,1)	
+}
+.content {
+	@include grid-span (3,1)
 }
 

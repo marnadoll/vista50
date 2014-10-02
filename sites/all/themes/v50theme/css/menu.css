@@ -8,10 +8,11 @@
 
 .main-menu li {
   list-style: none;  
-  float: right; 
+  float: left; 
 	width: auto;
 	border: 3px solid #184778;
 	font-family: 'Oswald', sans-serif; 
+	font-size: 14px;
 	line-height: 1;
 	background: #184778;
 }
@@ -21,3 +22,6 @@ color: #FFF;
 }
 
 
+.navigation {
+	background-color: #184778;
+}

@@ -1,16 +1,18 @@
 .main-menu {
   margin: 0;
   padding: 0;
+  background: #184778;
 }
 
 
 
 .main-menu li {
   list-style: none;  
-  float: right; 
+  float: left; 
 	width: auto;
 	border: 3px solid #184778;
 	font-family: 'Oswald', sans-serif; 
+	font-size: 14px;
 	line-height: 1;
 	background: #184778;
 }
@@ -19,11 +21,4 @@
 color: #FFF;
 }
 
-#menu {
-	width: auto;
-	border: 3px solid #184778;
-	font-family: 'Oswald', sans-serif;
-	line-height: 1;
-	background: V50_Blue;
-	box-shadow: 1px 1px 0 #184778, 2px 2px 0 #df7002, 3px 3px 3px rgba(0, 0, 0, 0.35);
-}
+
