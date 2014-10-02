@@ -1,12 +1,13 @@
-.main-menu {
+.block-main-menu {
   margin: 0;
   padding: 0;
   background: #184778;
+  float: left;
 }
 
 
 
-.main-menu li {
+.block-main-menu li {
   list-style: none;  
   float: left; 
 	width: auto;
@@ -17,8 +18,40 @@
 	background: #184778;
 }
 
-.main-menu li a {
+.block-main-menu li a {
 color: #FFF;
 }
 
+ul.block-main-menu {
+   background: #184778;
+}
+
+.navigation {
+	background-color: #184778;
+}
+
+
+.zone-footer-wrapper {
+  margin: 0;
+  padding: 0;
+  background: #184778;
+  float: inherit;
+}
+
+
+
+.zone-footer-wrapper li {
+  list-style: none; 
+	float:inherit;  
+	width: auto;
+	border: 3px solid #184778;
+	font-family: 'Oswald', sans-serif; 
+	font-size: 14px;
+	line-height: 1;
+	background: #184778;
+}
+
+.zone-footer-wrapper li a {
+color: #FFF;
+}
 

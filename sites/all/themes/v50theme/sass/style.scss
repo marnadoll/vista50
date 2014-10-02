@@ -1,5 +1,7 @@
 @import "singularitygs";
 @import "breakpoint";
+@import "grid.scss";
+
 
 
 
@@ -8,15 +10,11 @@ body {
 	font-size: $font-size;
 	background: $rand;
 
-	
-	.main {
-		width: 1200;
-		margin: 0 auto;
-	}
 }
-
-
-.navigation {
-	@include "grid-span" (3,9);	
+.block-main-menu {
+	background: #184778;
+@include 'grid' (3,9);
 }
-
+.content  {
+	background: $rand; 
+}

@@ -47,13 +47,29 @@ regions[footer_second] = 'Footer Second'
 zones[header] = 'Header'
 zones[content] = 'Content'
 zones[footer] = 'Footer'
-zones[full_width] = 'Full Width'
-zones[user] = 'User'
 zones[menu] = 'Menu'
-zones[feature] = 'Feature'
+zones[sticky_menu] = "Sticky Menu
 zones[branding] = 'Branding'
 zones[preface] = 'Preface'
 zones[postscript] = 'Postscript'
+
+zones[social] = 'Social'
+zones[v50_video] = 'V50 Video'
+zones[summits_link] = 'Summits Link'
+zones[incubator_link] = 'Incubator Link'
+zones[showcase_link] = 'Showcase Link'
+zones[solution_summits] = 'Solutions Summits'
+zones[coversation] = 'Conversation'
+zones[social_share] = 'Social Share'
+zones[community] = 'Community'
+zones[incubator] = Incubator'
+zones[showcase] = 'Showcase'
+zones[showcase_photos] = 'Showcase Photos'
+zones[showcase_video] = 'Showcase Video'
+regions[showcase_audio] = 'Showcase Audio'
+zones[showcase_posters] = 'Showcase Posters'
+zones[future] = 'Future'
+
 
 stylesheets[all][] = css/menu.css
 stylesheets[all][] = css/v50.css
@@ -62,7 +78,7 @@ stylesheets[all][] = css/gloabal.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = sass/_variables.scss
 stylesheets[all][] = sass/_colors.scss
-stylesheets[all][] = sass/_grid.scss
+stylesheets[all][] = sass/grid.scss
 stylesheets[all][] = sass/style.scss
 
 
