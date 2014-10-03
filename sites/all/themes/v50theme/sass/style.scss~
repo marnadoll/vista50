@@ -13,8 +13,23 @@ body {
 }
 .block-main-menu {
 	background: #184778;
-	@include grid-spand (3,9)
+@include 'grid' (3,9);
 }
 .content  {
 	background: $rand; 
 }
+
+.section-header {
+	background: #b6b6b8;
+	background-image: sites/default/files/texture.png; 
+}
+
+.section-content {
+	background: #1d2d5b
+}
+
+.zone-future {
+	background: #b6b6b8;
+}
+.section-footer {
+	background: 
