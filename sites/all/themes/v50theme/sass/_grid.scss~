@@ -1,7 +1,0 @@
-@import "singularitygs";
-@import "breakpoint";
-
-$grid: 12;
-$gutter: 1/3;
-
-

@@ -1,25 +1,24 @@
-// Color Pallette
-$V50_Blue:#184778;
-$V50_LtBlue: lighten($V50_Blue, 40%);
-$V50_DkBlue: darken($V50_Blue, 40%);
-$V50_Gold: #f4ab1d;
-$V50_LtGold: lighten($V50_Gold, 15%);
-$V50_Red: #9e1d3a;
-$V50_LtRed: lighten($V50_Red, 10%);
-$V50_White: #FFF;
-$V50_Black: #000;
-$V50_Grey: #b6b6b8;
-$V50_LtGrey: #C4C4C4;
-$V50_DkGrey: darken($V50_Grey, 20%);
-$V50_TRANS_Grey: rgba(0,0,0,0.30);
-$V50_Tan: #f9f6f0;
-$V50_DkTan: darken($V50_Tan, 20%);
-$V50_FontGrey: #33281F;
+@import "singularitygs";
+@import "breakpoint";
 
-// Buttons
-$V50_BtnFill: #EDEDED;
-$V50_BtnFillHover: darken($V50_BtnFill, 20%);
-$V50_BtnStroke: #B6B7B7;
+
+// Color Pallette
+$Land_Blue: #1d2d5b;
+$Convo_DK:#1d2d5b
+$Convo_LT: #556b9a;
+$Land_Grey: #b6b6b8;
+$Comm_Grey: #bebebe;
+$S_Show: #c2c8d2;
+$Future: #c9c9c9;
+$S_Incu: #ebecf0;
+$S_Summits: #e0e0e0;
+
+
+// Titles
+$S_Summit_Text: #29476b;
+$Convo_Past_Text: #c9c9c9;
+$Comm_Text: #ffffff;
+$SSF_Text: #29476b;
 
 
 
