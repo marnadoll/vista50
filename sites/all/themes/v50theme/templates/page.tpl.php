@@ -1,4 +1,12 @@
-
+  <div id="testgrid">
+  <div class="testone">test 1</div>
+  <div class="testtwo">test 2</div>
+  <div style="clear:both;"></div>
+  <div class="testthree">test 3</div>
+  <div style="clear:both;"></div>
+    <div class="testfour">test 4</div>
+  <div class="testfive">test 5</div>
+  </div>
 <div<?php print $attributes; ?>>
   <?php if (isset($page['header'])) : ?>
     <?php print render($page['header']); ?>
@@ -51,7 +59,7 @@
     <?php print render($page['incubator']); ?>
   <?php endif; ?>  
   
-  
+
 
 <?php if (isset($page['showcase_link'])) : ?>
     <?php print render($page['showcase_link']); ?>

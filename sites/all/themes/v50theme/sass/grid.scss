@@ -1,7 +1,45 @@
 @import "singularitygs";
 @import "breakpoint";
 
-$grid: 12;
-$gutter: 1/3;
+$grids: 12;
+$gutters: 1em;
+$gutter-styles: 'split';
 
+$breakpoint-desktop: 900px;
 
+// Test the grid
+#testgrid {
+	@include grid-span(12,1);
+	
+	.testone {
+	background-color: aqua;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,1);
+		}
+	}
+	
+	.testtwo {
+	background-color: fuchsia;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,7);
+		}
+	}
+	
+	.testthree {
+	background-color: green;
+		@include grid-span(12,1);
+		
+	}
+	
+	.testfour {
+	background-color: blue;
+		@include grid-span(4,1);
+		
+	}
+	
+	.testfive {
+	background-color: fuchsia;
+		@include grid-span(8,5);
+		
+	}
+}
