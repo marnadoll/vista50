@@ -1,0 +1,94 @@
+/* line 11, ../sass/grid.scss */
+#testgrid {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+/* line 14, ../sass/grid.scss */
+#testgrid .testone {
+  background-color: aqua;
+}
+@media (min-width: 900px) {
+  /* line 14, ../sass/grid.scss */
+  #testgrid .testone {
+    width: 49.15254%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+  }
+}
+/* line 21, ../sass/grid.scss */
+#testgrid .testtwo {
+  background-color: fuchsia;
+}
+@media (min-width: 900px) {
+  /* line 21, ../sass/grid.scss */
+  #testgrid .testtwo {
+    width: 49.15254%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+/* line 28, ../sass/grid.scss */
+#testgrid .testthree {
+  background-color: green;
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+/* line 34, ../sass/grid.scss */
+#testgrid .testfour {
+  background-color: blue;
+  width: 32.20339%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none;
+}
+/* line 40, ../sass/grid.scss */
+#testgrid .testfive {
+  background-color: fuchsia;
+  width: 66.10169%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+
+/* line 10, ../sass/style.scss */
+.block-main-menu {
+  background: #184778;
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+
+/* line 19, ../sass/style.scss */
+.section-header {
+  background: #b6b6b8;
+  background-image: url("sites/default/files/texture.png");
+}
+
+/* line 24, ../sass/style.scss */
+.section-content {
+  background: #1d2d5b;
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none;
+}
+
+/* line 29, ../sass/style.scss */
+.zone-future-wrapper {
+  background: #b6b6b8;
+}
