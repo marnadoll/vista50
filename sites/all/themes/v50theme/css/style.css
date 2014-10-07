@@ -37,37 +37,52 @@
 /* line 31, ../sass/grid.scss */
 #vgrid .menu {
   background-color: #556b9a;
-  width: 66.10169%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 25.42373%;
-  clear: none;
 }
-/* line 37, ../sass/grid.scss */
+@media (min-width: 900px) {
+  /* line 31, ../sass/grid.scss */
+  #vgrid .menu {
+    width: 66.10169%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.42373%;
+    clear: none;
+  }
+}
+/* line 39, ../sass/grid.scss */
 #vgrid .social_top {
   background-color: none;
-  background-image: "/files/homepage_images/white_lines.png" no-repeat center;
-  width: 23.72881%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 67.79661%;
-  clear: none;
+  background-image: url("/sites/default/files/homepage_images/white_lines.png");
 }
-/* line 44, ../sass/grid.scss */
+@media (min-width: 900px) {
+  /* line 39, ../sass/grid.scss */
+  #vgrid .social_top {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 67.79661%;
+    clear: none;
+  }
+}
+/* line 47, ../sass/grid.scss */
 #vgrid .v50video {
   background-color: fuchsia;
-  width: 49.15254%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 25.42373%;
-  clear: none;
 }
-/* line 50, ../sass/grid.scss */
+@media (min-width: 900px) {
+  /* line 47, ../sass/grid.scss */
+  #vgrid .v50video {
+    width: 49.15254%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.42373%;
+    clear: none;
+  }
+}
+/* line 55, ../sass/grid.scss */
 #vgrid .summits_link {
   background-color: aqua;
 }
 @media (min-width: 900px) {
-  /* line 50, ../sass/grid.scss */
+  /* line 55, ../sass/grid.scss */
   #vgrid .summits_link {
     width: 15.25424%;
     float: left;
@@ -76,12 +91,12 @@
     clear: none;
   }
 }
-/* line 57, ../sass/grid.scss */
+/* line 62, ../sass/grid.scss */
 #vgrid .incu_link {
   background-color: fuchsia;
 }
 @media (min-width: 900px) {
-  /* line 57, ../sass/grid.scss */
+  /* line 62, ../sass/grid.scss */
   #vgrid .incu_link {
     width: 15.25424%;
     float: left;
@@ -90,61 +105,72 @@
     clear: none;
   }
 }
-/* line 64, ../sass/grid.scss */
+/* line 69, ../sass/grid.scss */
 #vgrid .show_link {
   background-color: green;
-  width: 15.25424%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 59.32203%;
-  clear: none;
 }
-/* line 70, ../sass/grid.scss */
-#vgrid .national {
-  background-color: blue;
-  width: 32.20339%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 50.84746%;
-  clear: none;
+@media (min-width: 900px) {
+  /* line 69, ../sass/grid.scss */
+  #vgrid .show_link {
+    width: 15.25424%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 59.32203%;
+    clear: none;
+  }
 }
 /* line 77, ../sass/grid.scss */
+#vgrid .national {
+  background-color: blue;
+}
+@media (min-width: 900px) {
+  /* line 77, ../sass/grid.scss */
+  #vgrid .national {
+    width: 32.20339%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 50.84746%;
+    clear: none;
+  }
+}
+/* line 85, ../sass/grid.scss */
 #vgrid .community_s {
   background-color: fuchsia;
-  width: 32.20339%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 16.94915%;
-  clear: none;
+}
+@media (min-width: 900px) {
+  /* line 85, ../sass/grid.scss */
+  #vgrid .community_s {
+    width: 32.20339%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 16.94915%;
+    clear: none;
+  }
 }
 
 /* line 14, ../sass/style.scss */
 .block-main-menu {
   background: #184778;
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
 }
 
 /* line 23, ../sass/style.scss */
 .section-header {
   background: #b6b6b8;
-  background-image: url("sites/default/files/texture.png");
+  background-image: url("/sites/default/files/texture.png");
 }
 
 /* line 28, ../sass/style.scss */
 .section-content {
   background: #1d2d5b;
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
+  background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 33, ../sass/style.scss */
-.zone-future-wrapper {
-  background: #b6b6b8;
+/* line 35, ../sass/style.scss */
+.section-footer {
+  background: #bbbdbf;
+}
+
+/* line 39, ../sass/style.scss */
+.social_top {
+  background-image: url("/sites/default/files/homepage_images/white_lines.png");
 }

@@ -30,22 +30,27 @@ $breakpoint-desktop: 900px;
 	
 	.menu {
 	background-color: #556b9a;
+	@include breakpoint($breakpoint-desktop){
 		@include grid-span(8,4);
 		
 	}
+}
 	
 	.social_top {
 	background-color: none;
-	background-image: "/files/homepage_images/white_lines.png" no-repeat center;
+	background-image: url("/sites/default/files/homepage_images/white_lines.png");
+	@include breakpoint($breakpoint-desktop){
 		@include grid-span(3,9);
-		
 	}
 	
+}
 	.v50video {
 	background-color: fuchsia;
+	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
 		
 	}
+}
 
 .summits_link {
 	background-color: aqua;
@@ -63,20 +68,24 @@ $breakpoint-desktop: 900px;
 	
 	.show_link {
 	background-color: green;
+	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,8);
 		
 	}
+}
 	
 	.national {
 	background-color: blue;
+	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,7);
-		
 	}
+}
 	
 
 	.community_s {
 	background-color: fuchsia;
+	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,3);
-		
+	}	
 	}
 }

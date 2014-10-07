@@ -13,7 +13,7 @@ body {
 }
 .block-main-menu {
 	background: #184778;
-	@include grid-span(12,1);
+	
 
 }
 .content  {
@@ -22,16 +22,22 @@ body {
 
 .section-header {
 	background: #b6b6b8;
-	background-image: url('sites/default/files/texture.png'); 
+	background-image: url('/sites/default/files/texture.png'); 
 }
 
 .section-content {
 	background: #1d2d5b;
-	@include grid-span(12,1);
+	background-image: url('/sites/default/files/texture.png'); 
+	
 }
 
-.zone-future-wrapper {
-	background: #b6b6b8;
-}
+
 .section-footer {
+	background: #bbbdbf
 	}
+
+.social_top {
+	background-image: url('/sites/default/files/homepage_images/white_lines.png');		
+		
+	}
+
