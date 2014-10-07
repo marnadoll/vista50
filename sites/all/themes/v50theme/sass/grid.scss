@@ -7,39 +7,76 @@ $gutter-styles: 'split';
 
 $breakpoint-desktop: 900px;
 
-// Test the grid
-#testgrid {
+
+
+//V50 Grid
+
+#vgrid {
 	@include grid-span(12,1);
 	
-	.testone {
+	.vtop {
+	background-color: #Land_Grey;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+		}
+	}
+	
+	.logo {
+	background-color: none;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,2);
+		}
+	}
+	
+	.menu {
+	background-color: #556b9a;
+		@include grid-span(8,4);
+		
+	}
+	
+	.social_top {
+	background-color: none;
+	background-image: "/files/homepage_images/white_lines.png" no-repeat center;
+		@include grid-span(3,9);
+		
+	}
+	
+	.v50video {
+	background-color: fuchsia;
+		@include grid-span(6,4);
+		
+	}
+
+.summits_link {
 	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,1);
+		@include grid-span(2,4);
 		}
 	}
 	
-	.testtwo {
+	.incu_link {
 	background-color: fuchsia;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,7);
+		@include grid-span(2,6);
 		}
 	}
 	
-	.testthree {
+	.show_link {
 	background-color: green;
-		@include grid-span(12,1);
+		@include grid-span(2,8);
 		
 	}
 	
-	.testfour {
+	.national {
 	background-color: blue;
-		@include grid-span(4,1);
+		@include grid-span(4,7);
 		
 	}
 	
-	.testfive {
+
+	.community_s {
 	background-color: fuchsia;
-		@include grid-span(8,5);
+		@include grid-span(4,3);
 		
 	}
 }

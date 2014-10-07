@@ -1,12 +1,39 @@
-  <div id="testgrid">
-  <div class="testone">test 1</div>
-  <div class="testtwo">test 2</div>
+
+
+<div id="vgrid">
+  <div class="vtop">top</div>
+<div style="clear:both;"></div>
+  <div class="logo">
+	<img src="/sites/default/files/Main_Logo_6.png" alt id=logo>logo</div>
+  <div style="float:left;"></div>
+  
+<div class="menu">
+<?php print render($block['menu']); ?>menu</div>
   <div style="clear:both;"></div>
-  <div class="testthree">test 3</div>
+   
+<div class="social_top"><p>
+<img alt="facebook" class="Image attr__field_file_image_alt_text[und][0][value]__facebook attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__969 img__view_mode__default" src="sites/default/files/facebook_footer.png" /><img alt="twitter" class="Image attr__field_file_image_alt_text[und][0][value]__twitter attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__970 img__view_mode__default" src="sites/default/files/twitter_footer.png" /><img alt="youtube" class="Image attr__field_file_image_alt_text[und][0][value]__youtube attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__971 img__view_mode__default" src="sites/default/files/youtube_footer.png" /><img alt="flickr" class="Image attr__field_file_image_alt_text[und][0][value]__flickr attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__972 img__view_mode__default" src="sites/default/files/flickr_footer.png" /><img alt="linkedin" class="Image attr__field_file_image_alt_text[und][0][value]__linkedin attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__969 img__view_mode__default" src="sites/default/files/linkedin_footer.png" /></p>
+social top</div>
+	<div style="clear:both;"></div>
+  
+<div class="v50video">v50 video</div>
+<div style="clear:both;"></div>
+<div class="summits_link">summits link</div>
+  <div class="incu_link">incu link</div>
+  <div class="show_link">show link</div>
   <div style="clear:both;"></div>
-    <div class="testfour">test 4</div>
-  <div class="testfive">test 5</div>
+    <div class="national">national</div>
+  <div class="community_s">community summit</div>
   </div>
+
+
+  <div class="menu"><?php print $block_main_menu; ?>
+  <?php if (isset($page['main-menu'])) : ?>
+    <?php print render($page['main-menu']); ?>
+  <?php endif; ?>
+</div>
+
+
 <div<?php print $attributes; ?>>
   <?php if (isset($page['header'])) : ?>
     <?php print render($page['header']); ?>

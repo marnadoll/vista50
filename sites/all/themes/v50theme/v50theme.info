@@ -11,28 +11,7 @@ regions[content] = 'Content'
 
 regions[menu] = 'Menu'
 regions[branding] = 'Branding'
-regions[sticky_menu] = "Sticky Menu
 regions[header_region] = 'Header'
-regions[social_top] = 'Social Top'
-regions[social_bottom] = 'Social Bottom'
-regions[v50_video] = 'V50 Video'
-
-
-regions[summits_link] = 'Summits Link'
-regions[incubator_link] = 'Incubator Link'
-regions[showcase_link] = 'Showcase Link'
-
-regions[solution_summits] = 'Solutions Summits'
-regions[coversation] = 'Conversation'
-regions[social_share] = 'Social Share'
-regions[community] = 'Community'
-regions[incubator] = Incubator'
-regions[showcase] = 'Showcase'
-regions[showcase_photos] = 'Showcase Photos'
-regions[showcase_video] = 'Showcase Video'
-regions[showcase_audio] = 'Showcase Audio'
-regions[showcase_posters] = 'Showcase Posters'
-regions[future] = 'Future'
 
 
 
@@ -48,27 +27,11 @@ zones[header] = 'Header'
 zones[content] = 'Content'
 zones[footer] = 'Footer'
 zones[menu] = 'Menu'
-zones[sticky_menu] = "Sticky Menu
+
 zones[branding] = 'Branding'
 zones[preface] = 'Preface'
 zones[postscript] = 'Postscript'
 
-zones[social] = 'Social'
-zones[v50_video] = 'V50 Video'
-zones[summits_link] = 'Summits Link'
-zones[incubator_link] = 'Incubator Link'
-zones[showcase_link] = 'Showcase Link'
-zones[solution_summits] = 'Solutions Summits'
-zones[coversation] = 'Conversation'
-zones[social_share] = 'Social Share'
-zones[community] = 'Community'
-zones[incubator] = Incubator'
-zones[showcase] = 'Showcase'
-zones[showcase_photos] = 'Showcase Photos'
-zones[showcase_video] = 'Showcase Video'
-zones[showcase_audio] = 'Showcase Audio'
-zones[showcase_posters] = 'Showcase Posters'
-zones[future] = 'Future'
 
 
 stylesheets[all][] = css/menu.css

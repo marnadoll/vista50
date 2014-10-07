@@ -1,68 +1,124 @@
-/* line 11, ../sass/grid.scss */
-#testgrid {
+/* line 14, ../sass/grid.scss */
+#vgrid {
   width: 100%;
   float: right;
   margin-left: 0;
   margin-right: 0;
   clear: none;
 }
-/* line 14, ../sass/grid.scss */
-#testgrid .testone {
-  background-color: aqua;
+/* line 17, ../sass/grid.scss */
+#vgrid .vtop {
+  background-color: #Land_Grey;
 }
 @media (min-width: 900px) {
-  /* line 14, ../sass/grid.scss */
-  #testgrid .testone {
-    width: 49.15254%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none;
-  }
-}
-/* line 21, ../sass/grid.scss */
-#testgrid .testtwo {
-  background-color: fuchsia;
-}
-@media (min-width: 900px) {
-  /* line 21, ../sass/grid.scss */
-  #testgrid .testtwo {
-    width: 49.15254%;
+  /* line 17, ../sass/grid.scss */
+  #vgrid .vtop {
+    width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
   }
 }
-/* line 28, ../sass/grid.scss */
-#testgrid .testthree {
-  background-color: green;
-  width: 100%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
+/* line 24, ../sass/grid.scss */
+#vgrid .logo {
+  background-color: none;
+}
+@media (min-width: 900px) {
+  /* line 24, ../sass/grid.scss */
+  #vgrid .logo {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.47458%;
+    clear: none;
+  }
+}
+/* line 31, ../sass/grid.scss */
+#vgrid .menu {
+  background-color: #556b9a;
+  width: 66.10169%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 25.42373%;
   clear: none;
 }
-/* line 34, ../sass/grid.scss */
-#testgrid .testfour {
+/* line 37, ../sass/grid.scss */
+#vgrid .social_top {
+  background-color: none;
+  background-image: "/files/homepage_images/white_lines.png" no-repeat center;
+  width: 23.72881%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 67.79661%;
+  clear: none;
+}
+/* line 44, ../sass/grid.scss */
+#vgrid .v50video {
+  background-color: fuchsia;
+  width: 49.15254%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 25.42373%;
+  clear: none;
+}
+/* line 50, ../sass/grid.scss */
+#vgrid .summits_link {
+  background-color: aqua;
+}
+@media (min-width: 900px) {
+  /* line 50, ../sass/grid.scss */
+  #vgrid .summits_link {
+    width: 15.25424%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.42373%;
+    clear: none;
+  }
+}
+/* line 57, ../sass/grid.scss */
+#vgrid .incu_link {
+  background-color: fuchsia;
+}
+@media (min-width: 900px) {
+  /* line 57, ../sass/grid.scss */
+  #vgrid .incu_link {
+    width: 15.25424%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 42.37288%;
+    clear: none;
+  }
+}
+/* line 64, ../sass/grid.scss */
+#vgrid .show_link {
+  background-color: green;
+  width: 15.25424%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 59.32203%;
+  clear: none;
+}
+/* line 70, ../sass/grid.scss */
+#vgrid .national {
   background-color: blue;
   width: 32.20339%;
   float: left;
   margin-right: -100%;
-  margin-left: 0;
+  margin-left: 50.84746%;
   clear: none;
 }
-/* line 40, ../sass/grid.scss */
-#testgrid .testfive {
+/* line 77, ../sass/grid.scss */
+#vgrid .community_s {
   background-color: fuchsia;
-  width: 66.10169%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
+  width: 32.20339%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 16.94915%;
   clear: none;
 }
 
-/* line 10, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
 .block-main-menu {
   background: #184778;
   width: 100%;
@@ -72,13 +128,13 @@
   clear: none;
 }
 
-/* line 19, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 .section-header {
   background: #b6b6b8;
   background-image: url("sites/default/files/texture.png");
 }
 
-/* line 24, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .section-content {
   background: #1d2d5b;
   width: 100%;
@@ -88,7 +144,7 @@
   clear: none;
 }
 
-/* line 29, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 .zone-future-wrapper {
   background: #b6b6b8;
 }
