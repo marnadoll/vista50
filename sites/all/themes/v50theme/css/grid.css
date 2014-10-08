@@ -63,12 +63,12 @@
     clear: none;
   }
 }
-/* line 47, ../sass/grid.scss */
+/* line 48, ../sass/grid.scss */
 #vgrid .v50video {
   background-color: fuchsia;
 }
 @media (min-width: 900px) {
-  /* line 47, ../sass/grid.scss */
+  /* line 48, ../sass/grid.scss */
   #vgrid .v50video {
     width: 49.15254%;
     float: left;
@@ -77,12 +77,12 @@
     clear: none;
   }
 }
-/* line 55, ../sass/grid.scss */
+/* line 56, ../sass/grid.scss */
 #vgrid .links {
   background-color: green;
 }
 @media (min-width: 900px) {
-  /* line 55, ../sass/grid.scss */
+  /* line 56, ../sass/grid.scss */
   #vgrid .links {
     width: 100%;
     float: right;
@@ -91,12 +91,12 @@
     clear: none;
   }
 }
-/* line 62, ../sass/grid.scss */
+/* line 63, ../sass/grid.scss */
 #vgrid .summits_link {
   background-color: aqua;
 }
 @media (min-width: 900px) {
-  /* line 62, ../sass/grid.scss */
+  /* line 63, ../sass/grid.scss */
   #vgrid .summits_link {
     width: 15.25424%;
     float: left;
@@ -105,12 +105,12 @@
     clear: none;
   }
 }
-/* line 69, ../sass/grid.scss */
+/* line 70, ../sass/grid.scss */
 #vgrid .incu_link {
   background-color: fuchsia;
 }
 @media (min-width: 900px) {
-  /* line 69, ../sass/grid.scss */
+  /* line 70, ../sass/grid.scss */
   #vgrid .incu_link {
     width: 15.25424%;
     float: left;
@@ -119,12 +119,12 @@
     clear: none;
   }
 }
-/* line 76, ../sass/grid.scss */
+/* line 77, ../sass/grid.scss */
 #vgrid .show_link {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 76, ../sass/grid.scss */
+  /* line 77, ../sass/grid.scss */
   #vgrid .show_link {
     width: 15.25424%;
     float: left;
@@ -133,12 +133,12 @@
     clear: none;
   }
 }
-/* line 84, ../sass/grid.scss */
+/* line 85, ../sass/grid.scss */
 #vgrid .summits {
   background-color: aqua;
 }
 @media (min-width: 900px) {
-  /* line 84, ../sass/grid.scss */
+  /* line 85, ../sass/grid.scss */
   #vgrid .summits {
     width: 100%;
     float: right;
@@ -147,12 +147,12 @@
     clear: none;
   }
 }
-/* line 91, ../sass/grid.scss */
+/* line 92, ../sass/grid.scss */
 #vgrid .national {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 91, ../sass/grid.scss */
+  /* line 92, ../sass/grid.scss */
   #vgrid .national {
     width: 32.20339%;
     float: left;
@@ -161,12 +161,12 @@
     clear: none;
   }
 }
-/* line 99, ../sass/grid.scss */
+/* line 100, ../sass/grid.scss */
 #vgrid .community_s {
   background-color: green;
 }
 @media (min-width: 900px) {
-  /* line 99, ../sass/grid.scss */
+  /* line 100, ../sass/grid.scss */
   #vgrid .community_s {
     width: 32.20339%;
     float: left;
@@ -175,12 +175,12 @@
     clear: none;
   }
 }
-/* line 107, ../sass/grid.scss */
+/* line 108, ../sass/grid.scss */
 #vgrid .join {
   background-color: fuchsia;
 }
 @media (min-width: 900px) {
-  /* line 107, ../sass/grid.scss */
+  /* line 108, ../sass/grid.scss */
   #vgrid .join {
     width: 100%;
     float: right;
@@ -189,12 +189,12 @@
     clear: none;
   }
 }
-/* line 114, ../sass/grid.scss */
+/* line 115, ../sass/grid.scss */
 #vgrid .story {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 114, ../sass/grid.scss */
+  /* line 115, ../sass/grid.scss */
   #vgrid .story {
     width: 32.20339%;
     float: left;
@@ -203,12 +203,12 @@
     clear: none;
   }
 }
-/* line 122, ../sass/grid.scss */
+/* line 123, ../sass/grid.scss */
 #vgrid .reconnect {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 122, ../sass/grid.scss */
+  /* line 123, ../sass/grid.scss */
   #vgrid .reconnect {
     width: 32.20339%;
     float: left;
@@ -217,12 +217,12 @@
     clear: none;
   }
 }
-/* line 129, ../sass/grid.scss */
+/* line 130, ../sass/grid.scss */
 #vgrid .social_share {
   background-color: green;
 }
 @media (min-width: 900px) {
-  /* line 129, ../sass/grid.scss */
+  /* line 130, ../sass/grid.scss */
   #vgrid .social_share {
     width: 100%;
     float: right;
@@ -231,12 +231,12 @@
     clear: none;
   }
 }
-/* line 136, ../sass/grid.scss */
+/* line 137, ../sass/grid.scss */
 #vgrid .share1 {
   background-color: aqua;
 }
 @media (min-width: 900px) {
-  /* line 136, ../sass/grid.scss */
+  /* line 137, ../sass/grid.scss */
   #vgrid .share1 {
     width: 23.72881%;
     float: left;
@@ -245,12 +245,12 @@
     clear: none;
   }
 }
-/* line 143, ../sass/grid.scss */
+/* line 144, ../sass/grid.scss */
 #vgrid .share2 {
   background-color: aqua;
 }
 @media (min-width: 900px) {
-  /* line 143, ../sass/grid.scss */
+  /* line 144, ../sass/grid.scss */
   #vgrid .share2 {
     width: 23.72881%;
     float: left;
@@ -259,12 +259,12 @@
     clear: none;
   }
 }
-/* line 149, ../sass/grid.scss */
+/* line 150, ../sass/grid.scss */
 #vgrid .share3 {
   background-color: aqua;
 }
 @media (min-width: 900px) {
-  /* line 149, ../sass/grid.scss */
+  /* line 150, ../sass/grid.scss */
   #vgrid .share3 {
     width: 23.72881%;
     float: left;
@@ -273,12 +273,12 @@
     clear: none;
   }
 }
-/* line 156, ../sass/grid.scss */
+/* line 157, ../sass/grid.scss */
 #vgrid .share4 {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 156, ../sass/grid.scss */
+  /* line 157, ../sass/grid.scss */
   #vgrid .share4 {
     width: 23.72881%;
     float: left;
@@ -287,12 +287,12 @@
     clear: none;
   }
 }
-/* line 163, ../sass/grid.scss */
+/* line 164, ../sass/grid.scss */
 #vgrid .share5 {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 163, ../sass/grid.scss */
+  /* line 164, ../sass/grid.scss */
   #vgrid .share5 {
     width: 23.72881%;
     float: left;
@@ -301,12 +301,12 @@
     clear: none;
   }
 }
-/* line 170, ../sass/grid.scss */
+/* line 171, ../sass/grid.scss */
 #vgrid .share6 {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 170, ../sass/grid.scss */
+  /* line 171, ../sass/grid.scss */
   #vgrid .share6 {
     width: 23.72881%;
     float: left;
@@ -315,12 +315,12 @@
     clear: none;
   }
 }
-/* line 177, ../sass/grid.scss */
+/* line 178, ../sass/grid.scss */
 #vgrid .organize {
   background-color: aqua;
 }
 @media (min-width: 900px) {
-  /* line 177, ../sass/grid.scss */
+  /* line 178, ../sass/grid.scss */
   #vgrid .organize {
     width: 100%;
     float: right;
@@ -329,12 +329,12 @@
     clear: none;
   }
 }
-/* line 184, ../sass/grid.scss */
+/* line 185, ../sass/grid.scss */
 #vgrid .tools {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 184, ../sass/grid.scss */
+  /* line 185, ../sass/grid.scss */
   #vgrid .tools {
     width: 32.20339%;
     float: left;
@@ -343,12 +343,12 @@
     clear: none;
   }
 }
-/* line 191, ../sass/grid.scss */
+/* line 192, ../sass/grid.scss */
 #vgrid .help_desk {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 191, ../sass/grid.scss */
+  /* line 192, ../sass/grid.scss */
   #vgrid .help_desk {
     width: 32.20339%;
     float: left;
@@ -357,12 +357,12 @@
     clear: none;
   }
 }
-/* line 198, ../sass/grid.scss */
+/* line 199, ../sass/grid.scss */
 #vgrid .incubator {
   background-color: fuchsia;
 }
 @media (min-width: 900px) {
-  /* line 198, ../sass/grid.scss */
+  /* line 199, ../sass/grid.scss */
   #vgrid .incubator {
     width: 100%;
     float: right;
@@ -371,12 +371,12 @@
     clear: none;
   }
 }
-/* line 205, ../sass/grid.scss */
+/* line 206, ../sass/grid.scss */
 #vgrid .incu_works {
   background-color: aqua;
 }
 @media (min-width: 900px) {
-  /* line 205, ../sass/grid.scss */
+  /* line 206, ../sass/grid.scss */
   #vgrid .incu_works {
     width: 32.20339%;
     float: left;
@@ -385,12 +385,12 @@
     clear: none;
   }
 }
-/* line 212, ../sass/grid.scss */
+/* line 213, ../sass/grid.scss */
 #vgrid .showcase {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 212, ../sass/grid.scss */
+  /* line 213, ../sass/grid.scss */
   #vgrid .showcase {
     width: 100%;
     float: right;
@@ -399,12 +399,12 @@
     clear: none;
   }
 }
-/* line 218, ../sass/grid.scss */
+/* line 219, ../sass/grid.scss */
 #vgrid .case_works {
   background-color: green;
 }
 @media (min-width: 900px) {
-  /* line 218, ../sass/grid.scss */
+  /* line 219, ../sass/grid.scss */
   #vgrid .case_works {
     width: 32.20339%;
     float: left;
@@ -413,12 +413,12 @@
     clear: none;
   }
 }
-/* line 225, ../sass/grid.scss */
+/* line 226, ../sass/grid.scss */
 #vgrid .history {
   background-color: aqua;
 }
 @media (min-width: 900px) {
-  /* line 225, ../sass/grid.scss */
+  /* line 226, ../sass/grid.scss */
   #vgrid .history {
     width: 100%;
     float: right;
@@ -427,12 +427,12 @@
     clear: none;
   }
 }
-/* line 232, ../sass/grid.scss */
+/* line 233, ../sass/grid.scss */
 #vgrid .photos {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 232, ../sass/grid.scss */
+  /* line 233, ../sass/grid.scss */
   #vgrid .photos {
     width: 49.15254%;
     float: left;
@@ -441,12 +441,12 @@
     clear: none;
   }
 }
-/* line 239, ../sass/grid.scss */
+/* line 240, ../sass/grid.scss */
 #vgrid .videos {
   background-color: fuchsia;
 }
 @media (min-width: 900px) {
-  /* line 239, ../sass/grid.scss */
+  /* line 240, ../sass/grid.scss */
   #vgrid .videos {
     width: 49.15254%;
     float: left;
@@ -455,12 +455,12 @@
     clear: none;
   }
 }
-/* line 246, ../sass/grid.scss */
+/* line 247, ../sass/grid.scss */
 #vgrid .audio {
   background-color: green;
 }
 @media (min-width: 900px) {
-  /* line 246, ../sass/grid.scss */
+  /* line 247, ../sass/grid.scss */
   #vgrid .audio {
     width: 49.15254%;
     float: left;
@@ -469,12 +469,12 @@
     clear: none;
   }
 }
-/* line 253, ../sass/grid.scss */
+/* line 254, ../sass/grid.scss */
 #vgrid .posters {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 253, ../sass/grid.scss */
+  /* line 254, ../sass/grid.scss */
   #vgrid .posters {
     width: 49.15254%;
     float: left;
@@ -483,12 +483,12 @@
     clear: none;
   }
 }
-/* line 260, ../sass/grid.scss */
+/* line 261, ../sass/grid.scss */
 #vgrid .future {
   background-color: green;
 }
 @media (min-width: 900px) {
-  /* line 260, ../sass/grid.scss */
+  /* line 261, ../sass/grid.scss */
   #vgrid .future {
     width: 100%;
     float: right;
@@ -497,12 +497,12 @@
     clear: none;
   }
 }
-/* line 267, ../sass/grid.scss */
+/* line 268, ../sass/grid.scss */
 #vgrid .donate_info {
   background-color: aqua;
 }
 @media (min-width: 900px) {
-  /* line 267, ../sass/grid.scss */
+  /* line 268, ../sass/grid.scss */
   #vgrid .donate_info {
     width: 32.20339%;
     float: left;
@@ -511,12 +511,12 @@
     clear: none;
   }
 }
-/* line 274, ../sass/grid.scss */
+/* line 275, ../sass/grid.scss */
 #vgrid .pay {
   background-color: fuchsia;
 }
 @media (min-width: 900px) {
-  /* line 274, ../sass/grid.scss */
+  /* line 275, ../sass/grid.scss */
   #vgrid .pay {
     width: 32.20339%;
     float: left;
@@ -525,12 +525,12 @@
     clear: none;
   }
 }
-/* line 282, ../sass/grid.scss */
+/* line 283, ../sass/grid.scss */
 #vgrid .footer_area {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 282, ../sass/grid.scss */
+  /* line 283, ../sass/grid.scss */
   #vgrid .footer_area {
     width: 100%;
     float: right;
@@ -539,12 +539,12 @@
     clear: none;
   }
 }
-/* line 289, ../sass/grid.scss */
+/* line 290, ../sass/grid.scss */
 #vgrid .footer_logo1 {
   background-color: aqua;
 }
 @media (min-width: 900px) {
-  /* line 289, ../sass/grid.scss */
+  /* line 290, ../sass/grid.scss */
   #vgrid .footer_logo1 {
     width: 15.25424%;
     float: left;
@@ -553,12 +553,12 @@
     clear: none;
   }
 }
-/* line 296, ../sass/grid.scss */
+/* line 297, ../sass/grid.scss */
 #vgrid .footer_logo2 {
   background-color: fuchsia;
 }
 @media (min-width: 900px) {
-  /* line 296, ../sass/grid.scss */
+  /* line 297, ../sass/grid.scss */
   #vgrid .footer_logo2 {
     width: 15.25424%;
     float: left;
@@ -567,12 +567,12 @@
     clear: none;
   }
 }
-/* line 303, ../sass/grid.scss */
+/* line 304, ../sass/grid.scss */
 #vgrid .footer_menu {
   background-color: green;
 }
 @media (min-width: 900px) {
-  /* line 303, ../sass/grid.scss */
+  /* line 304, ../sass/grid.scss */
   #vgrid .footer_menu {
     width: 40.67797%;
     float: left;
@@ -581,12 +581,12 @@
     clear: none;
   }
 }
-/* line 310, ../sass/grid.scss */
+/* line 311, ../sass/grid.scss */
 #vgrid .social_bottom {
   background-color: fuchsia;
 }
 @media (min-width: 900px) {
-  /* line 310, ../sass/grid.scss */
+  /* line 311, ../sass/grid.scss */
   #vgrid .social_bottom {
     width: 40.67797%;
     float: left;

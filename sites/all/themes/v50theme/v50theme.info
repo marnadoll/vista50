@@ -15,22 +15,22 @@ regions[header_region] = 'Header'
 
 
 
-regions[postscript_first] = 'Postscript First'
-regions[postscript_second] = 'Postscript Second'
-regions[postscript_third] = 'Postscript Third'
-regions[postscript_fourth] = 'Postscript Fourth'
+;regions[postscript_first] = 'Postscript First'
+;regions[postscript_second] = 'Postscript Second'
+;regions[postscript_third] = 'Postscript Third'
+;regions[postscript_fourth] = 'Postscript Fourth'
 
-regions[footer_first] = 'Footer First'
-regions[footer_second] = 'Footer Second'
+;regions[footer_first] = 'Footer First'
+;regions[footer_second] = 'Footer Second'
 
-zones[header] = 'Header'
-zones[content] = 'Content'
-zones[footer] = 'Footer'
-zones[menu] = 'Menu'
+;zones[header] = 'Header'
+;zones[content] = 'Content'
+;zones[footer] = 'Footer'
+;zones[menu] = 'Menu'
 
-zones[branding] = 'Branding'
-zones[preface] = 'Preface'
-zones[postscript] = 'Postscript'
+;zones[branding] = 'Branding'
+;zones[preface] = 'Preface'
+;zones[postscript] = 'Postscript'
 
 
 

@@ -28,7 +28,7 @@ $breakpoint-desktop: 900px;
 		}
 	}
 	
-	.menu {
+.menu {
 	background-color: #556b9a;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(8,4);
@@ -36,7 +36,7 @@ $breakpoint-desktop: 900px;
 	}
 }
 	
-	.social_top {
+.social_top {
 	background-color: none;
 	background-image: url("/sites/default/files/homepage_images/white_lines.png");
 	@include breakpoint($breakpoint-desktop){
@@ -44,7 +44,8 @@ $breakpoint-desktop: 900px;
 	}
 	
 }
-	.v50video {
+
+.v50video {
 	background-color: fuchsia;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,3);

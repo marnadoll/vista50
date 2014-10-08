@@ -1,26 +1,16 @@
 <div id="vgrid">
-  <div class="vtop"></div>
-<div style="clear:both;"></div>
-  <div class="logo">
-	<img src="/sites/default/files/Main_Logo_6.png" alt id=logo></div>
-  <div style="float:left;"></div>
-  
-<div class="menu">
-<?php print render($block['main-menu']); ?>menu</div>
-  <div style="clear:both;"></div>
    
-<div class="social_top"><p>
-<img alt="facebook" class="Image attr__field_file_image_alt_text[und][0][value]__facebook attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__969 img__view_mode__default" src="sites/default/files/facebook_footer.png" /><img alt="twitter" class="Image attr__field_file_image_alt_text[und][0][value]__twitter attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__970 img__view_mode__default" src="sites/default/files/twitter_footer.png" /><img alt="youtube" class="Image attr__field_file_image_alt_text[und][0][value]__youtube attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__971 img__view_mode__default" src="sites/default/files/youtube_footer.png" /><img alt="flickr" class="Image attr__field_file_image_alt_text[und][0][value]__flickr attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__972 img__view_mode__default" src="sites/default/files/flickr_footer.png" /><img alt="linkedin" class="Image attr__field_file_image_alt_text[und][0][value]__linkedin attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__969 img__view_mode__default" src="sites/default/files/linkedin_footer.png" /></p></div>
-	<div style="clear:both;"></div>
-  
-<div class="v50video">v50 video
+<div class="v50video">
+<?php print render($content['field_v50_video']); ?></div>
 <div style="clear:both;"></div>
-<?php print render($content['field_v50_video']); ?>
-</div>
+
 
 <div class="links">links
   <div style="clear:both;"></div>
-	<div class="summits_link">summits link</div>
+
+	<div class="summits_link">
+<?php print render($content['field_summit_link']); ?>summits link
+</div>
   	<div class="incu_link">incu link</div>
   	<div class="show_link">show link</div>
   <div style="clear:both;"></div>
