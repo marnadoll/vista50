@@ -8,25 +8,25 @@
 <div class="links">links
   <div style="clear:both;"></div>
 
-	<div class="summits_link">
-<?php print render($content['field_summit_link']); ?>summits link
+	<div class="summits_link"><?php print render($content['field_summit_link_img']); ?>
+<?php print render($content['field_summit_link']); ?>
 </div>
-  	<div class="incu_link">incu link</div>
-  	<div class="show_link">show link</div>
+  	<div class="incu_link"><?php print render($content['field_incu_link_img']); ?><?php print render($content['field_incu_link']); ?></div>
+  	<div class="show_link"><?php print render($content['field_show_link_img']); ?><?php print render($content['field_show_link']); ?></div>
   <div style="clear:both;"></div>
 </div>
 
 <div class="summits">summits
   <div style="clear:both;"></div>
-	 <div class="national">national</div>
-     	<div class="community_s">community summit</div>
+	 <div class="national"><?php print render($content['field_national_image']); ?><?php print render($content['field_national_text']); ?>national</div>
+     	<div class="community_s"><?php print render($content['field_community_summit_image']); ?><?php print render($content['field_community_summit_text']); ?>community summit</div>
   </div>
   
 
 <div class="join">join
   <div style="clear:both;"></div>
- 	<div class="story">story</div>
-     	<div class="reconnect">reconnect</div>
+ 	<div class="story"><?php print render($content['field_story_text']); ?>story</div>
+     	<div class="reconnect"><?php print render($content['field_reconnect_text']); ?>reconnect</div>
   </div>
   
 <div class="social_share">social share
@@ -42,18 +42,18 @@
 
 <div class="organize">organize
   <div style="clear:both;"></div>
- 	<div class="tools">tools</div>
-     	<div class="help_desk">help desk</div>
+ 	<div class="tools"><?php print render($content['field_organize_tools']); ?>tools</div>
+     	<div class="help_desk"><?php print render($content['field_organize_help']); ?>help desk</div>
   </div>
 
 <div class="incubator">incubator
   <div style="clear:both;"></div>
- 	<div class="incu_works">incu works</div>
+ 	<div class="incu_works"><?php print render($content['field_incu_works_image']); ?><?php print render($content['field_incu_works']); ?>incu works</div>
   </div>
 
 <div class="showcase">join
   <div style="clear:both;"></div>
- 	<div class="case_works">case works</div>
+ 	<div class="case_works"><?php print render($content['field_showcase_works_image']); ?><?php print render($content['field_showcase_works_image']); ?>case works</div>
   </div>
 
 <div class="history">history

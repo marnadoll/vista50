@@ -79,7 +79,7 @@
 }
 /* line 56, ../sass/grid.scss */
 #vgrid .links {
-  background-color: green;
+  background-color: #b6b6b8;
 }
 @media (min-width: 900px) {
   /* line 56, ../sass/grid.scss */
@@ -596,35 +596,41 @@
   }
 }
 
-/* line 14, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 .block-main-menu {
   background: #184778;
 }
 
-/* line 23, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
+.links {
+  background-color: #b6b6b8;
+  background-image: url("/sites/default/files/texture.png");
+}
+
+/* line 32, ../sass/style.scss */
 .vgrid {
   background: #b6b6b8;
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 27, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 .section-header {
   background: #b6b6b8;
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 32, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .section-content {
   background: #1d2d5b;
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 40, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .section-footer {
   background: #bbbdbf;
 }
 
-/* line 44, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 .social_top {
   background-image: url("/sites/default/files/homepage_images/white_lines.png");
 }

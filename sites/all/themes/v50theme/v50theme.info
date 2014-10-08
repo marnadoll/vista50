@@ -5,13 +5,13 @@ engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'omega'
 
-regions[page_top] = 'Page Top'
-regions[page_bottom] = 'Page Bottom'
-regions[content] = 'Content'
+;regions[page_top] = 'Page Top'
+;regions[page_bottom] = 'Page Bottom'
+;regions[content] = 'Content'
 
-regions[menu] = 'Menu'
-regions[branding] = 'Branding'
-regions[header_region] = 'Header'
+;regions[menu] = 'Menu'
+;regions[branding] = 'Branding'
+;regions[header_region] = 'Header'
 
 
 
