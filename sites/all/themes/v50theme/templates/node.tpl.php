@@ -51,27 +51,27 @@
  	<div class="incu_works"><?php print render($content['field_incu_works_image']); ?><?php print render($content['field_incu_works']); ?>incu works</div>
   </div>
 
-<div class="showcase">join
+<div class="showcase">showcase
   <div style="clear:both;"></div>
- 	<div class="case_works"><?php print render($content['field_showcase_works_image']); ?><?php print render($content['field_showcase_works_image']); ?>case works</div>
+ 	<div class="case_works"><?php print render($content['field_showcase_works_image']); ?><?php print render($content['field_showcase_works']); ?>case works</div>
   </div>
 
 <div class="history">history
   <div style="clear:both;"></div>
-	<div class="photos">photos</div>
+	<div class="photos"><?php print render($content['field_past_photos']); ?>photos</div>
   <div style="clear:both;"></div>
-     	<div class="videos">videos</div>
+     	<div class="videos"><?php print render($content['field_past_videos']); ?>videos</div>
   <div style="clear:both;"></div>
-	<div class="audio">audio</div>
+	<div class="audio"><?php print render($content['field_v50_audio']); ?>audio</div>
   <div style="clear:both;"></div>
-     	<div class="posters">posters</div>
+     	<div class="posters"><?php print render($content['field_past_posters']); ?>posters</div>
   <div style="clear:both;"></div>
   </div>
 
 <div class="future">future
   <div style="clear:both;"></div>
- 	<div class="donate_info">donate info</div>
-     	<div class="pay">pay</div>
+ 	<div class="donate_info"><?php print render($content['field_future50_text']); ?>donate info</div>
+     	<div class="pay"><?php print render($content['field_future50_secure']); ?><?php print render($content['field_future50_image']); ?>pay</div>
   </div>
 
 <div class="footer_area">footer area
