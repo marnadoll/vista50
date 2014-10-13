@@ -7,13 +7,13 @@
   clear: none;
 }
 /* line 19, ../sass/grid.scss */
-#vgrid .vtop {
-  background-color: #556b9a;
+#vgrid .vheader {
+  background-color: #b6b6b8;
   width: 100%;
 }
 @media (min-width: 900px) {
   /* line 19, ../sass/grid.scss */
-  #vgrid .vtop {
+  #vgrid .vheader {
     width: 100%;
     float: right;
     margin-left: 0;
@@ -703,23 +703,29 @@
 }
 
 /* line 36, ../sass/style.scss */
-.section-header {
+.vheader {
   background: #b6b6b8;
   background-image: url("/sites/default/files/texture.png");
 }
 
 /* line 42, ../sass/style.scss */
+.section-header {
+  background: #b6b6b8;
+  background-image: url("/sites/default/files/texture.png");
+}
+
+/* line 48, ../sass/style.scss */
 .section-content {
   background: #1d2d5b;
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 50, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .section-footer {
   background: #bbbdbf;
 }
 
-/* line 54, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 .social_top {
   background-image: url("/sites/default/files/homepage_images/white_lines.png");
 }

@@ -16,8 +16,8 @@ $breakpoint-desktop: 900px;
 	@include breakpoint($breakpoint-desktop);
 	
 
-	.vtop {
-	background-color: #556b9a;
+	.vheader {
+	background-color:  #b6b6b8;
 	width: 100%;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);

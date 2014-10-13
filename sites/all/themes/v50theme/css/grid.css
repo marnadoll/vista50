@@ -7,13 +7,13 @@
   clear: none;
 }
 /* line 19, ../sass/grid.scss */
-#vgrid .vtop {
-  background-color: #556b9a;
+#vgrid .vheader {
+  background-color: #b6b6b8;
   width: 100%;
 }
 @media (min-width: 900px) {
   /* line 19, ../sass/grid.scss */
-  #vgrid .vtop {
+  #vgrid .vheader {
     width: 100%;
     float: right;
     margin-left: 0;

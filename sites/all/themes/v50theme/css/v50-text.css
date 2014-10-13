@@ -1,0 +1,135 @@
+/* line 1, ../sass/v50-text.scss */
+body {
+  font: 13px/1.5 Verdana, Helvetica, Arial, sans-serif;
+}
+
+/* line 5, ../sass/v50-text.scss */
+a:link, a:visited {
+  color: #0062A0;
+  text-decoration: underline;
+}
+
+/* line 10, ../sass/v50-text.scss */
+a:hover {
+  color: #202124;
+  text-decoration: none;
+}
+
+/* line 15, ../sass/v50-text.scss */
+a:active {
+  color: #202124;
+  text-decoration: none;
+  color: #000;
+}
+
+/* line 21, ../sass/v50-text.scss */
+hr {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 1px;
+  background: #5294c1;
+}
+
+/* line 29, ../sass/v50-text.scss */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.05em;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* line 34, ../sass/v50-text.scss */
+h1 {
+  font-size: 36px;
+}
+
+/* line 38, ../sass/v50-text.scss */
+h2 {
+  font-size: 28px;
+}
+
+/* Make site titles the same size if it's an H1 (home) or H2 (internal) */
+/* line 43, ../sass/v50-text.scss */
+h1.site-name,
+h2.site-name {
+  font-size: 36px;
+}
+
+/* Make it a bit smaller for block headers */
+/* line 49, ../sass/v50-text.scss */
+h2.block-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* line 54, ../sass/v50-text.scss */
+h2.node-title {
+  font-size: 28px;
+}
+
+/* line 58, ../sass/v50-text.scss */
+h3 {
+  font-size: 21px;
+}
+
+/* line 62, ../sass/v50-text.scss */
+h4 {
+  font-size: 19px;
+}
+
+/* line 66, ../sass/v50-text.scss */
+h5 {
+  font-size: 17px;
+}
+
+/* line 70, ../sass/v50-text.scss */
+h6 {
+  font-size: 15px;
+}
+
+/* line 74, ../sass/v50-text.scss */
+ol {
+  list-style: decimal;
+}
+
+/* line 78, ../sass/v50-text.scss */
+ul {
+  list-style: disc;
+}
+
+/* line 82, ../sass/v50-text.scss */
+ul ul,
+ol ol {
+  padding-top: 0.5em;
+}
+
+/* line 87, ../sass/v50-text.scss */
+.node ol,
+.node ul {
+  padding-left: 1.2em;
+}
+
+/* line 92, ../sass/v50-text.scss */
+.node ul.inline,
+.node ol.inline {
+  padding-left: 0;
+}
+
+/* line 97, ../sass/v50-text.scss */
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol,
+ul, pre, table, address, fieldset {
+  margin-bottom: 20px;
+}
+
+/* line 102, ../sass/v50-text.scss */
+dt, .admin h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* line 107, ../sass/v50-text.scss */
+dd {
+  padding-left: 10px;
+  font-size: 0.9em;
+  font-style: italic;
+  margin-bottom: 20px;
+}

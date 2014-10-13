@@ -1,432 +1,133 @@
-/*.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, 
-.grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16, .grid-17, .grid-18, .grid-19, 
-.grid-20 {
-  display: inline;
-  float: left;
-  position: relative;
-  margin-left: 0px;
-  margin-right: 0px;
-}
+/*@import "singularitygs";
 
 
-@@ -0,0 +1,108 @@
-+body {
-+    min-width: 260px;
-+}
-+
-+#page{
-+    margin: 0 5px;
-+    overflow: hidden;
-+}
-+
-+#region-branding{
-+    width: auto;
-+}
-+
-+.container-20 {
-+    height: auto;
-+    margin-left: auto;
-+    margin-right: auto;
-+    width: 100%;
-+}
-+
-+#region-header-first{
-+    position: static;
-+    width: 100%;
-+}
-+
-+.zone-header .logo-img { 
-+    padding-top: 35px;
-+}
-+
-+.zone-header .logo-img img{
-+	width: 100%;
-+	height:auto;
-+	max-width: 300px;
-+}
-+.block-menu-header-left {
-+    background-position: -3px 0;
-+    float: right;
-+    margin-top: 0;
-+    position: absolute;
-+    right: 0;
-+    top: 0;
-+    width: 260px;
-+}
-+
-+.block-menu-header-left ul { 
-+    padding: 2px 45px;
-+}
-+
-+.block-menu-header-menu {
-+    padding-top: 22px;
-+    width: 100%;
-+}
-+
-+.block-menu-header-menu ul li.leaf {
-+    float: left;
-+    list-style-image: none;
-+    list-style-type: none;
-+    margin: 0 0 5px;
-+    padding: 0;
-+    width: 50%;
-+}
-+.block-menu-header-menu li a{
-+	font-size: 12px;
-+    padding: 5px !important;
-+    text-align: center;
-+}
-+
-+#main-menu li{
-+	border: none;
-+	width: 100%;
-+}
-+
-+.region-menu #block-search-form {
-+    background: none repeat scroll 0 0 #292929;
-+    margin: 0;
-+    padding: 5px 0 10px;
-+    width: 100%;
-+}
-+.region-menu #search-block-form .form-item-search-block-form {
-+    padding-left: 10px;
-+}
-+
-+#region-slideshow,
-+#zone-footer,
-+#region-footer-first,
-+#region-menu {
-+    height: auto;
-+	width: 100%;
-+}
-+
-+.sideshow-text { 
-+    width: 100%;
-+}
-+
-+.sideshow-text > span { 
-+    padding: 10px;
-+}
-+
-+.olympic-slide {
-+    max-height: 100%;
-+    overflow: visible;
-+}
-+
-+.sideshow-text h2 {
-+    font-size: 24px; 
-+    line-height: 22px;
-+    padding-bottom: 14px;
-+}
 
 
-//grid junk. 
 
 
-*/
 
-/*
- * ==========================================================
- * Grid
- * ==========================================================
- */
-
-.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, 
-.grid-11, .grid-12 {
-  display: inline;
-  float: left;
-  position: relative;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.push-1, .pull-1, .push-2, .pull-2, .push-3, .pull-3, .push-4, .pull-4,
-.push-5, .pull-5, .push-6, .pull-6, .push-7, .pull-7, .push-8, .pull-8,
-.push-9, .pull-9, .push-10, .pull-10, .push-11, .pull-11, .push-12, .pull-12 {
-  position: relative;
-}
-
-/*
- * ==========================================================
- * Alpha - Omega
- * ==========================================================
- */
-
-.alpha {
-  margin-left: 0;
-}
-
-.omega {
-  margin-right: 0;
-}
-
-/*
- * ==========================================================
- * Container
- * ==========================================================
- */
-/*
 body {
-  min-width: 1200px;
+
+	font-size: $font-size;
+	background: $rand;
+
+	.main {
+		width: 960;
+		margin: 0 auto;
+	}
 }
 
-.container-12 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
+
+.main-menu {
+	@include grid-span (6,1)	
+}
+.content {
+	@include grid-span (3,4)
+}
+
+/**
+body {
+   min-width: 960px;
+}
+
+#page{
+    margin: 0 5px;
+    overflow: hidden;
+}
+
+#region-branding{
+    width: auto;
+}
+
+.container-20 {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+#region-header-first{
+    position: static;
+    width: 100%;
+}
+
+.zone-header .logo-img { 
+    padding-top: 35px;
+}
+
+.zone-header .logo-img img{
+	width: 100%;
+	height:auto;
+	max-width: 300px;
+}
+.block-menu-header-left {
+    background-position: -3px 0;
+    float: right;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 260px;
+}
+
+.block-menu-header-left ul { 
+    padding: 2px 45px;
+}
+
+.block-menu-header-menu {
+    padding-top: 22px;
+    width: 100%;
+}
+
+.block-menu-header-menu ul li.leaf {
+    float: left;
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0 0 5px;
+    padding: 0;
+    width: 100%;
+}
+.block-menu-header-menu li a{
+	font-size: 12px;
+        padding: 5px !important;
+        text-align: center;
+}
+
+#main-menu li{
+	border: none;
+	width: 100%;
+}
+
+.region-menu #block-search-form {
+    background: none repeat scroll 0 0 #292929;
+    margin: 0;
+    padding: 5px 0 10px;
+    width: 100%;
+}
+.region-menu #search-block-form .form-item-search-block-form {
+    padding-left: 10px;
+}
+
+#region-slideshow,
+#zone-footer,
+#region-footer-first,
+#region-menu {
+    height: auto;
+	width: 100%;
+}
+
++.sideshow-text { 
+    width: 100%;
+}
+
+.sideshow-text > span { 
+    padding: 10px;
+}
+
+
+.sideshow-text h2 {
+    font-size: 24px; 
+    line-height: 22px;
+    padding-bottom: 14px;
 }
 */
-/*
- * ==========================================================
- * Columns
- * ==========================================================
- */
-/*
-.container-12 .grid-1 {
-  width: 80px;
-}
-
-.container-12 .grid-2 {
-  width: 180px;
-}
-
-.container-12 .grid-3 {
-  width: 280px;
-}
-
-.container-12 .grid-4 {
-  width: 380px;
-}
-
-.container-12 .grid-5 {
-  width: 480px;
-}
-
-.container-12 .grid-6 {
-  width: 580px;
-}
-
-.container-12 .grid-7 {
-  width: 680px;
-}
-
-.container-12 .grid-8 {
-  width: 780px;
-}
-
-.container-12 .grid-9 {
-  width: 880px;
-}
-
-.container-12 .grid-10 {
-  width: 980px;
-}
-
-.container-12 .grid-11 {
-  width: 1080px;
-}
-
-.container-12 .grid-12 {
-  width: 1180px;
-}
-*/
-/*
- * ==========================================================
- * Prefix
- * ==========================================================
- */
-/*
-.container-12 .prefix-1 {
-  padding-left: 100px;
-}
-
-.container-12 .prefix-2 {
-  padding-left: 200px;
-}
-
-.container-12 .prefix-3 {
-  padding-left: 300px;
-}
-
-.container-12 .prefix-4 {
-  padding-left: 400px;
-}
-
-.container-12 .prefix-5 {
-  padding-left: 500px;
-}
-
-.container-12 .prefix-6 {
-  padding-left: 600px;
-}
-
-.container-12 .prefix-7 {
-  padding-left: 700px;
-}
-
-.container-12 .prefix-8 {
-  padding-left: 800px;
-}
-
-.container-12 .prefix-9 {
-  padding-left: 900px;
-}
-
-.container-12 .prefix-10 {
-  padding-left: 1000px;
-}
-
-.container-12 .prefix-11 {
-  padding-left: 1100px;
-}
-*/
-/*
- * ==========================================================
- * Suffix
- * ==========================================================
- */
-/*
-.container-12 .suffix-1 {
-  padding-right: 100px;
-}
-
-.container-12 .suffix-2 {
-  padding-right: 200px;
-}
-
-.container-12 .suffix-3 {
-  padding-right: 300px;
-}
-
-.container-12 .suffix-4 {
-  padding-right: 400px;
-}
-
-.container-12 .suffix-5 {
-  padding-right: 500px;
-}
-
-.container-12 .suffix-6 {
-  padding-right: 600px;
-}
-
-.container-12 .suffix-7 {
-  padding-right: 700px;
-}
-
-.container-12 .suffix-8 {
-  padding-right: 800px;
-}
-
-.container-12 .suffix-9 {
-  padding-right: 900px;
-}
-
-.container-12 .suffix-10 {
-  padding-right: 1000px;
-}
-
-.container-12 .suffix-11 {
-  padding-right: 1100px;
-}
-*/
-/*
- * ==========================================================
- * Push
- * ==========================================================
- */
-/*
-.container-12 .push-1 {
-  left: 100px;
-}
-
-.container-12 .push-2 {
-  left: 200px;
-}
-
-.container-12 .push-3 {
-  left: 300px;
-}
-
-.container-12 .push-4 {
-  left: 400px;
-}
-
-.container-12 .push-5 {
-  left: 500px;
-}
-
-.container-12 .push-6 {
-  left: 600px;
-}
-
-.container-12 .push-7 {
-  left: 700px;
-}
-
-.container-12 .push-8 {
-  left: 800px;
-}
-
-.container-12 .push-9 {
-  left: 900px;
-}
-
-.container-12 .push-10 {
-  left: 1000px;
-}
-
-.container-12 .push-11 {
-  left: 1100px;
-}
-*/
-/*
- * ==========================================================
- * Pull
- * ==========================================================
- */
-
-.container-12 .pull-1 {
-  left: -100px;
-}
-
-.container-12 .pull-2 {
-  left: -200px;
-}
-
-.container-12 .pull-3 {
-  left: -300px;
-}
-
-.container-12 .pull-4 {
-  left: -400px;
-}
-
-.container-12 .pull-5 {
-  left: -500px;
-}
-
-.container-12 .pull-6 {
-  left: -600px;
-}
-
-.container-12 .pull-7 {
-  left: -700px;
-}
-
-.container-12 .pull-8 {
-  left: -800px;
-}
-
-.container-12 .pull-9 {
-  left: -900px;
-}
-
-.container-12 .pull-10 {
-  left: -1000px;
-}
-
-.container-12 .pull-11 {
-  left: -1100px;
-}
-
