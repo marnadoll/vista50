@@ -5,41 +5,38 @@ engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'omega'
 
-;regions[page_top] = 'Page Top'
-;regions[page_bottom] = 'Page Bottom'
-;regions[content] = 'Content'
+regions[page_top] = 'Page Top'
+regions[page_bottom] = 'Page Bottom'
+regions[content] = 'Content'
 
-;regions[menu] = 'Menu'
-;regions[branding] = 'Branding'
-;regions[header_region] = 'Header'
+regions[menu] = 'Menu'
+regions[branding] = 'Branding'
+regions[header_region] = 'Header'
 
 
 
-;regions[postscript_first] = 'Postscript First'
-;regions[postscript_second] = 'Postscript Second'
-;regions[postscript_third] = 'Postscript Third'
-;regions[postscript_fourth] = 'Postscript Fourth'
+regions[postscript_first] = 'Postscript First'
+regions[postscript_second] = 'Postscript Second'
+regions[postscript_third] = 'Postscript Third'
+regions[postscript_fourth] = 'Postscript Fourth'
 
-;regions[footer_first] = 'Footer First'
-;regions[footer_second] = 'Footer Second'
+regions[footer_first] = 'Footer First'
+regions[footer_second] = 'Footer Second'
 
-;zones[header] = 'Header'
-;zones[content] = 'Content'
-;zones[footer] = 'Footer'
-;zones[menu] = 'Menu'
+zones[header] = 'Header'
+zones[content] = 'Content'
+zones[footer] = 'Footer'
+zones[menu] = 'Menu'
 
-;zones[branding] = 'Branding'
-;zones[preface] = 'Preface'
-;zones[postscript] = 'Postscript'
+zones[branding] = 'Branding'
+zones[preface] = 'Preface'
+zones[postscript] = 'Postscript'
 
 
 
 stylesheets[all][] = css/menu.css
-stylesheets[all][] = css/v50.css
 stylesheets[all][] = css/grid.css
-stylesheets[all][] = css/gloabal.css
 stylesheets[all][] = css/style.css
-
 stylesheets[all][] = sass/_variables.scss
 stylesheets[all][] = sass/_colors.scss
 stylesheets[all][] = sass/grid.scss
@@ -47,7 +44,7 @@ stylesheets[all][] = sass/style.scss
 
 
 
-
-scripts[] = scss/library/js/mediaelement.js
+scripts[] = sass/library/js/script.js
+scripts[] = sass/library/js/mediaelement.js
 
 version = '1.x'

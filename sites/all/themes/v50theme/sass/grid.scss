@@ -13,9 +13,12 @@ $breakpoint-desktop: 900px;
 
 #vgrid {
 	@include grid-span(12,1);
+	@include breakpoint($breakpoint-desktop);
 	
+
 	.vtop {
-	background-color: #Land_Grey;
+	background-color: #556b9a;
+	width: 100%;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 		}
@@ -45,6 +48,15 @@ $breakpoint-desktop: 900px;
 	
 }
 
+.v50vid_wrap{
+	background-color: fuchsia;
+	width: 900px;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+		
+	}
+}
+
 .v50video {
 	background-color: fuchsia;
 	@include breakpoint($breakpoint-desktop){
@@ -55,6 +67,8 @@ $breakpoint-desktop: 900px;
 
 .links {
 	background-color: #b6b6b8;
+	width: 900px;
+	margin-right: 100%;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 		}
@@ -62,6 +76,7 @@ $breakpoint-desktop: 900px;
 
 .summits_link {
 	background-color: aqua;
+	width: 100%;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,4);
 		}
@@ -203,12 +218,20 @@ $breakpoint-desktop: 900px;
 	}
 }
 
+.incu_works_img {
+	background-color: blue;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,3);
+	}
+}
+
 .incu_works {
 	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,5);
+		@include grid-span(4,6);
 	}
 }
+
 
 .showcase {
 	background-color: blue;
@@ -216,10 +239,18 @@ $breakpoint-desktop: 900px;
 		@include grid-span(12,1);
 	}
 }
+
+.case_img {
+	background-color: aqua;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,2);
+	}
+}
+
 .case_works {
 	background-color: green;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,5);
+		@include grid-span(4,6);
 	}
 }
 
@@ -237,10 +268,29 @@ $breakpoint-desktop: 900px;
 	}
 }
 
-.videos {
+.past_videos {
+	background-color: green;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}
+}
+
+.past_video1 {
 	background-color: fuchsia;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
+	}
+}
+.past_video2 {
+	background-color: fuchsia;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,2);
+	}
+}
+.past_video3 {
+	background-color: fuchsia;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,6);
 	}
 }
 

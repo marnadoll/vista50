@@ -1,8 +1,10 @@
 <div id="vgrid">
-   
+
+<div class="v50vid_wrap">   
 <div class="v50video">
 <?php print render($content['field_v50_video']); ?></div>
 <div style="clear:both;"></div>
+</div>
 
 
 <div class="links">links
@@ -48,20 +50,28 @@
 
 <div class="incubator">incubator
   <div style="clear:both;"></div>
- 	<div class="incu_works"><?php print render($content['field_incu_works_image']); ?><?php print render($content['field_incu_works']); ?>incu works</div>
+<div class="incu_works_img"><?php print render($content['field_incu_works_image']); ?>incu works img</div>
+ 	<div class="incu_works"><?php print render($content['field_incu_works']); ?>incu works</div>
   </div>
 
 <div class="showcase">showcase
   <div style="clear:both;"></div>
- 	<div class="case_works"><?php print render($content['field_showcase_works_image']); ?><?php print render($content['field_showcase_works']); ?>case works</div>
+	<div class="case__img"><?php print render($content['field_showcase_works_image']); ?>case img</div>
+ 	<div class="case_works"><?php print render($content['field_showcase_works']); ?>case works</div>
   </div>
 
 <div class="history">history
   <div style="clear:both;"></div>
 	<div class="photos"><?php print render($content['field_past_photos']); ?>photos</div>
   <div style="clear:both;"></div>
-     	<div class="videos"><?php print render($content['field_past_videos']); ?>videos</div>
+     	<div class="past_videos">past videos
+		<div class="past_video1"><?php print render($content['field_past_video1']); ?>videos1</div>
   <div style="clear:both;"></div>
+		<div class="past_video2"><?php print render($content['field_past_video2']); ?>video2</div>
+		<div class="past_video3"><?php print render($content['field_past_video3']); ?>video3</div>
+  </div>
+  
+	
 	<div class="audio"><?php print render($content['field_v50_audio']); ?>audio</div>
   <div style="clear:both;"></div>
      	<div class="posters"><?php print render($content['field_past_posters']); ?>posters</div>

@@ -3,7 +3,7 @@
   font-size: 0;
 }
 
-/* Skip link styling */
+/* Skip link styling *//*
 #skip-link {
   left: 50%;
   margin-left: -5.25em;
@@ -37,7 +37,7 @@
 #skip-link a:focus {
   outline: 0;
 }
-
+*/
 /* Give pagers and inline LI items simple styling without all the junk from core */
 .inline li,
 .tabs li,
