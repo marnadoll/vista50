@@ -21,7 +21,7 @@
 <div class="summits">summits
   <div style="clear:both;"></div>
 	 <div class="national"><?php print render($content['field_national_image']); ?><?php print render($content['field_national_text']); ?>national</div>
-     	<div class="community_s"><?php print render($content['field_community_summit_image']); ?><?php print render($content['field_community_summit_text']); ?>community summit</div>
+     	<div class="community_s"><?php print render($content['field_community_summit_img']); ?><?php print render($content['field_community_summit']); ?>community summit</div>
   </div>
   
 

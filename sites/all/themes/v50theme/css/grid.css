@@ -66,7 +66,7 @@
 }
 /* line 51, ../sass/grid.scss */
 #vgrid .v50vid_wrap {
-  background-color: fuchsia;
+  background-color: #b6b6b8;
   width: 900px;
 }
 @media (min-width: 900px) {
@@ -81,7 +81,7 @@
 }
 /* line 60, ../sass/grid.scss */
 #vgrid .v50video {
-  background-color: fuchsia;
+  background-color: #b6b6b8;
 }
 @media (min-width: 900px) {
   /* line 60, ../sass/grid.scss */

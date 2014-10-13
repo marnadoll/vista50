@@ -49,7 +49,7 @@ $breakpoint-desktop: 900px;
 }
 
 .v50vid_wrap{
-	background-color: fuchsia;
+	background-color: #b6b6b8;
 	width: 900px;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
@@ -58,7 +58,7 @@ $breakpoint-desktop: 900px;
 }
 
 .v50video {
-	background-color: fuchsia;
+	background-color: #b6b6b8;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,3);
 		

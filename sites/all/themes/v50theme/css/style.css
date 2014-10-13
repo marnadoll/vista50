@@ -66,7 +66,7 @@
 }
 /* line 51, ../sass/grid.scss */
 #vgrid .v50vid_wrap {
-  background-color: fuchsia;
+  background-color: #b6b6b8;
   width: 900px;
 }
 @media (min-width: 900px) {
@@ -81,7 +81,7 @@
 }
 /* line 60, ../sass/grid.scss */
 #vgrid .v50video {
-  background-color: fuchsia;
+  background-color: #b6b6b8;
 }
 @media (min-width: 900px) {
   /* line 60, ../sass/grid.scss */
@@ -708,24 +708,40 @@
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 42, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
+.social_top {
+  background-image: url("/sites/default/files/homepage_images/white_lines.png"), url("/sites/default/files/texture.png");
+}
+
+/* line 47, ../sass/style.scss */
+.v50vid_wrap {
+  background-color: #b6b6b8;
+  background-image: url("/sites/default/files/texture.png");
+}
+
+/* line 53, ../sass/style.scss */
+.v50video {
+  background-image: url("/sites/default/files/IMAGES/homepage_images/Video_Slider_Background.png"), url("/sites/default/files/texture.png");
+}
+
+/* line 60, ../sass/style.scss */
 .section-header {
   background: #b6b6b8;
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 48, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .section-content {
   background: #1d2d5b;
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 56, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 .section-footer {
   background: #bbbdbf;
 }
 
-/* line 60, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 .social_top {
   background-image: url("/sites/default/files/homepage_images/white_lines.png");
 }
