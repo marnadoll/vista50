@@ -257,7 +257,7 @@
 @media (min-width: 900px) {
   /* line 152, ../sass/grid.scss */
   #vgrid .share1 {
-    width: 23.72881%;
+    width: 15.25424%;
     float: left;
     margin-right: -100%;
     margin-left: 16.94915%;
@@ -271,7 +271,7 @@
 @media (min-width: 900px) {
   /* line 159, ../sass/grid.scss */
   #vgrid .share2 {
-    width: 23.72881%;
+    width: 15.25424%;
     float: left;
     margin-right: -100%;
     margin-left: 42.37288%;
@@ -285,7 +285,7 @@
 @media (min-width: 900px) {
   /* line 165, ../sass/grid.scss */
   #vgrid .share3 {
-    width: 23.72881%;
+    width: 15.25424%;
     float: left;
     margin-right: -100%;
     margin-left: 67.79661%;
@@ -299,7 +299,7 @@
 @media (min-width: 900px) {
   /* line 172, ../sass/grid.scss */
   #vgrid .share4 {
-    width: 23.72881%;
+    width: 15.25424%;
     float: left;
     margin-right: -100%;
     margin-left: 16.94915%;
@@ -313,7 +313,7 @@
 @media (min-width: 900px) {
   /* line 179, ../sass/grid.scss */
   #vgrid .share5 {
-    width: 23.72881%;
+    width: 15.25424%;
     float: left;
     margin-right: -100%;
     margin-left: 42.37288%;
@@ -327,7 +327,7 @@
 @media (min-width: 900px) {
   /* line 186, ../sass/grid.scss */
   #vgrid .share6 {
-    width: 23.72881%;
+    width: 15.25424%;
     float: left;
     margin-right: -100%;
     margin-left: 67.79661%;
@@ -397,10 +397,10 @@
 @media (min-width: 900px) {
   /* line 221, ../sass/grid.scss */
   #vgrid .incu_works_img {
-    width: 23.72881%;
+    width: 32.20339%;
     float: left;
     margin-right: -100%;
-    margin-left: 16.94915%;
+    margin-left: 8.47458%;
     clear: none;
   }
 }
@@ -411,7 +411,7 @@
 @media (min-width: 900px) {
   /* line 228, ../sass/grid.scss */
   #vgrid .incu_works {
-    width: 32.20339%;
+    width: 40.67797%;
     float: left;
     margin-right: -100%;
     margin-left: 42.37288%;
@@ -439,7 +439,7 @@
 @media (min-width: 900px) {
   /* line 243, ../sass/grid.scss */
   #vgrid .case_img {
-    width: 23.72881%;
+    width: 32.20339%;
     float: left;
     margin-right: -100%;
     margin-left: 8.47458%;
@@ -453,7 +453,7 @@
 @media (min-width: 900px) {
   /* line 250, ../sass/grid.scss */
   #vgrid .case_works {
-    width: 32.20339%;
+    width: 40.67797%;
     float: left;
     margin-right: -100%;
     margin-left: 42.37288%;
@@ -462,7 +462,7 @@
 }
 /* line 257, ../sass/grid.scss */
 #vgrid .history {
-  background-color: aqua;
+  background-color: #556b9a;
 }
 @media (min-width: 900px) {
   /* line 257, ../sass/grid.scss */
@@ -490,15 +490,15 @@
 }
 /* line 271, ../sass/grid.scss */
 #vgrid .past_videos {
-  background-color: green;
+  background-color: #bbbdbf;
 }
 @media (min-width: 900px) {
   /* line 271, ../sass/grid.scss */
   #vgrid .past_videos {
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
+    width: 49.15254%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.42373%;
     clear: none;
   }
 }
@@ -537,7 +537,7 @@
 @media (min-width: 900px) {
   /* line 290, ../sass/grid.scss */
   #vgrid .past_video3 {
-    width: 49.15254%;
+    width: 23.72881%;
     float: left;
     margin-right: -100%;
     margin-left: 42.37288%;
@@ -545,12 +545,12 @@
   }
 }
 /* line 297, ../sass/grid.scss */
-#vgrid .audio {
-  background-color: green;
+#vgrid .audio_wrap {
+  background-color: #bbbdbf;
 }
 @media (min-width: 900px) {
   /* line 297, ../sass/grid.scss */
-  #vgrid .audio {
+  #vgrid .audio_wrap {
     width: 49.15254%;
     float: left;
     margin-right: -100%;
@@ -559,11 +559,95 @@
   }
 }
 /* line 304, ../sass/grid.scss */
+#vgrid .audio1 {
+  background-color: green;
+}
+@media (min-width: 900px) {
+  /* line 304, ../sass/grid.scss */
+  #vgrid .audio1 {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.42373%;
+    clear: none;
+  }
+}
+/* line 311, ../sass/grid.scss */
+#vgrid .audio2 {
+  background-color: green;
+}
+@media (min-width: 900px) {
+  /* line 311, ../sass/grid.scss */
+  #vgrid .audio2 {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 50.84746%;
+    clear: none;
+  }
+}
+/* line 318, ../sass/grid.scss */
+#vgrid .audio3 {
+  background-color: green;
+}
+@media (min-width: 900px) {
+  /* line 318, ../sass/grid.scss */
+  #vgrid .audio3 {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.42373%;
+    clear: none;
+  }
+}
+/* line 325, ../sass/grid.scss */
+#vgrid .audio4 {
+  background-color: green;
+}
+@media (min-width: 900px) {
+  /* line 325, ../sass/grid.scss */
+  #vgrid .audio4 {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 50.84746%;
+    clear: none;
+  }
+}
+/* line 332, ../sass/grid.scss */
+#vgrid .audio5 {
+  background-color: green;
+}
+@media (min-width: 900px) {
+  /* line 332, ../sass/grid.scss */
+  #vgrid .audio5 {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.42373%;
+    clear: none;
+  }
+}
+/* line 339, ../sass/grid.scss */
+#vgrid .audio6 {
+  background-color: green;
+}
+@media (min-width: 900px) {
+  /* line 339, ../sass/grid.scss */
+  #vgrid .audio6 {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 50.84746%;
+    clear: none;
+  }
+}
+/* line 346, ../sass/grid.scss */
 #vgrid .posters {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 304, ../sass/grid.scss */
+  /* line 346, ../sass/grid.scss */
   #vgrid .posters {
     width: 49.15254%;
     float: left;
@@ -572,12 +656,12 @@
     clear: none;
   }
 }
-/* line 311, ../sass/grid.scss */
+/* line 353, ../sass/grid.scss */
 #vgrid .future {
   background-color: green;
 }
 @media (min-width: 900px) {
-  /* line 311, ../sass/grid.scss */
+  /* line 353, ../sass/grid.scss */
   #vgrid .future {
     width: 100%;
     float: right;
@@ -586,12 +670,12 @@
     clear: none;
   }
 }
-/* line 318, ../sass/grid.scss */
+/* line 360, ../sass/grid.scss */
 #vgrid .donate_info {
   background-color: aqua;
 }
 @media (min-width: 900px) {
-  /* line 318, ../sass/grid.scss */
+  /* line 360, ../sass/grid.scss */
   #vgrid .donate_info {
     width: 32.20339%;
     float: left;
@@ -600,12 +684,12 @@
     clear: none;
   }
 }
-/* line 325, ../sass/grid.scss */
+/* line 367, ../sass/grid.scss */
 #vgrid .pay {
   background-color: fuchsia;
 }
 @media (min-width: 900px) {
-  /* line 325, ../sass/grid.scss */
+  /* line 367, ../sass/grid.scss */
   #vgrid .pay {
     width: 32.20339%;
     float: left;
@@ -614,12 +698,12 @@
     clear: none;
   }
 }
-/* line 333, ../sass/grid.scss */
+/* line 375, ../sass/grid.scss */
 #vgrid .footer_area {
   background-color: blue;
 }
 @media (min-width: 900px) {
-  /* line 333, ../sass/grid.scss */
+  /* line 375, ../sass/grid.scss */
   #vgrid .footer_area {
     width: 100%;
     float: right;
@@ -628,12 +712,12 @@
     clear: none;
   }
 }
-/* line 340, ../sass/grid.scss */
+/* line 382, ../sass/grid.scss */
 #vgrid .footer_logo1 {
   background-color: aqua;
 }
 @media (min-width: 900px) {
-  /* line 340, ../sass/grid.scss */
+  /* line 382, ../sass/grid.scss */
   #vgrid .footer_logo1 {
     width: 15.25424%;
     float: left;
@@ -642,12 +726,12 @@
     clear: none;
   }
 }
-/* line 347, ../sass/grid.scss */
+/* line 389, ../sass/grid.scss */
 #vgrid .footer_logo2 {
   background-color: fuchsia;
 }
 @media (min-width: 900px) {
-  /* line 347, ../sass/grid.scss */
+  /* line 389, ../sass/grid.scss */
   #vgrid .footer_logo2 {
     width: 15.25424%;
     float: left;
@@ -656,12 +740,12 @@
     clear: none;
   }
 }
-/* line 354, ../sass/grid.scss */
+/* line 396, ../sass/grid.scss */
 #vgrid .footer_menu {
   background-color: green;
 }
 @media (min-width: 900px) {
-  /* line 354, ../sass/grid.scss */
+  /* line 396, ../sass/grid.scss */
   #vgrid .footer_menu {
     width: 40.67797%;
     float: left;
@@ -670,12 +754,12 @@
     clear: none;
   }
 }
-/* line 361, ../sass/grid.scss */
+/* line 403, ../sass/grid.scss */
 #vgrid .social_bottom {
   background-color: fuchsia;
 }
 @media (min-width: 900px) {
-  /* line 361, ../sass/grid.scss */
+  /* line 403, ../sass/grid.scss */
   #vgrid .social_bottom {
     width: 40.67797%;
     float: left;

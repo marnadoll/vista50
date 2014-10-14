@@ -46,6 +46,28 @@ stylesheets[all][] = css/v50-v50.css
 stylesheets[all][] = sass/_variables.scss
 stylesheets[all][] = sass/_colors.scss
 
+css[v50-reset.css][name] = Reset
+css[v50-reset.css][description] = standard copy.
+css[v50-reset.css][options][weight] = -20
+
+grids[v50_default][name] = My new 24 Cols Grid 
+grids[v50_default][layouts][wide] = Wide
+grids[v50_default][columns][24] = 24 Columns
+
+grids[v50_default][name] = Default (900px)
+grids[v50_default][layouts][fluid] = Fluid
+grids[v50_default][layouts][narrow] = Narrow
+grids[v50_default][layouts][normal] = Normal
+grids[v50_default][layouts][wide] = Wide
+grids[v50_default][columns][12] = 12 Columns
+grids[v50_default][columns][12] = 12 Columns
+grids[v50_default][columns][24] = 24 Columns
+
+grids[v50_fluid][name] = Fluid
+grids[v50_fluid][layouts][normal] = Normal
+grids[v50_fluid][columns][12] = 12 Columns
+grids[v50_fluid][columns][12] = 12 Columns
+grids[v50_fluid][columns][24] = 24 Columns
 
 
 

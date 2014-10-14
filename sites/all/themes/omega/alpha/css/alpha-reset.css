@@ -1,4 +1,4 @@
-html, body, div {
+/*html, body, div {
   margin: 0; 
   padding: 0; 
   border: 0; 
@@ -70,9 +70,9 @@ canvas, details, embed, figcaption, menu, nav, output, ruby, summary, time, mark
   vertical-align: baseline; 
   font: inherit;
 }
-
+*/
 /* HTML5 display-role reset for older browsers */
-
+/*
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -105,16 +105,16 @@ q:before, q:after {
   content: '';
   content: none;
 }
-
+*/
 /* remember to define focus styles! */
-
+/*
 :focus {
   outline: 0;
 }
-
+*/
 
 /* remember to highlight inserts somehow! */
-
+/*
 ins {
   text-decoration: none;
 }
@@ -123,13 +123,13 @@ del {
   text-decoration: line-through;
 }
 
-
+*/
 
 /* tables still need 'cellspacing="0"' in the markup */
-
+/*
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-
+*/

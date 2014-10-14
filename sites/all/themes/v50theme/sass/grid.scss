@@ -152,41 +152,41 @@ $breakpoint-desktop: 900px;
 .share1 {
 	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,3);
+		@include grid-span(2,3);
 	}
 }
 
 .share2 {
 	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,6);
+		@include grid-span(2,6);
 	}
 }
 .share3 {
 	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,9);
+		@include grid-span(2,9);
 	}
 }
 
 .share4 {
 	background-color: blue;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,3);
+		@include grid-span(2,3);
 	}
 }
 
 .share5 {
 	background-color: blue;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,6);
+		@include grid-span(2,6);
 	}
 }
 
 .share6 {
 	background-color: blue;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,9);
+		@include grid-span(2,9);
 	}
 }
 
@@ -221,14 +221,14 @@ $breakpoint-desktop: 900px;
 .incu_works_img {
 	background-color: blue;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,3);
+		@include grid-span(4,2);
 	}
 }
 
 .incu_works {
 	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,6);
+		@include grid-span(5,6);
 	}
 }
 
@@ -243,19 +243,19 @@ $breakpoint-desktop: 900px;
 .case_img {
 	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,2);
+		@include grid-span(4,2);
 	}
 }
 
 .case_works {
 	background-color: green;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,6);
+		@include grid-span(5,6);
 	}
 }
 
 .history {
-	background-color: aqua;
+	background-color: #556b9a;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
@@ -269,9 +269,9 @@ $breakpoint-desktop: 900px;
 }
 
 .past_videos {
-	background-color: green;
+	background-color: #bbbdbf;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(12,1);
+		@include grid-span(6,4);
 	}
 }
 
@@ -290,14 +290,56 @@ $breakpoint-desktop: 900px;
 .past_video3 {
 	background-color: fuchsia;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,6);
+		@include grid-span(3,6);
 	}
 }
 
-.audio {
-	background-color: green;
+.audio_wrap {
+	background-color: #bbbdbf;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
+	}
+}
+
+.audio1 {
+	background-color: green;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,4);
+	}
+}
+
+.audio2 {
+	background-color: green;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,7);
+	}
+}
+
+.audio3 {
+	background-color: green;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,4);
+	}
+}
+
+.audio4 {
+	background-color: green;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,7);
+	}
+}
+
+.audio5 {
+	background-color: green;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,4);
+	}
+}
+
+.audio6 {
+	background-color: green;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,7);
 	}
 }
 
