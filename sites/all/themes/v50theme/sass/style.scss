@@ -18,10 +18,16 @@ body {
 	height: auto;
 }
 
+.logo {
+	float: right;
+	background-color: none;
+	display: block;
+}
 
-
-.block-main-menu {
-	background: #184778;
+.menu {
+	background: #556b9a;
+	display: inline;
+	font-family: "League Gothic", google fonts;
 }
 
 
@@ -100,11 +106,17 @@ url('/sites/default/files/texture.png');
 }
 	
 .summits {
+
 	background-color: #e0e0e0;
 	background-image: url('/sites/default/files/texture.png');
 	
 }
 
+.summits_title {
+	color: #29476b;
+	text-align: right;
+	
+}
 	.national {
 	background-color: none;
 	
@@ -296,12 +308,15 @@ url('/sites/default/files/texture.png');
 }
 
 .donate_info {
+	
 	background-color: none;
 	
 }
 
 .pay {
-	background-color: none;
+	border-color: #ec3e3b;
+	border-style: solid;
+	border-width:30px;
 	
 }
 

@@ -1,15 +1,43 @@
 <div id="vgrid">
-  <div class="vheader">vheader
+  <div class="vheader">
 <div style="clear:both;"></div>
 
-  <div class="logo">
-	<img src="/sites/default/files/Main_Logo_6.png" alt id=logo></div>
-  <div style="float:left;"></div>
+  <div class="logo"><img src="/sites/default/files/Main_Logo_6.png" alt id=logo></div>
+
+
+  
   
 <div class="menu">
-<?php print render($block['main-menu']); ?>menu
-  <div style="clear:both;"></div>
+<style>
+body {
+    color: #fff;
+}
+a {
+    text-decoration: none;
+}
+p.serif {
+  font-family: "LeagueGothic","Helvetica Neue","Helvetica","Arial";
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+</style><body>
+<ul>
+  <li><a href="#summit">Solutions Summit</a></li>
+  <li><a href="#join">Join The Conversation</a></li>
+  <li><a href="#organize">Organize Your Community</a></li>
+  <li><a href="#incubator">Solutions Incubator</a></li>
+  <li><a href="#showcase">Solutions Showcase</a></li>
+  <li><a href="#future">$50 For The Future</a></li>
+</ul></body>
 </div>
+  <div style="clear:both;"></div>
    
 <div class="social_top"><p>
 <img alt="facebook" class="Image attr__field_file_image_alt_text[und][0][value]__facebook attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__969 img__view_mode__default" src="sites/default/files/facebook_footer.png" /><img alt="twitter" class="Image attr__field_file_image_alt_text[und][0][value]__twitter attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__970 img__view_mode__default" src="sites/default/files/twitter_footer.png" /><img alt="youtube" class="Image attr__field_file_image_alt_text[und][0][value]__youtube attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__971 img__view_mode__default" src="sites/default/files/youtube_footer.png" /><img alt="flickr" class="Image attr__field_file_image_alt_text[und][0][value]__flickr attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__972 img__view_mode__default" src="sites/default/files/flickr_footer.png" /><img alt="linkedin" class="Image attr__field_file_image_alt_text[und][0][value]__linkedin attr__field_file_image_title_text[und][0][value]__ attr__format__default img__fid__969 img__view_mode__default" src="sites/default/files/linkedin_footer.png" /></p></div>

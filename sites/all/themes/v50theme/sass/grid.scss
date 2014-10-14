@@ -16,7 +16,7 @@ $breakpoint-desktop: 900px;
 	@include breakpoint($breakpoint-desktop);
 	
 
-	.vheader {
+.vheader {
 	
 	width: 100%;
 	@include breakpoint($breakpoint-desktop){
@@ -43,7 +43,7 @@ $breakpoint-desktop: 900px;
 	
 	background-image: url("/sites/default/files/homepage_images/white_lines.png");
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,9);
+		@include grid-span(3,10);
 	}
 	
 }
@@ -96,11 +96,19 @@ $breakpoint-desktop: 900px;
 }
 	
 .summits {
+	
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 		}
 }
 
+.summits_title {
+	color: #29476b;
+	text-align: right;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,2);
+		}
+}
 	.national {
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,3);

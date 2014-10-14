@@ -56,9 +56,9 @@
   /* line 42, ../sass/grid.scss */
   #vgrid .social_top {
     width: 23.72881%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 67.79661%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
     clear: none;
   }
 }
@@ -145,8 +145,23 @@
     clear: none;
   }
 }
+/* line 105, ../sass/grid.scss */
+#vgrid .summits_title {
+  color: #29476b;
+  text-align: right;
+}
 @media (min-width: 900px) {
-  /* line 104, ../sass/grid.scss */
+  /* line 105, ../sass/grid.scss */
+  #vgrid .summits_title {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.47458%;
+    clear: none;
+  }
+}
+@media (min-width: 900px) {
+  /* line 112, ../sass/grid.scss */
   #vgrid .national {
     width: 32.20339%;
     float: left;
@@ -156,7 +171,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 111, ../sass/grid.scss */
+  /* line 119, ../sass/grid.scss */
   #vgrid .community_s {
     width: 32.20339%;
     float: left;
@@ -166,7 +181,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 118, ../sass/grid.scss */
+  /* line 126, ../sass/grid.scss */
   #vgrid .join {
     width: 100%;
     float: right;
@@ -176,7 +191,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 124, ../sass/grid.scss */
+  /* line 132, ../sass/grid.scss */
   #vgrid .story {
     width: 32.20339%;
     float: left;
@@ -186,7 +201,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 131, ../sass/grid.scss */
+  /* line 139, ../sass/grid.scss */
   #vgrid .reconnect {
     width: 32.20339%;
     float: left;
@@ -196,7 +211,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 137, ../sass/grid.scss */
+  /* line 145, ../sass/grid.scss */
   #vgrid .social_share {
     width: 100%;
     float: right;
@@ -206,7 +221,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 143, ../sass/grid.scss */
+  /* line 151, ../sass/grid.scss */
   #vgrid .share1 {
     width: 15.25424%;
     float: left;
@@ -216,7 +231,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 149, ../sass/grid.scss */
+  /* line 157, ../sass/grid.scss */
   #vgrid .share2 {
     width: 15.25424%;
     float: left;
@@ -226,7 +241,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 154, ../sass/grid.scss */
+  /* line 162, ../sass/grid.scss */
   #vgrid .share3 {
     width: 15.25424%;
     float: left;
@@ -236,7 +251,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 160, ../sass/grid.scss */
+  /* line 168, ../sass/grid.scss */
   #vgrid .share4 {
     width: 15.25424%;
     float: left;
@@ -246,7 +261,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 166, ../sass/grid.scss */
+  /* line 174, ../sass/grid.scss */
   #vgrid .share5 {
     width: 15.25424%;
     float: left;
@@ -256,7 +271,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 172, ../sass/grid.scss */
+  /* line 180, ../sass/grid.scss */
   #vgrid .share6 {
     width: 15.25424%;
     float: left;
@@ -266,7 +281,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 178, ../sass/grid.scss */
+  /* line 186, ../sass/grid.scss */
   #vgrid .organize {
     width: 100%;
     float: right;
@@ -276,7 +291,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 185, ../sass/grid.scss */
+  /* line 193, ../sass/grid.scss */
   #vgrid .tools {
     width: 32.20339%;
     float: left;
@@ -286,7 +301,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 192, ../sass/grid.scss */
+  /* line 200, ../sass/grid.scss */
   #vgrid .help_desk {
     width: 32.20339%;
     float: left;
@@ -296,7 +311,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 198, ../sass/grid.scss */
+  /* line 206, ../sass/grid.scss */
   #vgrid .incubator {
     width: 100%;
     float: right;
@@ -306,7 +321,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 204, ../sass/grid.scss */
+  /* line 212, ../sass/grid.scss */
   #vgrid .incu_works_img {
     width: 32.20339%;
     float: left;
@@ -316,7 +331,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 210, ../sass/grid.scss */
+  /* line 218, ../sass/grid.scss */
   #vgrid .incu_works {
     width: 40.67797%;
     float: left;
@@ -326,7 +341,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 217, ../sass/grid.scss */
+  /* line 225, ../sass/grid.scss */
   #vgrid .showcase {
     width: 100%;
     float: right;
@@ -336,7 +351,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 224, ../sass/grid.scss */
+  /* line 232, ../sass/grid.scss */
   #vgrid .case_img {
     width: 32.20339%;
     float: left;
@@ -346,7 +361,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 230, ../sass/grid.scss */
+  /* line 238, ../sass/grid.scss */
   #vgrid .case_works {
     width: 40.67797%;
     float: left;
@@ -356,7 +371,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 236, ../sass/grid.scss */
+  /* line 244, ../sass/grid.scss */
   #vgrid .past {
     width: 100%;
     float: right;
@@ -366,7 +381,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 243, ../sass/grid.scss */
+  /* line 251, ../sass/grid.scss */
   #vgrid .photos_wrap {
     width: 49.15254%;
     float: left;
@@ -376,7 +391,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 249, ../sass/grid.scss */
+  /* line 257, ../sass/grid.scss */
   #vgrid .photos {
     width: 49.15254%;
     float: left;
@@ -386,7 +401,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 256, ../sass/grid.scss */
+  /* line 264, ../sass/grid.scss */
   #vgrid .past_videos {
     width: 49.15254%;
     float: left;
@@ -396,7 +411,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 263, ../sass/grid.scss */
+  /* line 271, ../sass/grid.scss */
   #vgrid .past_video1 {
     width: 49.15254%;
     float: left;
@@ -406,7 +421,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 268, ../sass/grid.scss */
+  /* line 276, ../sass/grid.scss */
   #vgrid .past_video2 {
     width: 23.72881%;
     float: left;
@@ -416,7 +431,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 273, ../sass/grid.scss */
+  /* line 281, ../sass/grid.scss */
   #vgrid .past_video3 {
     width: 23.72881%;
     float: left;
@@ -426,7 +441,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 279, ../sass/grid.scss */
+  /* line 287, ../sass/grid.scss */
   #vgrid .audio_wrap {
     width: 49.15254%;
     float: left;
@@ -436,7 +451,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 285, ../sass/grid.scss */
+  /* line 293, ../sass/grid.scss */
   #vgrid .audio1 {
     width: 23.72881%;
     float: left;
@@ -446,7 +461,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 291, ../sass/grid.scss */
+  /* line 299, ../sass/grid.scss */
   #vgrid .audio2 {
     width: 23.72881%;
     float: left;
@@ -456,7 +471,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 298, ../sass/grid.scss */
+  /* line 306, ../sass/grid.scss */
   #vgrid .audio3 {
     width: 23.72881%;
     float: left;
@@ -466,7 +481,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 305, ../sass/grid.scss */
+  /* line 313, ../sass/grid.scss */
   #vgrid .audio4 {
     width: 23.72881%;
     float: left;
@@ -476,7 +491,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 312, ../sass/grid.scss */
+  /* line 320, ../sass/grid.scss */
   #vgrid .audio5 {
     width: 23.72881%;
     float: left;
@@ -486,7 +501,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 318, ../sass/grid.scss */
+  /* line 326, ../sass/grid.scss */
   #vgrid .audio6 {
     width: 23.72881%;
     float: left;
@@ -496,7 +511,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 324, ../sass/grid.scss */
+  /* line 332, ../sass/grid.scss */
   #vgrid .posters_wrap {
     width: 49.15254%;
     float: left;
@@ -506,7 +521,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 330, ../sass/grid.scss */
+  /* line 338, ../sass/grid.scss */
   #vgrid .posters {
     width: 49.15254%;
     float: left;
@@ -516,7 +531,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 336, ../sass/grid.scss */
+  /* line 344, ../sass/grid.scss */
   #vgrid .future {
     width: 100%;
     float: right;
@@ -526,7 +541,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 342, ../sass/grid.scss */
+  /* line 350, ../sass/grid.scss */
   #vgrid .donate_info {
     width: 32.20339%;
     float: left;
@@ -536,7 +551,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 348, ../sass/grid.scss */
+  /* line 356, ../sass/grid.scss */
   #vgrid .pay {
     width: 32.20339%;
     float: left;
@@ -546,7 +561,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 355, ../sass/grid.scss */
+  /* line 363, ../sass/grid.scss */
   #vgrid .footer_area {
     width: 100%;
     float: right;
@@ -556,7 +571,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 361, ../sass/grid.scss */
+  /* line 369, ../sass/grid.scss */
   #vgrid .footer_logo1 {
     width: 15.25424%;
     float: left;
@@ -566,7 +581,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 367, ../sass/grid.scss */
+  /* line 375, ../sass/grid.scss */
   #vgrid .footer_logo2 {
     width: 15.25424%;
     float: left;
@@ -576,7 +591,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 373, ../sass/grid.scss */
+  /* line 381, ../sass/grid.scss */
   #vgrid .footer_menu {
     width: 40.67797%;
     float: left;
@@ -586,7 +601,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 379, ../sass/grid.scss */
+  /* line 387, ../sass/grid.scss */
   #vgrid .social_bottom {
     width: 40.67797%;
     float: left;

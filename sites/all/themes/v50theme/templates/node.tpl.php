@@ -7,7 +7,7 @@
 </div>
 
 
-<div class="links">links
+<div class="links">
   <div style="clear:both;"></div>
 
 	<div class="summits_link"><?php print render($content['field_summit_link_img']); ?>
@@ -18,10 +18,11 @@
   <div style="clear:both;"></div>
 </div>
 
-<div class="summits">summits
-  <div style="clear:both;"></div>
-	 <div class="national"><?php print render($content['field_national_image']); ?><?php print render($content['field_national_text']); ?>national</div>
-     	<div class="community_s"><?php print render($content['field_community_summit_img']); ?><?php print render($content['field_community_summit']); ?>community summit</div>
+<div class="summits">
+<div style="clear:both;"></div>
+<div class="summits_title"><?php print render($content['field_summits_title']); ?></div>
+	 <div class="national"><?php print render($content['field_national_image']); ?><?php print render($content['field_national_text']); ?></div>
+     	<div class="community_s"><?php print render($content['field_community_summit_img']); ?><?php print render($content['field_community_summit']); ?></div>
   </div>
   
 
@@ -48,16 +49,16 @@
      	<div class="help_desk"><?php print render($content['field_organize_help']); ?>help desk</div>
   </div>
 
-<div class="incubator">incubator
+<div class="incubator">
   <div style="clear:both;"></div>
-<div class="incu_works_img"><?php print render($content['field_incu_work_image']); ?>incu works img</div>
- 	<div class="incu_works"><?php print render($content['field_incu_works']); ?>incu works</div>
+<div class="incu_works_img"><?php print render($content['field_incu_work_image']); ?></div>
+ 	<div class="incu_works"><?php print render($content['field_incu_works']); ?></div>
   </div>
 
-<div class="showcase">showcase
+<div class="showcase">
   <div style="clear:both;"></div>
-	<div class="case_img"><?php print render($content['field_showcase_works_image']); ?>case img</div>
- 	<div class="case_works"><?php print render($content['field_showcase_works']); ?>case works</div>
+	<div class="case_img"><?php print render($content['field_showcase_works_image']); ?></div>
+ 	<div class="case_works"><?php print render($content['field_showcase_works']); ?></div>
   </div>
 
 <div class="past">past
@@ -104,10 +105,10 @@
 </div>
 
 
-<div class="future">future
+<div class="future">
   <div style="clear:both;"></div>
- 	<div class="donate_info"><?php print render($content['field_future50_text']); ?>donate info</div>
-     	<div class="pay"><?php print render($content['field_future50_secure']); ?><?php print render($content['field_future50_image']); ?>pay</div>
+ 	<div class="donate_info"><?php print render($content['field_future50_text']); ?></div>
+     	<div class="pay"><?php print render($content['field_future50_secure']); ?><?php print render($content['field_future50_image']); ?></div>
   </div>
 
 <div class="footer_area">footer area
