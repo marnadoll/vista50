@@ -71,10 +71,15 @@ $breakpoint-desktop: 900px;
 		@include grid-span(12,1);
 		}
 	}
+.link_wrap {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(8,3);
+		}
+	}
 
 .summits_link {
 	
-	width: 100%;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,4);
 		}
@@ -92,7 +97,7 @@ $breakpoint-desktop: 900px;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,8);
 		
-	}
+	} 
 }
 	
 .summits {
@@ -104,9 +109,9 @@ $breakpoint-desktop: 900px;
 
 .summits_title {
 	color: #29476b;
-	text-align: right;
+	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,2);
+		@include grid-span(2,2);
 		}
 }
 	.national {

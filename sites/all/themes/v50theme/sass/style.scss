@@ -26,6 +26,7 @@ body {
 
 .menu {
 	background: #556b9a;
+	color: #fff;
 	display: inline;
 	font-family: "League Gothic", google fonts;
 }
@@ -85,6 +86,10 @@ url('/sites/default/files/texture.png');
 	margin-right: 100%;
 }
 
+.link_wrap {
+	background-color: #b6b6b8;
+	background-image: url('/sites/default/files/texture.png');
+}
 
 .summits_link {
 	background-color: #b6b6b8;
@@ -114,7 +119,8 @@ url('/sites/default/files/texture.png');
 
 .summits_title {
 	color: #29476b;
-	text-align: right;
+	
+	
 	
 }
 	.national {

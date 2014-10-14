@@ -9,9 +9,7 @@
   
 <div class="menu">
 <style>
-body {
-    color: #fff;
-}
+
 a {
     text-decoration: none;
 }

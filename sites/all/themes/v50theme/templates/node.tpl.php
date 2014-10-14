@@ -9,13 +9,15 @@
 
 <div class="links">
   <div style="clear:both;"></div>
-
+<div class="link_wrap">
+  <div style="clear:both;"></div>
 	<div class="summits_link"><?php print render($content['field_summit_link_img']); ?>
 <?php print render($content['field_summit_link']); ?>
 </div>
   	<div class="incu_link"><?php print render($content['field_incu_link_img']); ?><?php print render($content['field_incu_link']); ?></div>
   	<div class="show_link"><?php print render($content['field_show_link_img']); ?><?php print render($content['field_show_link']); ?></div>
   <div style="clear:both;"></div>
+</div>
 </div>
 
 <div class="summits">
