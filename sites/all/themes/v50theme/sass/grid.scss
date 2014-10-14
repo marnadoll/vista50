@@ -127,6 +127,12 @@ $breakpoint-desktop: 900px;
 	}	
 }
 
+.join_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,2);
+		}
+}
 
 .join {
 	@include breakpoint($breakpoint-desktop){
@@ -146,6 +152,13 @@ $breakpoint-desktop: 900px;
 		@include grid-span(4,7);
 	}	
 }	
+
+.social_share_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,2);
+		}
+}
 
 .social_share {
 	@include breakpoint($breakpoint-desktop){
@@ -188,6 +201,13 @@ $breakpoint-desktop: 900px;
 	}
 }
 
+.organize_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,2);
+		}
+}
+
 .organize {
 
 	@include breakpoint($breakpoint-desktop){
@@ -208,6 +228,13 @@ $breakpoint-desktop: 900px;
 	}
 }
 
+.incubator_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,2);
+		}
+}
+
 .incubator {
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
@@ -226,6 +253,12 @@ $breakpoint-desktop: 900px;
 	}
 }
 
+.showcase_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,2);
+		}
+}
 
 .showcase {
 
@@ -246,11 +279,25 @@ $breakpoint-desktop: 900px;
 	}
 }
 
+.past_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,2);
+		}
+}
+
 .past {
 
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
+}
+
+.photo_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,2);
+		}
 }
 
 .photos_wrap {
@@ -264,6 +311,13 @@ $breakpoint-desktop: 900px;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
 	}
+}
+
+.video_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,2);
+		}
 }
 
 .past_videos {
@@ -287,6 +341,13 @@ $breakpoint-desktop: 900px;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(3,7);
 	}
+}
+
+.audio_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,2);
+		}
 }
 
 .audio_wrap {
@@ -334,6 +395,13 @@ $breakpoint-desktop: 900px;
 	}
 }
 
+.poster_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,2);
+		}
+}
+
 .posters_wrap {
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
@@ -344,6 +412,13 @@ $breakpoint-desktop: 900px;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
 	}
+}
+
+.future_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,2);
+		}
 }
 
 .future {

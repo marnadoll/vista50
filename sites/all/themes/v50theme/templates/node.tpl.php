@@ -30,12 +30,14 @@
 
 <div class="join">join
   <div style="clear:both;"></div>
+<div class="join_title"><?php print render($content['field_join_title']); ?></div>
  	<div class="story"><?php print render($content['field_story_text']); ?>story</div>
      	<div class="reconnect"><?php print render($content['field_reconnect_text']); ?>reconnect</div>
   </div>
   
 <div class="social_share">social share
   <div style="clear:both;"></div>
+<div class="social_share_title"><?php print render($content['field_social_share_title']); ?></div>
 	<div class="share1">share1</div>
      	<div class="share2">share2</div>
 	<div class="share3">share3</div>
@@ -47,33 +49,39 @@
 
 <div class="organize">organize
   <div style="clear:both;"></div>
+<div class="organize_title"><?php print render($content['field_organize_title']); ?></div>
  	<div class="tools"><?php print render($content['field_organize_tools']); ?>tools</div>
      	<div class="help_desk"><?php print render($content['field_organize_help']); ?>help desk</div>
   </div>
 
 <div class="incubator">
   <div style="clear:both;"></div>
+<div class="incubator_title"><?php print render($content['field_incubator_title']); ?></div>
 <div class="incu_works_img"><?php print render($content['field_incu_work_image']); ?></div>
  	<div class="incu_works"><?php print render($content['field_incu_works']); ?></div>
   </div>
 
 <div class="showcase">
   <div style="clear:both;"></div>
+<div class="showcase_title"><?php print render($content['field_showcase_title']); ?></div>
 	<div class="case_img"><?php print render($content['field_showcase_works_image']); ?></div>
  	<div class="case_works"><?php print render($content['field_showcase_works']); ?></div>
   </div>
 
 <div class="past">past
 <div style="clear:both;"></div>
+<div class="past_title"><?php print render($content['field_past_title']); ?></div>
 
 <div class="photos_wrap">photo wrap
   <div style="clear:both;"></div>
+<div class="photo_title"><?php print render($content['field_photo_title']); ?></div>
 <div class="photos"><?php print render($content['field_past_photos']); ?>photos</div>
   <div style="clear:both;"></div>
 </div>
 
      	<div class="past_videos">past videos
   <div style="clear:both;"></div>
+<div class="video_title"><?php print render($content['field_video_title']); ?></div>
 		<div class="past_video1"><?php print render($content['field_past_video1']); ?>videos1</div>
  <div style="clear:both;"></div>
 		<div class="past_video2"><?php print render($content['field_past_video2']); ?>video2</div>
@@ -85,6 +93,7 @@
   
 <div class="audio_wrap">audio wrap
   <div style="clear:both;"></div>
+<div class="audio_title"><?php print render($content['field_audio_title']); ?></div>
 	
 	<div class="audio1"><?php print render($content['field_v50_audio']); ?>audio1</div>
 <div class="audio2"><?php print render($content['field_v50_audio2']); ?>audio2</div>
@@ -101,6 +110,7 @@
 
 <div class="posters_wrap">posters wrap
 <div style="clear:both;"></div>
+<div class="poster_title"><?php print render($content['field_poster_title']); ?></div>
 <div class="posters"><?php print render($content['field_past_posters']); ?>posters</div>
   <div style="clear:both;"></div>
 </div>
@@ -109,6 +119,7 @@
 
 <div class="future">
   <div style="clear:both;"></div>
+<div class="future_title"><?php print render($content['field_future_title']); ?></div>
  	<div class="donate_info"><?php print render($content['field_future50_text']); ?></div>
      	<div class="pay"><?php print render($content['field_future50_secure']); ?><?php print render($content['field_future50_image']); ?></div>
   </div>
