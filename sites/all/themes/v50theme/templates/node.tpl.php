@@ -60,24 +60,22 @@
  	<div class="case_works"><?php print render($content['field_showcase_works']); ?>case works</div>
   </div>
 
-<div class="history">history
-  <div style="clear:both;"></div>
+<div class="past">past
+<div style="clear:both;"></div>
 
-	<div class="photos"><?php print render($content['field_past_photos']); ?>photos</div>
+<div class="photos_wrap">photo wrap
   <div style="clear:both;"></div>
+<div class="photos"><?php print render($content['field_past_photos']); ?>photos</div>
+  <div style="clear:both;"></div>
+</div>
 
      	<div class="past_videos">past videos
   <div style="clear:both;"></div>
-
-		<div class="past_video1"><?php print render($content['field_past_video1']); ?>videos1
+		<div class="past_video1"><?php print render($content['field_past_video1']); ?>videos1</div>
  <div style="clear:both;"></div>
-</div>
-  
 		<div class="past_video2"><?php print render($content['field_past_video2']); ?>video2</div>
-		<div class="past_video3"><?php print render($content['field_past_video3']); ?>video3
-<div style="clear:both;"></div>
-</div>
- 
+		<div class="past_video3"><?php print render($content['field_past_video3']); ?>video3</div>
+ <div style="clear:both;"></div>
  </div>
 
 
@@ -98,7 +96,9 @@
   <div style="clear:both;"></div>
 </div>
 
-<div class="posters"><?php print render($content['field_past_posters']); ?>posters
+<div class="posters_wrap">posters wrap
+<div style="clear:both;"></div>
+<div class="posters"><?php print render($content['field_past_posters']); ?>posters</div>
   <div style="clear:both;"></div>
 </div>
 </div>

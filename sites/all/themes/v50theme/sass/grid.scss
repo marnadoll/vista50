@@ -17,7 +17,7 @@ $breakpoint-desktop: 900px;
 	
 
 	.vheader {
-	background-color:  #b6b6b8;
+	
 	width: 100%;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
@@ -40,7 +40,7 @@ $breakpoint-desktop: 900px;
 }
 	
 .social_top {
-	background-color: none;
+	
 	background-image: url("/sites/default/files/homepage_images/white_lines.png");
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(3,9);
@@ -49,7 +49,6 @@ $breakpoint-desktop: 900px;
 }
 
 .v50vid_wrap{
-	background-color: #b6b6b8;
 	width: 900px;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
@@ -58,7 +57,6 @@ $breakpoint-desktop: 900px;
 }
 
 .v50video {
-	background-color: #b6b6b8;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,3);
 		
@@ -66,7 +64,7 @@ $breakpoint-desktop: 900px;
 }
 
 .links {
-	background-color: #b6b6b8;
+	
 	width: 900px;
 	margin-right: 100%;
 	@include breakpoint($breakpoint-desktop){
@@ -75,7 +73,7 @@ $breakpoint-desktop: 900px;
 	}
 
 .summits_link {
-	background-color: aqua;
+	
 	width: 100%;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,4);
@@ -83,14 +81,14 @@ $breakpoint-desktop: 900px;
 	}
 	
 	.incu_link {
-	background-color: fuchsia;
+	
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,6);
 		}
 	}
 	
 	.show_link {
-	background-color: blue;
+	
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,8);
 		
@@ -98,14 +96,12 @@ $breakpoint-desktop: 900px;
 }
 	
 .summits {
-	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 		}
-	}
+}
 
 	.national {
-	background-color: blue;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,3);
 	}
@@ -113,7 +109,6 @@ $breakpoint-desktop: 900px;
 
 
 	.community_s {
-	background-color: green;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,7);
 	}	
@@ -121,14 +116,12 @@ $breakpoint-desktop: 900px;
 
 
 .join {
-	background-color: fuchsia;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}	
 }
 
 	.story {
-	background-color: blue;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,3);
 	}
@@ -136,97 +129,85 @@ $breakpoint-desktop: 900px;
 
 
 	.reconnect {
-	background-color: blue;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,7);
 	}	
 }	
 
 .social_share {
-	background-color: green;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
 }
 
 .share1 {
-	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,3);
 	}
 }
 
 .share2 {
-	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,6);
 	}
 }
 .share3 {
-	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,9);
 	}
 }
 
 .share4 {
-	background-color: blue;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,3);
 	}
 }
 
 .share5 {
-	background-color: blue;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,6);
 	}
 }
 
 .share6 {
-	background-color: blue;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,9);
 	}
 }
 
 .organize {
-	background-color: aqua;
+
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
 }
 
 .tools {
-	background-color: blue;
+
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,3);
 	}
 }
 
 .help_desk {
-	background-color: blue;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,7);
 	}
 }
 
 .incubator {
-	background-color: fuchsia;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
 }
 
 .incu_works_img {
-	background-color: blue;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,2);
 	}
 }
 
 .incu_works {
-	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(5,6);
 	}
@@ -234,138 +215,137 @@ $breakpoint-desktop: 900px;
 
 
 .showcase {
-	background-color: blue;
+
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
 }
 
 .case_img {
-	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,2);
 	}
 }
 
 .case_works {
-	background-color: green;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(5,6);
 	}
 }
 
-.history {
-	background-color: #556b9a;
+.past {
+
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
 }
 
+.photos_wrap {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,4);
+	}
+}
+
 .photos {
-	background-color: blue;
+
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
 	}
 }
 
 .past_videos {
-	background-color: #bbbdbf;
+
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
 	}
 }
 
 .past_video1 {
-	background-color: fuchsia;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
 	}
 }
 .past_video2 {
-	background-color: fuchsia;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,2);
+		@include grid-span(3,4);
 	}
 }
 .past_video3 {
-	background-color: fuchsia;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,6);
+		@include grid-span(3,7);
 	}
 }
 
 .audio_wrap {
-	background-color: #bbbdbf;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
 	}
 }
 
 .audio1 {
-	background-color: green;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(3,4);
 	}
 }
 
 .audio2 {
-	background-color: green;
+	
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(3,7);
 	}
 }
 
 .audio3 {
-	background-color: green;
+	
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(3,4);
 	}
 }
 
 .audio4 {
-	background-color: green;
+	
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(3,7);
 	}
 }
 
 .audio5 {
-	background-color: green;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(3,4);
 	}
 }
 
 .audio6 {
-	background-color: green;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(3,7);
 	}
 }
 
+.posters_wrap {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,4);
+	}
+}
+
 .posters {
-	background-color: blue;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
 	}
 }
 
 .future {
-	background-color: green;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
 }
 
 .donate_info {
-	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,3);
 	}
 }
 
 .pay {
-	background-color: fuchsia;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,7);
 	}
@@ -373,35 +353,30 @@ $breakpoint-desktop: 900px;
 
 
 .footer_area {
-	background-color: blue;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
 }
 
 .footer_logo1 {
-	background-color: aqua;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,1);
 	}
 }
 
 .footer_logo2 {
-	background-color: fuchsia;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(2,3);
 	}
 }
 
 .footer_menu {
-	background-color: green;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(5,5);
 	}
 }
 
 .social_bottom {
-	background-color: fuchsia;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(5,10);
 	}
