@@ -462,9 +462,15 @@ $breakpoint-desktop: 900px;
 	}
 }
 
-.footer_menu {
+.footer_menu_rt {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(5,5);
+		@include grid-span(2,3);
+	}
+}
+
+.footer_menu_lt {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,5);
 	}
 }
 

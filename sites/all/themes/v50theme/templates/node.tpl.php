@@ -147,7 +147,7 @@
 
 <div class="footer_logo2"><?php print render($content['field_footer_logo2']); ?></div>
 
-<div class="footer_menu">footer menu
+<div class="footer_menu_rt">
 <style>
 a {
     text-decoration: none;
@@ -164,6 +164,18 @@ li {
   <li><a href="#security">Security and privacy</a></li>
   <li><a href="#Accessibility">Accessibility</a></li>
 </ul></body>
+</style>
+<div class="footer_menu_lt">
+<style>
+a {
+    text-decoration: none;
+}
+p.serif {
+  font-family: "LeagueGothic","Helvetica Neue","Helvetica","Arial";
+}
+li {
+    display: inline;
+}
 </style><body>
 <ul>
   <li><a href="#help">Need help?</a></li>

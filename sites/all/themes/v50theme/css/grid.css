@@ -707,8 +707,18 @@
 }
 @media (min-width: 900px) {
   /* line 465, ../sass/grid.scss */
-  #vgrid .footer_menu {
-    width: 40.67797%;
+  #vgrid .footer_menu_rt {
+    width: 15.25424%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 16.94915%;
+    clear: none;
+  }
+}
+@media (min-width: 900px) {
+  /* line 471, ../sass/grid.scss */
+  #vgrid .footer_menu_lt {
+    width: 15.25424%;
     float: left;
     margin-right: -100%;
     margin-left: 33.89831%;
@@ -716,7 +726,7 @@
   }
 }
 @media (min-width: 900px) {
-  /* line 471, ../sass/grid.scss */
+  /* line 477, ../sass/grid.scss */
   #vgrid .social_bottom {
     width: 32.20339%;
     float: right;
