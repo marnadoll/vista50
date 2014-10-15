@@ -279,140 +279,7 @@ $breakpoint-desktop: 900px;
 	}
 }
 
-.past_title {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,2);
-		}
-}
 
-.past {
-
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(12,1);
-	}
-}
-
-.photo_title {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,2);
-		}
-}
-
-.photos_wrap {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,4);
-	}
-}
-
-.photos {
-
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,4);
-	}
-}
-
-.video_title {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,2);
-		}
-}
-
-.past_videos {
-
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,4);
-	}
-}
-
-.past_video1 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,4);
-	}
-}
-.past_video2 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,4);
-	}
-}
-.past_video3 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,7);
-	}
-}
-
-.audio_title {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,2);
-		}
-}
-
-.audio_wrap {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,4);
-	}
-}
-
-.audio1 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,4);
-	}
-}
-
-.audio2 {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,7);
-	}
-}
-
-.audio3 {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,4);
-	}
-}
-
-.audio4 {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,7);
-	}
-}
-
-.audio5 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,4);
-	}
-}
-
-.audio6 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,7);
-	}
-}
-
-.poster_title {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,2);
-		}
-}
-
-.posters_wrap {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,4);
-	}
-}
-
-.posters {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,4);
-	}
-}
 
 .future_title {
 	
@@ -466,8 +333,147 @@ $breakpoint-desktop: 900px;
 
 .social_bottom {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(5,10);
+		@include grid-span(4,9);
 	}
 }
 
+.past {
+
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}
 }
+
+
+
+.past_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,6);
+		}
+}
+	
+
+.photo_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,6);
+		}
+}
+
+.photos_wrap {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,4);
+	}
+}
+
+.photos {
+
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,4);
+	}
+}
+
+.video_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,6);
+		}
+}
+
+.past_videos {
+
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,4);
+	}
+}
+
+.past_video1 {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,4);
+	}
+}
+.past_video2 {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,4);
+	}
+}
+.past_video3 {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,7);
+	}
+}
+
+.audio_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,6);
+		}
+}
+
+.audio_wrap {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,4);
+	}
+}
+
+.audio1 {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,4);
+	}
+}
+
+.audio2 {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,7);
+	}
+}
+
+.audio3 {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,4);
+	}
+}
+
+.audio4 {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,7);
+	}
+}
+
+.audio5 {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,4);
+	}
+}
+
+.audio6 {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,7);
+	}
+}
+
+.poster_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,6);
+		}
+}
+
+.posters_wrap {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,4);
+	}
+}
+
+.posters {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,4);
+	}
+}
+}
+
+

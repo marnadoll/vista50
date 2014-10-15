@@ -12,6 +12,14 @@ body {
 	//background: $rand;
 }
 
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
 .img {
 	max-width: 100%;
 	width: auto;
@@ -228,17 +236,17 @@ url('/sites/default/files/texture.png');
 	background-color: none;
 }
 
-.past{
+.past {
 	
 	background-color:#341563;
 	background-image: url('/sites/default/files/texture.png');
 }
 
-.photos_wrap {
-	
-	background-color:#341563;
-	background-image: url('/sites/default/files/texture.png');
+.past_title {
+	color: #29476b;
 }
+
+
 
 .photos {
 	background-color: red;
@@ -333,13 +341,14 @@ url('/sites/default/files/texture.png');
 }
 
 .footer_logo1 {
-	background-color: none;
+	background: 
+url('/sites/default/files/IMAGES/footer/americorps_footer.png');
 	
 }
 
 .footer_logo2 {
-	background-color: none;
-	
+	background: url('/sites/default/files/IMAGES/footer/cncs_footer.png');
+
 }
 
 .footer_menu {
