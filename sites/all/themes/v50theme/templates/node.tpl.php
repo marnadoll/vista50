@@ -143,6 +143,7 @@
 
 <div class="footer_area">footer area
   <div style="clear:both;"></div>
+
 <div class="footer_logo1"><?php print render($content['field_footer_logo1']); ?></div>
 
 <div class="footer_logo2"><?php print render($content['field_footer_logo2']); ?></div>
@@ -184,7 +185,7 @@ li {
 </ul></body>
 </div>
 </div>
-<div class="social_bottom"><?php print render($content['field_social_bottom']); ?>social bottom</div>
+<div class="social_bottom"><?php print render($content['field_social_bottom']); ?></div>
  </div>
 </div>
 </div>
