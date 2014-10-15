@@ -684,7 +684,7 @@
 @media (min-width: 900px) {
   /* line 452, ../sass/grid.scss */
   #vgrid .footer_logo1 {
-    width: 15.25424%;
+    width: 23.72881%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
@@ -697,7 +697,7 @@
     width: 15.25424%;
     float: left;
     margin-right: -100%;
-    margin-left: 8.47458%;
+    margin-left: 16.94915%;
     clear: none;
   }
 }
@@ -707,7 +707,7 @@
     width: 15.25424%;
     float: left;
     margin-right: -100%;
-    margin-left: 25.42373%;
+    margin-left: 33.89831%;
     clear: none;
   }
 }
@@ -717,17 +717,17 @@
     width: 15.25424%;
     float: left;
     margin-right: -100%;
-    margin-left: 42.37288%;
+    margin-left: 50.84746%;
     clear: none;
   }
 }
 @media (min-width: 900px) {
   /* line 476, ../sass/grid.scss */
   #vgrid .social_bottom {
-    width: 32.20339%;
+    width: 23.72881%;
     float: left;
     margin-right: -100%;
-    margin-left: 59.32203%;
+    margin-left: 67.79661%;
     clear: none;
   }
 }

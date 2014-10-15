@@ -166,6 +166,7 @@ li {
   <li><a href="#Accessibility">Accessibility</a></li>
 </ul></body>
 </style>
+</div>
 <div class="footer_menu_lt">
 <style>
 a {
@@ -184,7 +185,7 @@ li {
   <li><a href="#Americorp">My AmeriCorps.gov</a></li>
 </ul></body>
 </div>
-</div>
+
 <div class="social_bottom"><?php print render($content['field_social_bottom']); ?></div>
  </div>
 </div>

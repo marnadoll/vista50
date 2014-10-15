@@ -684,7 +684,7 @@
 @media (min-width: 900px) {
   /* line 452, ../sass/grid.scss */
   #vgrid .footer_logo1 {
-    width: 15.25424%;
+    width: 23.72881%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
@@ -697,7 +697,7 @@
     width: 15.25424%;
     float: left;
     margin-right: -100%;
-    margin-left: 8.47458%;
+    margin-left: 16.94915%;
     clear: none;
   }
 }
@@ -707,7 +707,7 @@
     width: 15.25424%;
     float: left;
     margin-right: -100%;
-    margin-left: 25.42373%;
+    margin-left: 33.89831%;
     clear: none;
   }
 }
@@ -717,17 +717,17 @@
     width: 15.25424%;
     float: left;
     margin-right: -100%;
-    margin-left: 42.37288%;
+    margin-left: 50.84746%;
     clear: none;
   }
 }
 @media (min-width: 900px) {
   /* line 476, ../sass/grid.scss */
   #vgrid .social_bottom {
-    width: 32.20339%;
+    width: 23.72881%;
     float: left;
     margin-right: -100%;
-    margin-left: 59.32203%;
+    margin-left: 67.79661%;
     clear: none;
   }
 }
@@ -797,19 +797,19 @@
   background-image: url("/sites/default/files/white_lines.png");
 }
 
-/* line 77, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 .v50vid_wrap {
   background-color: #b6b6b8;
   background-image: url("/sites/default/files/texture.png");
   width: 100%;
 }
 
-/* line 84, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 .v50video {
   background-image: url("/sites/default/files/IMAGES/homepage_images/Video_Slider_Background.png"), url("/sites/default/files/texture.png");
 }
 
-/* line 91, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .links {
   background-color: #1d2d5b;
   background-image: url("/sites/default/files/texture.png");
@@ -817,259 +817,259 @@
   margin-right: 100%;
 }
 
-/* line 98, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 .link_wrap {
   background-color: #b6b6b8;
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 103, ../sass/style.scss */
+/* line 102, ../sass/style.scss */
 .summits_link {
   background-color: #b6b6b8;
   background-image: url("/sites/default/files/white_lines.png");
 }
 
-/* line 109, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
 .incu_link {
   background-color: #b6b6b8;
   background-image: url("/sites/default/files/white_lines.png");
 }
 
-/* line 115, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 .show_link {
   background-color: #b6b6b8;
   background-image: url("/sites/default/files/white_lines.png");
 }
 
-/* line 122, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .summits {
   background-color: #e0e0e0;
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 129, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .summits_title {
   color: #29476b;
 }
 
-/* line 135, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .national {
   background-color: none;
 }
 
-/* line 141, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .community_s {
   background-color: none;
 }
 
-/* line 147, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 .join {
   background-color: blue;
 }
 
-/* line 152, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .story {
   background-color: none;
 }
 
-/* line 158, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 .reconnect {
   background-color: none;
 }
 
-/* line 163, ../sass/style.scss */
+/* line 162, ../sass/style.scss */
 .social_share {
   background-color: green;
 }
 
-/* line 168, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .share1 {
   background-color: aqua;
 }
 
-/* line 173, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 .share2 {
   background-color: aqua;
 }
 
-/* line 177, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .share3 {
   background-color: aqua;
 }
 
-/* line 182, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 .share4 {
   background-color: blue;
 }
 
-/* line 187, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .share5 {
   background-color: blue;
 }
 
-/* line 192, ../sass/style.scss */
+/* line 191, ../sass/style.scss */
 .share6 {
   background-color: blue;
 }
 
-/* line 197, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 .organize {
   background-color: #bebebe;
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 203, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 .tools {
   background-color: none;
 }
 
-/* line 208, ../sass/style.scss */
+/* line 207, ../sass/style.scss */
 .help_desk {
   background-color: none;
 }
 
-/* line 213, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .incubator {
   background-color: #ebecf0;
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 218, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 .incu_works_img {
   background-color: none;
 }
 
-/* line 222, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 .incu_works {
   background-color: none;
 }
 
-/* line 227, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 .showcase {
   background-color: #c2c8d2;
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 232, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 .case_img {
   background-color: none;
 }
 
-/* line 236, ../sass/style.scss */
+/* line 235, ../sass/style.scss */
 .case_works {
   background-color: none;
 }
 
-/* line 240, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 .past {
   background-color: #341563;
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 246, ../sass/style.scss */
+/* line 245, ../sass/style.scss */
 .past_title {
   color: #29476b;
 }
 
-/* line 252, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .photos {
   background-color: red;
 }
 
-/* line 257, ../sass/style.scss */
+/* line 256, ../sass/style.scss */
 .past_videos {
   background-color: #23335F;
 }
 
-/* line 262, ../sass/style.scss */
+/* line 261, ../sass/style.scss */
 .past_video1 {
   background-color: fuchsia;
 }
 
-/* line 266, ../sass/style.scss */
+/* line 265, ../sass/style.scss */
 .past_video2 {
   background-color: fuchsia;
 }
 
-/* line 270, ../sass/style.scss */
+/* line 269, ../sass/style.scss */
 .past_video3 {
   background-color: fuchsia;
 }
 
-/* line 275, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 .audio_wrap {
   background-color: #23335F;
 }
 
-/* line 280, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 .audio1 {
   background-color: green;
 }
 
-/* line 285, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 .audio2 {
   background-color: green;
 }
 
-/* line 290, ../sass/style.scss */
+/* line 289, ../sass/style.scss */
 .audio3 {
   background-color: green;
 }
 
-/* line 295, ../sass/style.scss */
+/* line 294, ../sass/style.scss */
 .audio4 {
   background-color: green;
 }
 
-/* line 300, ../sass/style.scss */
+/* line 299, ../sass/style.scss */
 .audio5 {
   background-color: green;
 }
 
-/* line 305, ../sass/style.scss */
+/* line 304, ../sass/style.scss */
 .audio6 {
   background-color: green;
 }
 
-/* line 310, ../sass/style.scss */
+/* line 309, ../sass/style.scss */
 .posters_wrap {
   background-color: #23335F;
 }
 
-/* line 315, ../sass/style.scss */
+/* line 314, ../sass/style.scss */
 .poster_title {
   background-color: #23335F;
 }
 
-/* line 320, ../sass/style.scss */
+/* line 319, ../sass/style.scss */
 .posters {
   background-color: blue;
 }
 
-/* line 324, ../sass/style.scss */
+/* line 323, ../sass/style.scss */
 .future {
   background-color: #c9c9c9;
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 330, ../sass/style.scss */
+/* line 329, ../sass/style.scss */
 .donate_info {
   background-color: none;
 }
 
-/* line 336, ../sass/style.scss */
+/* line 335, ../sass/style.scss */
 .pay {
   border-color: #ec3e3b;
   border-style: solid;
   border-width: 30px;
 }
 
-/* line 344, ../sass/style.scss */
+/* line 343, ../sass/style.scss */
 .footer_area {
   background-color: #424144;
 }
 
-/* line 365, ../sass/style.scss */
+/* line 364, ../sass/style.scss */
 .social_bottom {
   background-color: none;
 }
