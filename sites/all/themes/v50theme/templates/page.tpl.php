@@ -1,12 +1,10 @@
 <div id="vgrid">
-  <div class="vheader">
+<div class="page clearfix">
+<div class="vheader">
 <div style="clear:both;"></div>
 
   <div class="logo"><img src="/sites/default/files/Main_Logo_6.png" alt id=logo></div>
 
-
-  
-  
 <div class="menu">
 <style>
 
@@ -37,10 +35,12 @@ li {
 </div>
   <div style="clear:both;"></div>
    
-<div class="social_top"><?php print render($content['field_social_top']); ?><p></div>
+<div class="social_top">social top<?php print render($content['field_social_top']); ?><p></div>
 	<div style="clear:both;"></div>
 </div>
 </div>
+</div>
+
 
   <div class="menu"><?php print $block_main_menu; ?>
   <?php if (isset($page['main-menu'])) : ?>

@@ -110,7 +110,7 @@ $breakpoint-desktop: 900px;
 	color: #29476b;
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,2);
+		@include grid-span(4,2);
 		}
 }
 	.national {
@@ -129,7 +129,7 @@ $breakpoint-desktop: 900px;
 .join_title {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,2);
+		@include grid-span(4,2);
 		}
 }
 
@@ -155,7 +155,7 @@ $breakpoint-desktop: 900px;
 .social_share_title {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,2);
+		@include grid-span(4,6);
 		}
 }
 
@@ -203,7 +203,7 @@ $breakpoint-desktop: 900px;
 .organize_title {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,2);
+		@include grid-span(4,2);
 		}
 }
 
@@ -230,7 +230,7 @@ $breakpoint-desktop: 900px;
 .incubator_title {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,2);
+		@include grid-span(4,2);
 		}
 }
 
@@ -255,7 +255,7 @@ $breakpoint-desktop: 900px;
 .showcase_title {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,2);
+		@include grid-span(4,2);
 		}
 }
 
@@ -290,7 +290,7 @@ $breakpoint-desktop: 900px;
 .past_title {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,6);
+		@include grid-span(4,6);
 		}
 }
 	
@@ -305,7 +305,7 @@ $breakpoint-desktop: 900px;
 .photo_title {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,6);
+		@include grid-span(4,6);
 		}
 }
 
@@ -319,7 +319,7 @@ $breakpoint-desktop: 900px;
 .video_title {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,6);
+		@include grid-span(4,6);
 		}
 }
 
@@ -349,7 +349,7 @@ $breakpoint-desktop: 900px;
 .audio_title {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,6);
+		@include grid-span(4,6);
 		}
 }
 
@@ -401,7 +401,7 @@ $breakpoint-desktop: 900px;
 .poster_title {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,6);
+		@include grid-span(4,6);
 		}
 }
 
@@ -420,7 +420,7 @@ $breakpoint-desktop: 900px;
 .future_title {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,2);
+		@include grid-span(4,2);
 		}
 }
 
