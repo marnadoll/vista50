@@ -279,64 +279,6 @@ $breakpoint-desktop: 900px;
 	}
 }
 
-
-
-.future_title {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,2);
-		}
-}
-
-.future {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(12,1);
-	}
-}
-
-.donate_info {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,3);
-	}
-}
-
-.pay {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,7);
-	}
-}
-
-
-.footer_area {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(12,1);
-	}
-}
-
-.footer_logo1 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,1);
-	}
-}
-
-.footer_logo2 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,3);
-	}
-}
-
-.footer_menu {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(5,5);
-	}
-}
-
-.social_bottom {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,9);
-	}
-}
-
 .past {
 
 	@include breakpoint($breakpoint-desktop){
@@ -354,17 +296,18 @@ $breakpoint-desktop: 900px;
 }
 	
 
-.photo_title {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,6);
-		}
-}
 
 .photos_wrap {
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
 	}
+}
+
+.photo_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,6);
+		}
 }
 
 .photos {
@@ -474,6 +417,64 @@ $breakpoint-desktop: 900px;
 		@include grid-span(6,4);
 	}
 }
+
+.future_title {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,2);
+		}
+}
+
+.future {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}
+}
+
+.donate_info {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,3);
+	}
+}
+
+.pay {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,7);
+	}
+}
+
+
+.footer_area {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}
+}
+
+.footer_logo1 {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,1);
+	}
+}
+
+.footer_logo2 {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,3);
+	}
+}
+
+.footer_menu {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(5,5);
+	}
+}
+
+.social_bottom {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,9);
+	}
+}
+
+
 }
 
 
