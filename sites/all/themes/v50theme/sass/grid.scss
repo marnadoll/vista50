@@ -42,7 +42,7 @@ $breakpoint-desktop: 900px;
 .social_top {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,10);
+		@include grid-span(3,9);
 	}
 	
 }

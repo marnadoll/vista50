@@ -141,7 +141,7 @@
      	<div class="pay"><?php print render($content['field_future50_secure']); ?><?php print render($content['field_future50_image']); ?></div>
   </div>
 
-<div class="footer_area">footer area
+<div class="footer_area">
   <div style="clear:both;"></div>
 
 <div class="footer_logo1"><?php print render($content['field_footer_logo1']); ?></div>
@@ -178,7 +178,8 @@ p.serif {
 li {
     display: inline;
 }
-</style><body>
+</style>
+<body>
 <ul>
   <li><a href="#help">Need help?</a></li>
   <li><a href="#contact">Contact Us</a></li>
