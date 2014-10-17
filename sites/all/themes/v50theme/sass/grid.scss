@@ -221,6 +221,8 @@ $breakpoint-desktop: 900px;
 	}
 }
 
+
+
 .help_desk {
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,7);
