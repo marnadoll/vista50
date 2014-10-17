@@ -217,6 +217,12 @@ img {
 		@include grid-span(12,1);
 	}
 }
+.tools_title {
+
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,3);
+	}
+}
 
 .tools {
 
@@ -225,7 +231,11 @@ img {
 	}
 }
 
-
+.help_desk_title {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,8);
+	}
+}
 
 .help_desk {
 	@include breakpoint($breakpoint-desktop){
@@ -495,5 +505,6 @@ clear:both;
 
 
 }
+
 //end v50
 
