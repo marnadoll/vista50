@@ -157,7 +157,7 @@ p.serif {
   font-family: "LeagueGothic","Helvetica Neue","Helvetica","Arial";
 }
 li {
-    display: inline;
+    display: block;
 }
 </style><body>
 <ul>
@@ -176,7 +176,7 @@ p.serif {
   font-family: "LeagueGothic","Helvetica Neue","Helvetica","Arial";
 }
 li {
-    display: inline;
+    display: block;
 }
 </style>
 <body>
