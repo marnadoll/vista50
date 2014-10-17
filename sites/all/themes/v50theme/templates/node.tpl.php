@@ -73,28 +73,24 @@
 	<div class="case_img"><?php print render($content['field_showcase_works_image']); ?></div>
  	<div class="case_works"><?php print render($content['field_showcase_works']); ?></div>
   </div>
+  
 
-
-<div class="past">past
-<div style="clear:both;"></div>
-
-<div class="past_title">title<?php print render($content['field_past_title']); ?></div>
-<div style="clear:both;"></div>
-
-
-<div class="photos_wrap">photo wrap
-<div style="clear:both;"></div>
-<div class="photo_title">title<?php print render($content['field_photo_title']); ?></div>
-<div style="clear:both;"></div>
-<div class="photos"><?php print render($content['field_past_photos']); ?>photos</div>
-  <div style="clear:both;"></div>
 </div>
 
 
-     	<div class="past_videos">past videos
+
+<div class="past">
+<div class="past_title"><?php print render($content['field_past_title']); ?></div>
+
+
+<div class="photos_wrap">photo wrap 
+<div class="photo_title"><?php print render($content['field_photo_title']); ?></div>
+<div class="photos"><?php print render($content['field_past_photos']); ?>photos</div>
 <div style="clear:both;"></div>
-<div class="video_title">title<?php print render($content['field_video_title']); ?></div>
+</div>
 <div style="clear:both;"></div>
+<div class="past_videos">
+<div class="video_title"><?php print render($content['field_video_title']); ?></div>
 <div class="past_video1"><?php print render($content['field_past_video1']); ?>videos1</div>
  <div style="clear:both;"></div>
 		<div class="past_video2"><?php print render($content['field_past_video2']); ?>video2</div>
@@ -103,11 +99,10 @@
  </div>
 
 
-
-  
-<div class="audio_wrap">audio wrap
 <div style="clear:both;"></div>
-<div class="audio_title">title<?php print render($content['field_audio_title']); ?></div>
+<div class="audio_wrap">audio wrap
+
+<div class="audio_title"><?php print render($content['field_audio_title']); ?></div>
 <div style="clear:both;"></div>
 	
 <div class="audio1"><?php print render($content['field_v50_audio']); ?>audio1</div>
@@ -123,7 +118,7 @@
   <div style="clear:both;"></div>
 </div>
 
-
+<div style="clear:both;"></div>
 <div class="posters_wrap">posters wrap
 
 <div class="poster_title">title<?php print render($content['field_poster_title']); ?></div>

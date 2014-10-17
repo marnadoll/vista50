@@ -7,14 +7,18 @@ $gutter-styles: 'split';
 
 $breakpoint-desktop: 900px;
 
-
+img {
+	max-width: 100%;
+	width: auto !important;
+	height: auto !important;
+}
 
 //V50 Grid
 
 #vgrid {
 	@include grid-span(12,1);
-	@include breakpoint($breakpoint-desktop);
-	
+
+
 
 .vheader {
 	
@@ -290,72 +294,78 @@ $breakpoint-desktop: 900px;
 
 
 .past_title {
-	
+	clear:both;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,6);
+		@include grid-span(12,1);
 		}
 }
 	
-
+//begin temp work
 
 .photos_wrap {
+clear:both;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
 	}
 }
 
 .photo_title {
-	
+	clear:both;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,6);
+		@include grid-span(12,1);
 		}
 }
 
 .photos {
-
+clear:both;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,4);
+		@include grid-span(12,1);
 	}
 }
 
 .video_title {
-	
+	clear:both;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,6);
 		}
 }
 
 .past_videos {
-
+clear:both;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
 	}
 }
 
 .past_video1 {
+clear:both;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,4);
+		@include grid-span(12,1);
 	}
 }
 .past_video2 {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,4);
+		@include grid-span(6,1);
 	}
 }
 .past_video3 {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,7);
+		@include grid-span(6,7);
 	}
 }
 
+
+//end temp work
+
 .audio_title {
-	
+	clear:both;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,6);
 		}
 }
 
 .audio_wrap {
+clear:both;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
 	}
@@ -401,21 +411,23 @@ $breakpoint-desktop: 900px;
 }
 
 .poster_title {
-	
+clear:both;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,6);
 		}
 }
 
 .posters_wrap {
+clear:both;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,4);
 	}
 }
 
 .posters {
+clear:both;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,4);
+		@include grid-span(12,1);
 	}
 }
 
@@ -483,5 +495,5 @@ $breakpoint-desktop: 900px;
 
 
 }
-
+//end v50
 
