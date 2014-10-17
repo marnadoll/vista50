@@ -205,41 +205,58 @@ img {
 }
 
 .organize_title {
-	
+clear:both;	
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,2);
 		}
 }
 
 .organize {
-
+clear:both;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
 }
-.tools_title {
 
+.organize_lt {
+clear:both;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,3);
+		@include grid-span(6,1);
+	}
+}
+
+.tools_title {
+clear:both;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,3);
 	}
 }
 
 .tools {
 
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,3);
+		@include grid-span(5,2);
+	}
+}
+
+.organize_rt {
+clear:both;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,6);
 	}
 }
 
 .help_desk_title {
+clear:both;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,8);
+		@include grid-span(2,7);
 	}
 }
 
 .help_desk {
+
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,7);
+		@include grid-span(5,6);
 	}
 }
 

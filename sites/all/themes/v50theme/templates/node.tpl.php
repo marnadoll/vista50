@@ -49,16 +49,25 @@
      	<div class="share6">share6</div>
   </div>
 
+
 <div class="organize">
   <div style="clear:both;"></div>
 <div class="organize_title"><?php print render($content['field_organize_title']); ?></div>
 <div style="clear:both;"></div>
-<div class="tools_title"><?php print render($content['field_tools_title']); ?>
+
+<div class="organize_lt">
+ <div style="clear:both;"></div>
+<div class="tools_title"><?php print render($content['field_tools_title']); ?></div>
+ <div style="clear:both;"></div>
  	<div class="tools"><?php print render($content['field_organize_tools']); ?><?php print render($content['field_download_kit']); ?></div>
 </div>
 
- <div class="help_desk_title"><?php print render($content['field_help_desk_title']); ?>
-     	<div class="help_desk"><?php print render($content['field_organize_help']); ?><?php print render($content['field_learn_more']); ?></div>
+
+<div class="organize_rt">
+  <div style="clear:both;"></div>
+ <div class="help_desk_title"><?php print render($content['field_help_desk_title']); ?></div>
+<div style="clear:both;"></div>
+<div class="help_desk"><?php print render($content['field_organize_help']); ?><?php print render($content['field_learn_more']); ?></div>
   </div>
 </div>
 
