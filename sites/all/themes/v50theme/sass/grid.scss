@@ -295,7 +295,7 @@ img {
 }
 
 .past {
-
+clear:both;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
@@ -336,7 +336,7 @@ clear:both;
 .video_title {
 	clear:both;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,6);
+		@include grid-span(12,1);
 		}
 }
 
@@ -423,7 +423,7 @@ clear:both;
 .poster_title {
 clear:both;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,6);
+		@include grid-span(12,1);
 		}
 }
 
@@ -449,6 +449,7 @@ clear:both;
 }
 
 .future {
+clear:both;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}

@@ -440,6 +440,10 @@ img {
     clear: none;
   }
 }
+/* line 297, ../sass/grid.scss */
+#vgrid .past {
+  clear: both;
+}
 @media (min-width: 900px) {
   /* line 297, ../sass/grid.scss */
   #vgrid .past {
@@ -513,10 +517,10 @@ img {
 @media (min-width: 900px) {
   /* line 336, ../sass/grid.scss */
   #vgrid .video_title {
-    width: 32.20339%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 42.37288%;
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
     clear: none;
   }
 }
@@ -663,10 +667,10 @@ img {
 @media (min-width: 900px) {
   /* line 423, ../sass/grid.scss */
   #vgrid .poster_title {
-    width: 32.20339%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 42.37288%;
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
     clear: none;
   }
 }
@@ -708,6 +712,10 @@ img {
     clear: none;
   }
 }
+/* line 451, ../sass/grid.scss */
+#vgrid .future {
+  clear: both;
+}
 @media (min-width: 900px) {
   /* line 451, ../sass/grid.scss */
   #vgrid .future {
@@ -719,7 +727,7 @@ img {
   }
 }
 @media (min-width: 900px) {
-  /* line 457, ../sass/grid.scss */
+  /* line 458, ../sass/grid.scss */
   #vgrid .donate_info {
     width: 32.20339%;
     float: left;
@@ -729,7 +737,7 @@ img {
   }
 }
 @media (min-width: 900px) {
-  /* line 463, ../sass/grid.scss */
+  /* line 464, ../sass/grid.scss */
   #vgrid .pay {
     width: 32.20339%;
     float: left;
@@ -739,7 +747,7 @@ img {
   }
 }
 @media (min-width: 900px) {
-  /* line 470, ../sass/grid.scss */
+  /* line 471, ../sass/grid.scss */
   #vgrid .footer_area {
     width: 100%;
     float: right;
@@ -749,7 +757,7 @@ img {
   }
 }
 @media (min-width: 900px) {
-  /* line 476, ../sass/grid.scss */
+  /* line 477, ../sass/grid.scss */
   #vgrid .footer_logo1 {
     width: 15.25424%;
     float: left;
@@ -759,7 +767,7 @@ img {
   }
 }
 @media (min-width: 900px) {
-  /* line 482, ../sass/grid.scss */
+  /* line 483, ../sass/grid.scss */
   #vgrid .footer_logo2 {
     width: 15.25424%;
     float: left;
@@ -769,7 +777,7 @@ img {
   }
 }
 @media (min-width: 900px) {
-  /* line 488, ../sass/grid.scss */
+  /* line 489, ../sass/grid.scss */
   #vgrid .footer_menu_rt {
     width: 15.25424%;
     float: left;
@@ -779,7 +787,7 @@ img {
   }
 }
 @media (min-width: 900px) {
-  /* line 494, ../sass/grid.scss */
+  /* line 495, ../sass/grid.scss */
   #vgrid .footer_menu_lt {
     width: 15.25424%;
     float: left;
@@ -789,7 +797,7 @@ img {
   }
 }
 @media (min-width: 900px) {
-  /* line 500, ../sass/grid.scss */
+  /* line 501, ../sass/grid.scss */
   #vgrid .social_bottom {
     width: 15.25424%;
     float: left;
