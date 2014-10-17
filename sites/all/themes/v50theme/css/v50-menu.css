@@ -1,0 +1,63 @@
+/* line 1, ../sass/v50-menu.scss */
+.block-main-menu {
+  margin: 0;
+  padding: 0;
+  background: #184778;
+  background: #1e32eb 30%, #5a8cfa 70%;
+  float: left;
+}
+
+/* line 11, ../sass/v50-menu.scss */
+.block-main-menu li {
+  list-style: none;
+  float: left;
+  width: auto;
+  border: 3px solid #184778;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  background: #184778;
+  background: #1e32eb 30%, #5a8cfa 70%;
+}
+
+/* line 23, ../sass/v50-menu.scss */
+.block-main-menu li a {
+  color: #FFF;
+}
+
+/* line 27, ../sass/v50-menu.scss */
+ul.block-main-menu {
+  background: #184778;
+  background: #1e32eb 30%, #5a8cfa 70%;
+}
+
+/* line 32, ../sass/v50-menu.scss */
+.navigation {
+  background-color: #184778;
+  background: #1e32eb 30%, #5a8cfa 70%;
+}
+
+/* line 38, ../sass/v50-menu.scss */
+.zone-footer-wrapper {
+  margin: 0;
+  padding: 0;
+  background: #184778;
+  float: inherit;
+}
+
+/* line 47, ../sass/v50-menu.scss */
+.zone-footer-wrapper li {
+  list-style: none;
+  float: inherit;
+  width: auto;
+  border: 3px solid #184778;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  background: #184778;
+}
+
+/* line 58, ../sass/v50-menu.scss */
+.zone-footer-wrapper li a {
+  color: #FFF;
+}

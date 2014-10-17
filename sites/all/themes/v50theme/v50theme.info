@@ -39,6 +39,7 @@ stylesheets[all][] = css/style.css
 stylesheets[all][] = css/v50.css
 stylesheets[all][] = css/v50-debug.css
 stylesheets[all][] = css/v50-default.css
+stylesheets[all][] = css/v50-menu.css
 stylesheets[all][] = css/v50-reset.css
 stylesheets[all][] = css/v50-text.css
 stylesheets[all][] = css/v50-v50.css

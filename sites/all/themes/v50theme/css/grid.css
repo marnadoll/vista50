@@ -34,10 +34,6 @@
     clear: none;
   }
 }
-/* line 34, ../sass/grid.scss */
-#vgrid .menu {
-  background-color: #556b9a;
-}
 @media (min-width: 900px) {
   /* line 34, ../sass/grid.scss */
   #vgrid .menu {
@@ -146,10 +142,6 @@
     margin-right: 0;
     clear: none;
   }
-}
-/* line 109, ../sass/grid.scss */
-#vgrid .summits_title {
-  color: #29476b;
 }
 @media (min-width: 900px) {
   /* line 109, ../sass/grid.scss */

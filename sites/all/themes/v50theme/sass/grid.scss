@@ -32,7 +32,7 @@ $breakpoint-desktop: 900px;
 	}
 	
 .menu {
-	background-color: #556b9a;
+	
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(8,4);
 		
@@ -107,7 +107,7 @@ $breakpoint-desktop: 900px;
 }
 
 .summits_title {
-	color: #29476b;
+	
 	
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(4,2);
