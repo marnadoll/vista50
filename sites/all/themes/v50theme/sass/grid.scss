@@ -213,6 +213,12 @@ $breakpoint-desktop: 900px;
 		@include grid-span(12,1);
 	}
 }
+.tools_title {
+
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,3);
+	}
+}
 
 .tools {
 
@@ -221,7 +227,11 @@ $breakpoint-desktop: 900px;
 	}
 }
 
-
+.help_desk_title {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,8);
+	}
+}
 
 .help_desk {
 	@include breakpoint($breakpoint-desktop){
