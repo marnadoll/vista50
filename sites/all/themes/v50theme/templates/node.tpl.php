@@ -54,8 +54,8 @@
   <div style="clear:both;"></div>
 <h2>Join the Conversation</h2>
 <div style="clear:both;"></div>
- 	<div class="story"><?php print render($content['field_story_text']); ?></div>
-     	<div class="reconnect"><?php print render($content['field_reconnect_text']); ?></div>
+ 	<div class="story"><?php print render($content['field_story_text']); ?><?php print render($content['field_story_learn_more']); ?></div>
+     	<div class="reconnect"><?php print render($content['field_reconnect_text']); ?><?php print render($content['field_reconnect_learn_more']); ?></div>
      	<div style="clear:both;"></div>
 
   
@@ -84,7 +84,7 @@
  <!-- V50 organize tools--> 
  	<div class="tools">
  	 <h3>Tools</h3>
- 	 <div class="organize_lt">img<?php print render($content['field_tools_img']); ?></div>
+ 	 <div class="organize_lt"><?php print render($content['field_tools_img']); ?></div>
  	 <div class="organize_rt">
  	 <?php print render($content['field_organize_tools']); ?>
  	 <div class="btn">
@@ -95,7 +95,7 @@
   <!-- V50 organize desk--> 
 <div class="help_desk">
 <h3>Help Desk</h3>
-<div class="organize_lt">img<?php print render($content['field_help_img']); ?></div>
+<div class="organize_lt"><?php print render($content['field_help_img']); ?></div>
 <div class="organize_rt">
 <?php print render($content['field_organize_help']); ?>
 <div class="btn">
