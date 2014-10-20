@@ -30,8 +30,20 @@
 <div style="clear:both;"></div>
 <h2>Solutions Summits</h2>
 <div style="clear:both;"></div>
-	 <div class="national"><?php print render($content['field_national_image']); ?><?php print render($content['field_national']); ?></div>
-     	<div class="community_s"><?php print render($content['field_community_summit_img']); ?><?php print render($content['field_community_summit']); ?></div>
+	 <div class="national">
+	 <h3>National</h3>
+	 <div class="centerImage">
+	 <?php print render($content['field_national_image']); ?>
+	 </div>
+	 <?php print render($content['field_national']); ?>
+	 </div>
+     	<div class="community_s">
+     	<h3>Community</h3>
+     	<div class="centerImage">
+     	<?php print render($content['field_community_summit_img']); ?>
+     	</div>
+     	<?php print render($content['field_community_summit']); ?>
+     	</div>
      	<div style="clear:both;"></div>
   </div>
 </div>

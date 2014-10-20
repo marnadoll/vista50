@@ -1,7 +1,11 @@
 @import "variables.scss";
 
 body {
-  font: 13px/1.5 Verdana, Helvetica, Arial, sans-serif;
+  font: 15px/1.5 Verdana, Helvetica, Arial, sans-serif;
+}
+
+p {
+	color: $v50Dkgrey;
 }
 
 a:link, a:visited {
@@ -38,7 +42,7 @@ h1 {
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 45px;
   padding:30px;
   display: inline-block;
   background-image: url('/sites/default/files/white_lines.png');
@@ -47,6 +51,12 @@ h2 {
 h3 {
 	text-align: center;
 	text-transform: uppercase;
+	background-image: url('/sites/default/files/title_bg.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: $v50white;
+	margin-top: $v50basePadding;
+	
 }
 
 /* Make site titles the same size if it's an H1 (home) or H2 (internal) */

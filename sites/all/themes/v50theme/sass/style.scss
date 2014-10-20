@@ -19,6 +19,20 @@ body {
 	//background: $rand;
 }
 
+.centerImage {
+	text-align: center;
+}
+
+.btn {
+	a {
+		display:inline-block;
+		padding: $v50basePadding;
+		text-decoration: none;
+		color: $v50white;
+		background-color: $v50red;
+	}
+}
+
 .clearfix:after {
     content: ".";
     display: block;
@@ -50,24 +64,24 @@ body {
 	
 
 .vgrid {
-	background: #b6b6b8;
+	background: $v50blue;
 	background-image: url('/sites/default/files/texture.png'); 
 }
 
 .vheader {
-	background: #b6b6b8;
+	background: $v50blue;
 	background-image: url('/sites/default/files/texture.png'); 
 }
 
 
 .section-header {
-	background: #b6b6b8;
+	background: $v50blue;
 	background-image: url('/sites/default/files/texture.png'); 
 }
 
 
 .section-content {
-	background: #1d2d5b;
+	background: $v50blue;
 	background-image: url('/sites/default/files/texture.png'); 
 	
 }
