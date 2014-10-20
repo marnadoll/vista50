@@ -240,7 +240,11 @@
 </div>
 </div>
 <div class="social_bottom">
-<?php print render($content['field_social_bottom']); ?>
+<a href="http://facebook.com"><img alt="facebook" src="/sites/default/files/facebook_footer.png" style="height:35px; width:35px" /></a>
+<img alt="twitter" src="/sites/default/files/twitter_footer.png" style="height:35px; width:35px" />
+<img alt="YouTube" src="/sites/default/files/youtube_footer.png" style="height:35px; width:35px" />
+<img alt="Flickr" src="/sites/default/files/flickr_footer.png" style="height:35px; width:35px" />
+<img alt="Linkdin" src="/sites/default/files/linkedin_footer.png" style="height:35px; width:35px" />
 </div>
 
 <div style="clear:both;"></div>
