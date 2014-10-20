@@ -166,7 +166,7 @@
 <h3>Audio</h3>
 <div class="pastWrap">
 <div class="pastInner">
-<div class="audio1"><?php print render($content['field_v50_audio']); ?>audio1</div>
+<div class="audio1"><?php print render($content['field_v50_audio1']); ?>audio1</div>
 <div class="audio2"><?php print render($content['field_v50_audio2']); ?>audio2</div>
   <div style="clear:both;"></div>
 <div class="audio3"><?php print render($content['field_v50_audio3']); ?>audio3</div>
