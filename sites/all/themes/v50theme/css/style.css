@@ -733,92 +733,102 @@ li {
 }
 
 /* line 104, ../sass/style.scss */
+.story {
+  color: #fff;
+}
+
+/* line 108, ../sass/style.scss */
+.reconnect {
+  color: #fff;
+}
+
+/* line 112, ../sass/style.scss */
 .social_share {
   background-color: green;
 }
 
-/* line 109, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .share1 {
   background-color: aqua;
 }
 
-/* line 114, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 .share2 {
   background-color: aqua;
 }
 
-/* line 118, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .share3 {
   background-color: aqua;
 }
 
-/* line 123, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .share4 {
   background-color: blue;
 }
 
-/* line 128, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .share5 {
   background-color: blue;
 }
 
-/* line 133, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .share6 {
   background-color: blue;
 }
 
-/* line 139, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .photos {
   background-color: red;
 }
 
-/* line 144, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .audio1 {
   background-color: green;
 }
 
-/* line 149, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 .audio2 {
   background-color: green;
 }
 
-/* line 154, ../sass/style.scss */
+/* line 162, ../sass/style.scss */
 .audio3 {
   background-color: green;
 }
 
-/* line 159, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .audio4 {
   background-color: green;
 }
 
-/* line 164, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 .audio5 {
   background-color: green;
 }
 
-/* line 169, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .audio6 {
   background-color: green;
 }
 
-/* line 174, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 .posters_wrap {
   background-color: #23335F;
 }
 
-/* line 180, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 .posters {
   background-color: blue;
 }
 
-/* line 184, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .future {
   background-color: #c9c9c9;
   background-image: url("/sites/default/files/texture.png");
 }
 
-/* line 190, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .payInterior {
   background-color: red;
   padding: 20px;
