@@ -1,9 +1,16 @@
+@import "variables.scss";
 @import "grid.scss";
 
 
-$grid: 12;
-$gutter: 1/3;
-
+a {
+    text-decoration: none;
+}
+p.serif {
+  font-family: "LeagueGothic","Helvetica Neue","Helvetica","Arial";
+}
+li {
+    display: block;
+}
 
 
 body {
@@ -73,89 +80,12 @@ body {
 	background-image: url('/sites/default/files/white_lines.png');		
 }
 
-.v50vid_wrap{
-	background-color: #b6b6b8;
-	background-image: url('/sites/default/files/texture.png');
-	width: 100%;
-
-}
-
-.v50video {
-	background-image: 
-url('/sites/default/files/IMAGES/homepage_images/Video_Slider_Background.png'),
-url('/sites/default/files/texture.png');
-	
-}
-
-.links {
-	background-color: #1d2d5b;
-	background-image: url('/sites/default/files/texture.png');
-	width: 900px;
-	margin-right: 100%;
-}
-
-.link_wrap {
-	background-color: #b6b6b8;
-	background-image: url('/sites/default/files/texture.png');
-}
-
-.summits_link {
-	background-color: #b6b6b8;
-	background-image: url('/sites/default/files/white_lines.png');
-	
-}
-	
-.incu_link {
-	background-color: #b6b6b8;
-	background-image: url('/sites/default/files/white_lines.png');
-	
-}
-	
-.show_link {
-	background-color: #b6b6b8;
-	background-image: url('/sites/default/files/white_lines.png');
-
-	
-}
-	
-.summits {
-
-	background-color: #e0e0e0;
-	background-image: url('/sites/default/files/texture.png');
-	
-}
-
-.summits_title {
-	color: #29476b;	
-	
-}
-	.national {
-	background-color: none;
-	
-}
-
-
-	.community_s {
-	background-color: none;
-	
-}
 
 
 .join {
 	background-color: blue;
 	
 }
-
-	.story {
-	background-color: none;
-	
-}
-
-
-	.reconnect {
-	background-color: none;
-	
-}	
 
 .social_share {
 	background-color: green;
@@ -191,95 +121,9 @@ url('/sites/default/files/texture.png');
 	
 }
 
-.organize {
-	background-color: #bebebe;
-	background-image: url('/sites/default/files/texture.png');
-	
-}
-
-.tools_title {
-	
-}
-
-.tools {
-	background-color: none;
-	
-}
-
-.help_desk_title {
-
-	
-}
-
-.help_desk {
-	background-color: none;
-	
-}
-
-.incubator {
-	background-color: #ebecf0;
-	background-image: url('/sites/default/files/texture.png');
-}
-
-.incu_works_img {
-	background-color: none;
-}
-
-.incu_works {
-	background-color: none;
-}
-
-
-.showcase {
-	background-color: #c2c8d2;
-	background-image: url('/sites/default/files/texture.png');
-}
-
-.case_img {
-	background-color: none;
-}
-
-.case_works {
-	background-color: none;
-}
-
-.past {
-	
-	background-color:#341563;
-	background-image: url('/sites/default/files/texture.png');
-}
-
-.past_title {
-	color: #29476b;
-}
-
-
 
 .photos {
 	background-color: red;
-	
-}
-
-.past_videos {
-	background-color: #23335F;
-	
-}
-
-.past_video1 {
-	background-color: fuchsia;
-	
-}
-.past_video2 {
-	background-color: fuchsia;
-	
-}
-.past_video3 {
-	background-color: fuchsia;
-	
-}
-
-.audio_wrap {
-	background-color: #23335F;
 	
 }
 
@@ -318,10 +162,6 @@ url('/sites/default/files/texture.png');
 	
 }
 
-.poster_title {
-	background-color: #23335F;	
-}
-
 
 .posters {
 	background-color: blue;
@@ -333,44 +173,7 @@ url('/sites/default/files/texture.png');
 	
 }
 
-.donate_info {
-	
-	background-color: none;
-	
+.payInterior {
+	background-color: red;
+	padding: 20px;	
 }
-
-.pay {
-	border-color: #ec3e3b;
-	border-style: solid;
-	border-width:30px;
-	
-}
-
-
-.footer_area {
-	background-color: #424144;
-	
-}
-
-.footer_logo1 {
-	
-}
-
-.footer_logo2 {
-	
-
-}
-
-.footer_menu_rt {
-	
-}
-.footer_menu_lt {
-	
-}
-
-.social_bottom {
-	background-color: none;
-	
-}
-
-

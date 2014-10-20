@@ -6,24 +6,6 @@
   <div class="logo"><img src="/sites/default/files/Main_Logo_6.png" alt id=logo></div>
 
 <div class="menu">
-<style>
-
-a {
-    text-decoration: none;
-}
-p.serif {
-  font-family: "LeagueGothic","Helvetica Neue","Helvetica","Arial";
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    display: inline;
-}
-</style><body>
 <ul>
   <li><a href="#summit">Solutions Summit</a></li>
   <li><a href="#join">Join The Conversation</a></li>
@@ -35,26 +17,24 @@ li {
 </div>
   <div style="clear:both;"></div>
    
-<div class="social_top">social top<?php print render($content['field_social_top']); ?><p></div>
+<div class="social_top">
+<a href="http://facebook.com"><img alt="facebook" src="/sites/default/files/facebook_footer.png" style="height:35px; width:35px" /></a>
+<img alt="twitter" src="/sites/default/files/twitter_footer.png" style="height:35px; width:35px" />
+<img alt="YouTube" src="/sites/default/files/youtube_footer.png" style="height:35px; width:35px" />
+<img alt="Flickr" src="/sites/default/files/flickr_footer.png" style="height:35px; width:35px" />
+<img alt="Linkdin" src="/sites/default/files/linkedin_footer.png" style="height:35px; width:35px" />
+</div>
 	<div style="clear:both;"></div>
 </div>
 </div>
 </div>
 
 
-  <div class="menu"><?php print $block_main_menu; ?>
-  <?php if (isset($page['main-menu'])) : ?>
-    <?php print render($page['main-menu']); ?>
-  <?php endif; ?>
-</div>
-
 
 <div<?php print $attributes; ?>>
   <?php if (isset($page['header'])) : ?>
     <?php print render($page['header']); ?>
   <?php endif; ?>
-
-
 
 <?php if ($title): ?>
 		
@@ -160,10 +140,3 @@ li {
 	</div>
 	</div>
 <?php endif; ?>
-
-
-
-
- 
-
-

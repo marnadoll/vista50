@@ -1,11 +1,12 @@
 @import "singularitygs";
 @import "breakpoint";
+@import "variables.scss";
 
 $grids: 12;
 $gutters: 1em;
 $gutter-styles: 'split';
 
-$breakpoint-desktop: 900px;
+$breakpoint-desktop: 800px;
 
 img {
 	max-width: 100%;
@@ -19,11 +20,26 @@ video {
 	height: auto !important;
 }
 
+// inner wrapper for sections
+.v50interior {
+margin-top: 80px;
+margin-bottom: 80px;
+@include breakpoint($breakpoint-desktop){
+		width:900px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	}
+	
+
+.v50texture {
+	background-image: url('/sites/default/files/texture.png');
+}
+
 //V50 Grid
 
 #vgrid {
 	@include grid-span(12,1);
-
 
 
 .vheader {
@@ -57,8 +73,9 @@ video {
 	
 }
 
-.v50vid_wrap{
-	width: 900px;
+#v50vid_wrap{
+background-color: $v50grey;
+	@extend .v50texture;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 		
@@ -67,83 +84,73 @@ video {
 
 .v50video {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,3);
+		@include grid-span(12,1);
 		
 	}
 }
 
-.links {
-	
-	width: 900px;
-	margin-right: 100%;
+#links {
+@extend .v50texture;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 		}
 	}
-.link_wrap {
 	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(8,3);
-		}
+.link_wrap {
+text-align: center;
+background-color: $v50grey;
+padding: $v50basePadding;
 	}
 
 .summits_link {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,4);
+		@include grid-span(4,1);
 		}
 	}
 	
-	.incu_link {
+.incu_link {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,6);
+		@include grid-span(4,5);
 		}
 	}
 	
-	.show_link {
+.show_link {
 	
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,8);
+		@include grid-span(4,9);
 		
 	} 
 }
 	
-.summits {
-	
+// summits
+#summits {
+background-color: $v50grey;
+@extend .v50texture;	
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 		}
 }
 
-.summits_title {
-	
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,2);
-		}
-}
+// left
 	.national {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,3);
+		@include grid-span(6,1);
 	}
 }
 
-
+// right
 	.community_s {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,7);
+		@include grid-span(6,7);
 	}	
 }
 
-.join_title {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,2);
-		}
-}
+// join
 
-.join {
+#join {
+@extend .v50texture;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}	
@@ -151,73 +158,50 @@ video {
 
 	.story {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,3);
+		@include grid-span(6,1);
 	}
 }
 
 
 	.reconnect {
+
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,7);
+		@include grid-span(6,7);
 	}	
 }	
 
-.social_share_title {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,6);
-		}
-}
 
-.social_share {
+#social_share {
+
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
 }
 
-.share1 {
+.share1, .share4 {
+
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,3);
+		@include grid-span(4,1);
 	}
 }
 
-.share2 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,6);
-	}
-}
-.share3 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,9);
-	}
-}
+.share2, .share5 {
 
-.share4 {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,3);
+		@include grid-span(4,5);
+	}
+}
+.share3, .share6 {
+
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,9);
 	}
 }
 
-.share5 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,6);
-	}
-}
-
-.share6 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,9);
-	}
-}
-
-.organize_title {
-clear:both;	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,2);
-		}
-}
-
-.organize {
+// Organize
+#organize {
+background-color: $v50grey;
+@extend .v50texture;
 clear:both;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
@@ -225,99 +209,71 @@ clear:both;
 }
 
 .organize_lt {
+
 clear:both;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,1);
+		@include grid-span(4,1);
 	}
 }
 
-.tools_title {
+.organize_rt {
+
 clear:both;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,3);
+		@include grid-span(8,5);
 	}
 }
 
 .tools {
 
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(5,2);
+		@include grid-span(6,1);
 	}
 }
 
-.organize_rt {
-clear:both;
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,6);
-	}
-}
-
-.help_desk_title {
-clear:both;
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,7);
-	}
-}
 
 .help_desk {
 
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(5,6);
+		@include grid-span(6,7);
 	}
 }
 
-.incubator_title {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,2);
-		}
-}
 
-.incubator {
+// Incubator
+#incubator {
+@extend .v50texture;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
 }
 
-.incu_works_img {
+.incu_works_img, .case_img {
+
+	text-align: center;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,2);
+		@include grid-span(4,1);
 	}
 }
 
-.incu_works {
+.incu_works, .case_works {
+
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(5,6);
+		@include grid-span(8,5);
 	}
 }
 
-.showcase_title {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,2);
-		}
-}
 
-.showcase {
-
+#showcase {
+background-color: $v50grey;
+@extend .v50texture;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
 }
 
-.case_img {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,2);
-	}
-}
-
-.case_works {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(5,6);
-	}
-}
-
-.past {
+#past {
+@extend .v50texture;
 clear:both;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
@@ -326,49 +282,21 @@ clear:both;
 
 
 
-.past_title {
-	clear:both;
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(12,1);
-		}
+.pastWrap{
+	background-image: url('/sites/default/files/white_lines.png');
+	padding:40px;
 }
-	
-//begin temp work
 
-.photos_wrap {
+
+
+.pastInner {
 clear:both;
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,4);
-	}
+padding: $v50basePadding;
+background-color: $v50grey;
+@extend .v50texture;
 }
 
-.photo_title {
-	clear:both;
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(12,1);
-		}
-}
 
-.photos {
-clear:both;
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(12,1);
-	}
-}
-
-.video_title {
-	clear:both;
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(12,1);
-		}
-}
-
-.past_videos {
-clear:both;
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,4);
-	}
-}
 
 .past_video1 {
 clear:both;
@@ -377,83 +305,44 @@ clear:both;
 	}
 }
 .past_video2 {
+margin-top: $v50basePadding;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,1);
 	}
 }
 .past_video3 {
+margin-top: $v50basePadding;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,7);
 	}
 }
 
 
-//end temp work
-
-.audio_title {
-	clear:both;
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,6);
-		}
-}
-
 .audio_wrap {
 clear:both;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,4);
-	}
-}
-
-.audio1 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,4);
-	}
-}
-
-.audio2 {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,7);
-	}
-}
-
-.audio3 {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,4);
-	}
-}
-
-.audio4 {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,7);
-	}
-}
-
-.audio5 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,4);
-	}
-}
-
-.audio6 {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(3,7);
-	}
-}
-
-.poster_title {
-clear:both;
-	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
-		}
+	}
 }
+
+.audio1, .audio3, .audio5 {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,1);
+	}
+}
+
+.audio2, .audio4, .audio6 {
+	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,7);
+	}
+}
+
 
 .posters_wrap {
 clear:both;
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(6,4);
+		@include grid-span(12,1);
 	}
 }
 
@@ -464,14 +353,9 @@ clear:both;
 	}
 }
 
-.future_title {
-	
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,2);
-		}
-}
-
-.future {
+#future {
+background-color: $v50grey;
+@extend .v50texture;
 clear:both;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
@@ -480,55 +364,71 @@ clear:both;
 
 .donate_info {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,3);
+		@include grid-span(6,1);
 	}
 }
 
 .pay {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(4,7);
+		@include grid-span(6,7);
 	}
 }
 
-
 .footer_area {
-	@include breakpoint($breakpoint-desktop){
-		@include grid-span(12,1);
+background-color: $v50Dkgrey;
+padding-top: $v50basePadding;
+padding-bottom: $v50basePadding;
+// inner wrapper for footer
+.v50footerInterior {
+@include breakpoint($breakpoint-desktop){
+		width:900px;
+		margin-left: auto;
+		margin-right: auto;
+		}
 	}
 }
 
 .footer_logo1 {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,2);
+		@include grid-span(2,1);
 	}
 }
 
 .footer_logo2 {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,4);
+		@include grid-span(2,3);
 	}
 }
 
+.footer_menu {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,5);
+	}
+}
 .footer_menu_rt {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,6);
+		@include grid-span(6,1);
 	}
 }
 
 .footer_menu_lt {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,8);
+		@include grid-span(6,7);
 	}
 }
 
 .social_bottom {
 	@include breakpoint($breakpoint-desktop){
-		@include grid-span(2,10);
+		@include grid-span(4,9);
 	}
 }
-
-
 }
-
 //end v50
-
+.btn {
+	a {
+		display:inline-block;
+		padding: $v50basePadding;
+		text-decoration: none;
+		background-color: aqua;
+	}
+}
