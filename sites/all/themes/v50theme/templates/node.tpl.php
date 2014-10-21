@@ -148,7 +148,7 @@
 <div class="pastWrap">
 <div style="clear:both;"></div>
 <div class="pastInner">
-<?php $v50photos = views_embed_view('v50_photos', 'block');
+<?php $v50photos = views_embed_view('v50_photos');
 print $v50photos; ?></div>
 <div style="clear:both;"></div>
 </div>
@@ -188,7 +188,7 @@ print $v50photos; ?></div>
 <h3>Vintage Posters</h3>
 <div class="pastWrap">
 <div class="pastInner">
-<div class="posters"><?php $v50poster = views_embed_view('v50_poster', 'block');
+<div class="posters"><?php $v50poster = views_embed_view('v50_poster');
 print $v50photos; ?></div>
 
 <div style="clear:both;"></div>
