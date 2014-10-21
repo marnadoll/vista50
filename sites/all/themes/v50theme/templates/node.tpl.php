@@ -148,7 +148,7 @@
 <div class="pastWrap">
 <div style="clear:both;"></div>
 <div class="pastInner">
-<?php print render($content['field_past_photos']); ?></div>
+<?php print render($content['view_v50_photos']); ?></div>
 <div style="clear:both;"></div>
 </div>
 
@@ -187,7 +187,7 @@
 <h3>Vintage Posters</h3>
 <div class="pastWrap">
 <div class="pastInner">
-<div class="posters"><?php print render($content['field_past_posters']); ?></div>
+<div class="posters"><?php print render($content['field_past_posters']); ?><?php print render($content['view_v50_poster']); ?></div>
 
 <div style="clear:both;"></div>
 </div>
