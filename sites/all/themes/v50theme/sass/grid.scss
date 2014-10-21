@@ -100,6 +100,7 @@ background-color: $v50grey;
 text-align: center;
 background-color: $v50grey;
 padding: $v50basePadding;
+@extend .v50texture;
 	}
 
 .summits_link {
@@ -328,12 +329,14 @@ margin-top: $v50basePadding;
 
 .audio_wrap {
 clear:both;
+@extend .v50texture;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}
 }
 
 .audio1, .audio3, .audio5 {
+@extend .v50texture;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,1);
 	}
@@ -356,6 +359,7 @@ clear:both;
 
 .posters {
 clear:both;
+@extend .v50texture;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(12,1);
 	}

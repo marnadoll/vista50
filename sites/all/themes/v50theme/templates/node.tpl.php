@@ -188,6 +188,7 @@
 <div class="pastWrap">
 <div class="pastInner">
 <div class="posters"><?php print render($content['field_past_posters']); ?></div>
+
 <div style="clear:both;"></div>
 </div>
 </div>
