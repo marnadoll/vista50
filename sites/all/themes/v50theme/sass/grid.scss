@@ -327,7 +327,6 @@ margin-top: $v50basePadding;
 
 
 .audio_wrap {
-float:right;
 clear:both;
 @extend .v50texture;
 	@include breakpoint($breakpoint-desktop){

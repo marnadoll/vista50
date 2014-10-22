@@ -462,7 +462,6 @@ video {
 }
 /* line 329, ../sass/grid.scss */
 #vgrid .audio_wrap {
-  float: right;
   clear: both;
 }
 @media (min-width: 900px) {
@@ -476,7 +475,7 @@ video {
   }
 }
 @media (min-width: 900px) {
-  /* line 338, ../sass/grid.scss */
+  /* line 337, ../sass/grid.scss */
   #vgrid .audio1, #vgrid .audio3, #vgrid .audio5 {
     width: 49.15254%;
     float: left;
@@ -486,7 +485,7 @@ video {
   }
 }
 @media (min-width: 900px) {
-  /* line 345, ../sass/grid.scss */
+  /* line 344, ../sass/grid.scss */
   #vgrid .audio2, #vgrid .audio4, #vgrid .audio6 {
     width: 49.15254%;
     float: right;
@@ -495,12 +494,12 @@ video {
     clear: none;
   }
 }
-/* line 353, ../sass/grid.scss */
+/* line 352, ../sass/grid.scss */
 #vgrid .posters_wrap {
   clear: both;
 }
 @media (min-width: 900px) {
-  /* line 353, ../sass/grid.scss */
+  /* line 352, ../sass/grid.scss */
   #vgrid .posters_wrap {
     width: 100%;
     float: right;
@@ -509,12 +508,12 @@ video {
     clear: none;
   }
 }
-/* line 360, ../sass/grid.scss */
+/* line 359, ../sass/grid.scss */
 #vgrid .posters {
   clear: both;
 }
 @media (min-width: 900px) {
-  /* line 360, ../sass/grid.scss */
+  /* line 359, ../sass/grid.scss */
   #vgrid .posters {
     width: 100%;
     float: right;
@@ -523,14 +522,14 @@ video {
     clear: none;
   }
 }
-/* line 368, ../sass/grid.scss */
+/* line 367, ../sass/grid.scss */
 #vgrid #future {
   color: #1d2d5b;
   background-color: #b6b6b8;
   clear: both;
 }
 @media (min-width: 900px) {
-  /* line 368, ../sass/grid.scss */
+  /* line 367, ../sass/grid.scss */
   #vgrid #future {
     width: 100%;
     float: right;
@@ -540,7 +539,7 @@ video {
   }
 }
 @media (min-width: 900px) {
-  /* line 378, ../sass/grid.scss */
+  /* line 377, ../sass/grid.scss */
   #vgrid .donate_info {
     width: 49.15254%;
     float: left;
@@ -550,7 +549,7 @@ video {
   }
 }
 @media (min-width: 900px) {
-  /* line 384, ../sass/grid.scss */
+  /* line 383, ../sass/grid.scss */
   #vgrid .pay {
     width: 49.15254%;
     float: right;
@@ -559,14 +558,14 @@ video {
     clear: none;
   }
 }
-/* line 390, ../sass/grid.scss */
+/* line 389, ../sass/grid.scss */
 #vgrid .footer_area {
   background-color: #424144;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 @media (min-width: 900px) {
-  /* line 395, ../sass/grid.scss */
+  /* line 394, ../sass/grid.scss */
   #vgrid .footer_area .v50footerInterior {
     width: 900px;
     margin-left: auto;
@@ -574,7 +573,7 @@ video {
   }
 }
 @media (min-width: 900px) {
-  /* line 404, ../sass/grid.scss */
+  /* line 403, ../sass/grid.scss */
   #vgrid .footer_logo1 {
     width: 15.25424%;
     float: left;
@@ -584,7 +583,7 @@ video {
   }
 }
 @media (min-width: 900px) {
-  /* line 410, ../sass/grid.scss */
+  /* line 409, ../sass/grid.scss */
   #vgrid .footer_logo2 {
     width: 15.25424%;
     float: left;
@@ -594,7 +593,7 @@ video {
   }
 }
 @media (min-width: 900px) {
-  /* line 416, ../sass/grid.scss */
+  /* line 415, ../sass/grid.scss */
   #vgrid .footer_menu {
     width: 32.20339%;
     float: left;
@@ -604,7 +603,7 @@ video {
   }
 }
 @media (min-width: 900px) {
-  /* line 421, ../sass/grid.scss */
+  /* line 420, ../sass/grid.scss */
   #vgrid .footer_menu_rt {
     width: 49.15254%;
     float: left;
@@ -614,7 +613,7 @@ video {
   }
 }
 @media (min-width: 900px) {
-  /* line 427, ../sass/grid.scss */
+  /* line 426, ../sass/grid.scss */
   #vgrid .footer_menu_lt {
     width: 49.15254%;
     float: right;
@@ -624,7 +623,7 @@ video {
   }
 }
 @media (min-width: 900px) {
-  /* line 433, ../sass/grid.scss */
+  /* line 432, ../sass/grid.scss */
   #vgrid .social_bottom {
     width: 32.20339%;
     float: right;
