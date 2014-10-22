@@ -27,7 +27,7 @@ video {
 }
 
 /* line 35, ../sass/grid.scss */
-.v50texture, #vgrid #v50vid_wrap, #vgrid #links, #vgrid .link_wrap, #vgrid #summits, #vgrid #organize, #vgrid #incubator, #vgrid #showcase, #vgrid #past, #vgrid .pastInner, #vgrid .audio_wrap, #vgrid .audio1, #vgrid .audio3, #vgrid .audio5, #vgrid .posters, #vgrid #future {
+.v50texture, #vgrid #v50vid_wrap, #vgrid #links, #vgrid .link_wrap, #vgrid #summits, #vgrid #organize, #vgrid #incubator, #vgrid #showcase, #vgrid #past, #vgrid .pastInner, #vgrid .audio_wrap, #vgrid .audio1, #vgrid .audio3, #vgrid .audio5, #vgrid .audio2, #vgrid .audio4, #vgrid .audio6, #vgrid .posters, #vgrid #future {
   background-image: url("/sites/default/files/texture.png");
 }
 
@@ -418,12 +418,12 @@ video {
   padding: 20px;
   background-color: #424144;
 }
-/* line 310, ../sass/grid.scss */
+/* line 309, ../sass/grid.scss */
 #vgrid .past_video1 {
   clear: both;
 }
 @media (min-width: 900px) {
-  /* line 310, ../sass/grid.scss */
+  /* line 309, ../sass/grid.scss */
   #vgrid .past_video1 {
     width: 100%;
     float: right;
@@ -432,12 +432,12 @@ video {
     clear: none;
   }
 }
-/* line 316, ../sass/grid.scss */
+/* line 315, ../sass/grid.scss */
 #vgrid .past_video2 {
   margin-top: 20px;
 }
 @media (min-width: 900px) {
-  /* line 316, ../sass/grid.scss */
+  /* line 315, ../sass/grid.scss */
   #vgrid .past_video2 {
     width: 49.15254%;
     float: left;
@@ -446,12 +446,12 @@ video {
     clear: none;
   }
 }
-/* line 322, ../sass/grid.scss */
+/* line 321, ../sass/grid.scss */
 #vgrid .past_video3 {
   margin-top: 20px;
 }
 @media (min-width: 900px) {
-  /* line 322, ../sass/grid.scss */
+  /* line 321, ../sass/grid.scss */
   #vgrid .past_video3 {
     width: 49.15254%;
     float: right;
@@ -460,12 +460,13 @@ video {
     clear: none;
   }
 }
-/* line 330, ../sass/grid.scss */
+/* line 329, ../sass/grid.scss */
 #vgrid .audio_wrap {
+  float: right;
   clear: both;
 }
 @media (min-width: 900px) {
-  /* line 330, ../sass/grid.scss */
+  /* line 329, ../sass/grid.scss */
   #vgrid .audio_wrap {
     width: 100%;
     float: right;
