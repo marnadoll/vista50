@@ -183,6 +183,19 @@ background-image: url('/sites/default/files/social_bg.png');
 	}
 }
 
+	.twitterWrap {
+			@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,1);
+		
+	}
+	}
+	.facebookWrap {
+			@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,7);
+		
+	}
+	}
+
 .share1, .share4 {
 
 	@include breakpoint($breakpoint-desktop){
@@ -303,6 +316,10 @@ clear:both;
 padding: $v50basePadding;
 background-color: $v50Dkgrey;
 @extend .v50texture;
+h5 {
+	margin-bottom: 0px;
+	margin-top: $v50basePadding;
+}
 }
 
 
@@ -335,14 +352,14 @@ clear:both;
 }
 
 .audio1, .audio3, .audio5 {
-@extend .v50texture;
+
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,1);
 	}
 }
 
 .audio2, .audio4, .audio6 {
-@extend .v50texture;
+
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,7);
 	}

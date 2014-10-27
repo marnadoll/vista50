@@ -1,4 +1,5 @@
 @import "variables.scss";
+@import "breakpoint";
 @import "grid.scss";
 
 
@@ -25,8 +26,9 @@ body {
 
 .btn {
 	a {
+		margin-top: $v50basePaddingSmall;
 		display:inline-block;
-		padding: $v50basePadding;
+		padding: $v50basePaddingSmall;
 		text-decoration: none;
 		color: $v50white;
 		background-color: $v50red;
@@ -95,14 +97,9 @@ body {
 .social_top {
 	background-image: url('/sites/default/files/white_lines.png');		
 }
-
-
-
-.join {
-	background-color: blue;
-	
+.summits_link, .incu_link, .show_link {
+background-image: url('/sites/default/files/white_lines.png');
 }
-
 .story {
 	color: $v50white;
 }
@@ -111,37 +108,36 @@ body {
 	color: $v50white;
 }
 
-.social_share {
-	background-color: green;
+#social_share {
+margin-top: 100px;
+	p {
+		color: $v50white;
+	}
 	
 }
+a {
+	&.twitter, &.facebook {
+		display:block;
+		text-transform: uppercase;
+		padding: $v50basePaddingSmall;
+		text-align: center;
+		color: $v50white;
+		text-decoration: none;
+	}
+	&.twitter {
+		background-color: $twitterBlue;
+	}
+		&.facebook {
+		background-color: $facebookBlue;
+	}
+	}
 
-.share1 {
-	background-color: aqua;
-	
-}
-
-.share2 {
-	background-color: aqua;
-	
-}
-.share3 {
-	background-color: aqua;
-	
-}
-
-.share4 {
-	background-color: blue;
-	
-}
-
-.share5 {
-	background-color: blue;
-	
-}
-
-.share6 {
-	background-color: blue;
+.share1, .share2, .share3 {
+@include breakpoint($breakpoint-desktop){
+	border-bottom: 1px solid $v50white;
+	margin-bottom: $v50basePadding;
+	padding-bottom: $v50basePadding;
+	}
 	
 }
 
@@ -151,34 +147,8 @@ body {
 	
 }
 
-.audio1 {
-	background-color: $v50Dkgrey;
-	
-}
-
-.audio2 {
-	background-color: $v50Dkgrey;
-	
-}
-
-.audio3 {
-	background-color: $v50Dkgrey;
-	
-}
-
-.audio4 {
-	background-color: $v50Dkgrey;
-	
-}
-
-.audio5 {
-	background-color: $v50Dkgrey;
-	
-}
-
-.audio6 {
-	background-color: $v50Dkgrey;
-	
+.mejs-audio {
+	border: 10px solid $v50red;
 }
 
 .posters_wrap {
@@ -189,6 +159,10 @@ body {
 
 .posters {
 	background-color: $v50Dkgrey;
+	.views-row {
+		float:left;
+		max-width: 20%;
+	}
 }
 
 .future {

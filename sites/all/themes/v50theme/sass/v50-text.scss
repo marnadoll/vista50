@@ -8,19 +8,18 @@ p {
 	color: $v50Dkgrey;
 }
 
-a:link, a:visited {
+a {
   color: #0062A0;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
   color: #202124;
-  text-decoration: none;
 }
 
 a:active {
   color: #202124;
-  text-decoration: none;
+  
   color: #000;
 }
 

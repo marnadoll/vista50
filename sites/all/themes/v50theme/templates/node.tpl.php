@@ -65,21 +65,97 @@
 <div id="social_share">
 <h3>Social Share</h3>
 <div style="clear:both;"></div>
+
 	<div class="share1">
 	<?php 
 	$shareVar = $node->field_social_1['und'][0]['safe_value']; 
 	print '<p>' . $shareVar . '</p>';
 	$shareVarTwitter = str_replace(" ","+",$shareVar);
 	?>
+	<div class="twitterWrap">
 		<a class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $shareVarTwitter; ?>+@vistabuzz&original_referer=http://www.vistacampus.gov/">Share</a>
-		
 	</div>
-     	<div class="share2">share2</div>
-	<div class="share3">share3</div>
+		<div class="facebookWrap">
+		<a class="facebook" href="https://www.facebook.com/sharer/sharer.php">Share</a>
+	</div>
+	</div>
+	
+     	<div class="share2">
+	<?php 
+	$shareVar = $node->field_social_2['und'][0]['safe_value']; 
+	print '<p>' . $shareVar . '</p>';
+	$shareVarTwitter = str_replace(" ","+",$shareVar);
+	?>
+	<div class="twitterWrap">
+		<a class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $shareVarTwitter; ?>+@vistabuzz&original_referer=http://www.vistacampus.gov/">Share</a>
+	</div>
+		<div class="facebookWrap">
+		<a class="facebook" href="https://www.facebook.com/sharer/sharer.php">Share</a>
+	</div>
+	</div>
+	
+		<div class="share3">
+	<?php 
+	$shareVar = $node->field_social_3['und'][0]['safe_value']; 
+	print '<p>' . $shareVar . '</p>';
+	$shareVarTwitter = str_replace(" ","+",$shareVar);
+	?>
+	<div class="twitterWrap">
+		<a class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $shareVarTwitter; ?>+@vistabuzz&original_referer=http://www.vistacampus.gov/">Share</a>
+	</div>
+		<div class="facebookWrap">
+		<a class="facebook" href="https://www.facebook.com/sharer/sharer.php">Share</a>
+	</div>
+	</div>
+	
   <div style="clear:both;"></div>
-     	<div class="share4">share4</div>
-	<div class="share5">share5</div>
-     	<div class="share6">share6</div>
+     	
+     	
+     		<div class="share4">
+	<?php 
+	$shareVar = $node->field_social_4['und'][0]['safe_value']; 
+	print '<p>' . $shareVar . '</p>';
+	$shareVarTwitter = str_replace(" ","+",$shareVar);
+	?>
+	<div class="twitterWrap">
+		<a class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $shareVarTwitter; ?>+@vistabuzz&original_referer=http://www.vistacampus.gov/">Share</a>
+	</div>
+		<div class="facebookWrap">
+		<a class="facebook" href="https://www.facebook.com/sharer/sharer.php">Share</a>
+	</div>
+	</div>
+	
+	
+		<div class="share5">
+	<?php 
+	$shareVar = $node->field_social_5['und'][0]['safe_value']; 
+	print '<p>' . $shareVar . '</p>';
+	$shareVarTwitter = str_replace(" ","+",$shareVar);
+	?>
+	<div class="twitterWrap">
+		<a class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $shareVarTwitter; ?>+@vistabuzz&original_referer=http://www.vistacampus.gov/">Share</a>
+	</div>
+		<div class="facebookWrap">
+		<a class="facebook" href="https://www.facebook.com/sharer/sharer.php">Share</a>
+	</div>
+	</div>
+	
+	
+     		<div class="share6">
+	<?php 
+	$shareVar = $node->field_social_6['und'][0]['safe_value']; 
+	print '<p>' . $shareVar . '</p>';
+	$shareVarTwitter = str_replace(" ","+",$shareVar);
+	?>
+	<div class="twitterWrap">
+		<a class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $shareVarTwitter; ?>+@vistabuzz&original_referer=http://www.vistacampus.gov/">Share</a>
+	</div>
+		<div class="facebookWrap">
+		<a class="facebook" href="https://www.facebook.com/sharer/sharer.php">Share</a>
+	</div>
+	</div>
+	
+	
      	<div style="clear:both;"></div>
   </div>
   <div style="clear:both;"></div>
@@ -179,14 +255,26 @@ print $v50photos; ?></div>
 <h3>Audio</h3>
 <div class="pastWrap">
 <div class="pastInner">
-<div class="audio1"><?php print render($content['field_v50_audio1']); ?>audio1</div>
-<div class="audio2"><?php print render($content['field_v50_audio2']); ?>audio2</div>
+<div class="audio1">
+<h5><?php print $node->field_v50_audio1['und'][0]['filename']; ?></h5>
+<?php print render($content['field_v50_audio1']); ?></div>
+<div class="audio2">
+<h5><?php print $node->field_v50_audio2['und'][0]['filename']; ?></h5>
+<?php print render($content['field_v50_audio2']); ?></div>
   <div style="clear:both;"></div>
-<div class="audio3"><?php print render($content['field_v50_audio3']); ?>audio3</div>
-<div class="audio4"><?php print render($content['field_v50_audio4']); ?>audio4</div>
+<div class="audio3">
+<h5><?php print $node->field_v50_audio3['und'][0]['filename']; ?></h5>
+<?php print render($content['field_v50_audio3']); ?></div>
+<div class="audio4">
+<h5><?php print $node->field_v50_audio4['und'][0]['filename']; ?></h5>
+<?php print render($content['field_v50_audio4']); ?></div>
   <div style="clear:both;"></div>
-<div class="audio5"><?php print render($content['field_v50_audio5']); ?>audio5</div>
-<div class="audio6"><?php print render($content['field_v50_audio6']); ?>audio6</div>
+<div class="audio5">
+<h5><?php print $node->field_v50_audio5['und'][0]['filename']; ?></h5>
+<?php print render($content['field_v50_audio5']); ?></div>
+<div class="audio6">
+<h5><?php print $node->field_v50_audio6['und'][0]['filename']; ?></h5>
+<?php print render($content['field_v50_audio6']); ?></div>
   <div style="clear:both;"></div>
 </div>
 </div>
