@@ -65,7 +65,15 @@
 <div id="social_share">
 <h3>Social Share</h3>
 <div style="clear:both;"></div>
-	<div class="share1">share1</div>
+	<div class="share1">
+	<?php 
+	$shareVar = $node->field_social_1['und'][0]['safe_value']; 
+	print '<p>' . $shareVar . '</p>';
+	$shareVarTwitter = str_replace(" ","+",$shareVar);
+	?>
+		<a class="twitter" href="https://twitter.com/intent/tweet?text=<?php print $shareVarTwitter; ?>+@vistabuzz&original_referer=http://www.vistacampus.gov/">Share</a>
+		
+	</div>
      	<div class="share2">share2</div>
 	<div class="share3">share3</div>
   <div style="clear:both;"></div>
@@ -148,7 +156,7 @@
 <div class="pastWrap">
 <div style="clear:both;"></div>
 <div class="pastInner">
-<?php $v50photos = views_embed_view('v50_photos', 'block');
+<?php $v50photos = views_embed_view('v50_photos');
 print $v50photos; ?></div>
 <div style="clear:both;"></div>
 </div>
@@ -188,8 +196,8 @@ print $v50photos; ?></div>
 <h3>Vintage Posters</h3>
 <div class="pastWrap">
 <div class="pastInner">
-<div class="posters"><?php $v50poster = views_embed_view('v50_poster', 'block');
-print $v50photos; ?></div>
+<div class="posters"><?php $v50poster = views_embed_view('v50_poster');
+print $v50poster; ?></div>
 
 <div style="clear:both;"></div>
 </div>

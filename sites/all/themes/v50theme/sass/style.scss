@@ -54,13 +54,15 @@ body {
 }
 
 .menu {
-	background: #556b9a;
+	
 	color: #fff;
 	display: inline;
 	font-family: "League Gothic", google fonts;
 }
 
-
+.tabs {
+	background: $v50grey;
+}
 	
 
 .vgrid {
@@ -69,7 +71,7 @@ body {
 }
 
 .vheader {
-	background: $v50blue;
+	background: $v50grey;
 	background-image: url('/sites/default/files/texture.png'); 
 }
 
