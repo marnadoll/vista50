@@ -306,7 +306,6 @@ background-color: $v50Dkgrey;
 }
 
 
-
 .past_video1 {
 clear:both;
 	@include breakpoint($breakpoint-desktop){
@@ -343,7 +342,7 @@ clear:both;
 }
 
 .audio2, .audio4, .audio6 {
-	
+@extend .v50texture;
 	@include breakpoint($breakpoint-desktop){
 		@include grid-span(6,7);
 	}

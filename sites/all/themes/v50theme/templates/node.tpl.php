@@ -197,7 +197,9 @@ print $v50photos; ?></div>
 <div class="pastWrap">
 <div class="pastInner">
 <div class="posters"><?php $v50poster = views_embed_view('v50_poster');
+
 print $v50poster; ?></div>
+
 
 <div style="clear:both;"></div>
 </div>
