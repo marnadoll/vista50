@@ -48,33 +48,12 @@
 
 <head profile="<?php print $grddl_profile; ?>">
   <?php print $head; ?>
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700'
-rel='stlesheet' type='text/css'>
-<link href-'http://fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css'>
 
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
-  <script src="/sites/all/themes/v50theme/sass/library/js/fitvids.js"></script>
-<script>
-jQuery(document).ready(function($) {
-  // Target your .container, .wrapper, .post, etc.
-    $(".past_videos").fitVids();
-    
-    $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-</script>
+
+  
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
@@ -82,7 +61,6 @@ jQuery(document).ready(function($) {
   </div>
   <?php print $page_top; ?>
   <?php print $page; ?>
-  <?php print $page_bottom; ?>
 </body>
 </html>
 

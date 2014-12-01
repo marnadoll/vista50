@@ -1,177 +1,1100 @@
-@import "variables.scss";
+@import "singularitygs";
 @import "breakpoint";
-@import "grid.scss";
+@import "compass";
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
 
+// VARS --------------------------------------------------------------
+$v50basePadding: 20px;
+$v50basePaddingSmall: 10px;
 
-a {
-    text-decoration: none;
-}
-p.serif {
-  font-family: "LeagueGothic","Helvetica Neue","Helvetica","Arial";
-}
-li {
-    display: block;
-}
+$v50grey: #b6b6b8;
+$v50Dkgrey: #424144;
+$v50DkerGrey: #9D9D9F;
+$v50incubatorGrey: #EAECF0;
+$v50solutionsGrey: #C2C8D2;
 
+$v50white: #fff;
+$v50dkWhite: darken($v50white, 20%);
+
+$v50blue: #1d2d5b;
+$v50ltBlue: lighten($v50blue, 20%);
+$v50dkBlue: darken($v50blue, 20%);
+
+$v50red: #E5383D;
+$v50black: #000;
+$v50TransBlack: rgba(0,0,0,.3);
+
+$v50flagBlue: #5a90d6;
+$v50flagBlueDk: #41608f;
+
+$twitterBlue: #4098FD;
+$facebookBlue: #3C5B9B;
+
+$grids: 12;
+$gutters: 1em;
+$gutter-styles: 'split';
+
+$breakpoint-desktop: 1130px;
+$videoMaxWidth: 767px;
+
+// TYPE --------------------------------------------------------------
 
 body {
-
-	//font-size: $font-size;
-	//background: $rand;
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  color: $v50Dkgrey;
+  font-size: 16px;
+  
 }
 
-.centerImage {
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.02em;
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+// Section titles
+h2 {
+  font-size: 50px;
+  padding:30px;
+  display: inline-block;
+  background-image: url('/sites/all/themes/v50theme/images/white_lines.png');
+}
+
+#showcase, #incubator, #summits {
+	h2 {
+		background-image: url('/sites/all/themes/v50theme/images/dark_lines.png');
+	}
+
+}
+
+// Ribbon h3's
+h3 {
 	text-align: center;
+	text-transform: uppercase;
+	background-image: url('/sites/all/themes/v50theme/images/title_bg.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: $v50white;
+	margin-top: $v50basePadding;
+	padding: $v50basePadding;
+	font-size: 18px;
+}
+
+h4 {
+  font-size: 19px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol,
+ul, pre, table, address, fieldset {
+  margin-bottom: $v50basePadding;
+  line-height: 1.5em;
+}
+
+ol, ul {
+	line-height: 1.2em;
+}
+
+a {
+  color: $v50blue;
+  text-decoration: none;
+  transition: all 0.2s linear;
+  &:hover, &:active {
+	color:  $v50dkBlue;
+  }
+}
+li {
+	list-style-type: disc;
+	padding-bottom: $v50basePaddingSmall;
 }
 
 .btn {
 	a {
+		font-family: 'Oswald', Helvetica, Arial, sans-serif;
+		text-transform: uppercase;
 		margin-top: $v50basePaddingSmall;
 		display:inline-block;
-		padding: $v50basePaddingSmall;
+		padding: $v50basePadding;
 		text-decoration: none;
 		color: $v50white;
 		background-color: $v50red;
+		border-radius: 5px;
+		&:hover {
+			background-color: darken($v50red, 20%);
+		}
 	}
+}
+// reset stuff
+
+#region-page-bottom, #section-footer {
+	display:none;
+}
+html, body, #page {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+// Some responsive stuff
+img {
+	max-width: 100%;
+	width: auto !important;
+	height: auto !important;
+}
+
+video {
+	max-width: 100%;
+	width: auto !important;
+	height: auto !important;
+}
+.centerImage {
+	text-align: center;
 }
 
 .clearfix:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
+visibility: hidden;
+display: block;
+font-size: 0;
+content: "";
+clear: both;
+height: 0;
 }
 
-.img {
-	max-width: 100%;
-	width: auto;
-	height: auto;
-}
-
-.logo {
-	float: right;
-	background-color: none;
-	display: block;
-}
-
-.menu {
-	
-	color: #fff;
-	display: inline;
-	font-family: "League Gothic", google fonts;
-}
-
-.tabs {
-	background: $v50grey;
-}
-	
-
-.vgrid {
-	background: $v50blue;
-	background-image: url('/sites/default/files/texture.png'); 
-}
-
-.vheader {
-	background: $v50grey;
-	background-image: url('/sites/default/files/texture.png'); 
-}
-
-
-.section-header {
-	background: $v50blue;
-	background-image: url('/sites/default/files/texture.png'); 
-}
-
-
-.section-content {
-	background: $v50blue;
-	background-image: url('/sites/default/files/texture.png'); 
-	
-}
-
-.section-footer {
-	background: #bbbdbf
-}
-
-.social_top {
-	background-image: url('/sites/default/files/white_lines.png');		
-}
-.summits_link, .incu_link, .show_link {
-background-image: url('/sites/default/files/white_lines.png');
-}
-.story {
-	color: $v50white;
-}
-
-.reconnect {
-	color: $v50white;
-}
-
-#social_share {
-margin-top: 100px;
-	p {
-		color: $v50white;
+// inner wrapper for sections
+.v50interior {
+padding-top: 100px;
+padding-bottom: 100px;
+@include breakpoint($breakpoint-desktop){
+		width:$breakpoint-desktop;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		&.v50interiorFirst {
+			padding-top: 80px;
+			@include breakpoint($breakpoint-desktop){
+			padding-top: 20px;
+			}
+		}
 	}
 	
+
+.v50texture {
+	background-image: url('/sites/all/themes/v50theme/images/texture.png');
 }
+
+//v50 Header area -----------------------------------------------
+.vheader {
+	// hide header for mobile
+	display:none;
+	@include breakpoint($breakpoint-desktop){
+		display:block;
+		}
+	background-color: $v50grey;
+	@extend .v50texture;
+	width: 100%;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+		}
+		.vheaderInterior {
+			@include breakpoint($breakpoint-desktop){
+		width:1150px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		}
+	}
+	
+	.logo {
+		
+	height: 155px;
+	background-image: url('/sites/all/themes/v50theme/images/Main_Logo.png');
+	background-repeat: no-repeat;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,1);
+		}
+	}
+	
+	.topNav {
+		
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(10,3);
+		margin-top: 52px;
+		}
+	}
+	
+	.ribbonEnd {
+	background-image: url('/sites/all/themes/v50theme/images/banner_end.png');
+	background-repeat: no-repeat;
+	background-position: right top;
+	padding-right: 20px;
+	}
+	.social_top_wrap {
+	background-image: url('/sites/all/themes/v50theme/images/banner_ribbon.png');
+	background-repeat: no-repeat;
+	background-position: left top;
+	}
+	.social_top {
+	background-image: url('/sites/all/themes/v50theme/images/white_lines.png');	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,10);
+	}
+}
+
+	
+		
+	
+// black scroll menu	
+#menu {
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+	background-color: $v50black;
+	@include grid-span(12,1);
+	@include breakpoint($breakpoint-desktop){
+		display:none;
+		}
+		.stickyNavInterior {
+			max-width: $breakpoint-desktop;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	#stickyLogo {
+		float:left;
+		background-image: url('/sites/all/themes/v50theme/images/logoSticky.png');
+		background-position: center center;
+		background-size: contain;
+		background-repeat: no-repeat;
+		height:20px;
+		width:20px;
+		margin: 5px;
+	}		
+	
+	#toggle {
+		float:right;
+		@include breakpoint($breakpoint-desktop){
+			display:none;
+			}
+	}
+	
+	ul {
+		margin: 0px;
+		// hide ul by default for mobile
+		display:none;
+		clear:both;
+		@include breakpoint($breakpoint-desktop){
+			display: block;
+			clear: none;
+			}
+		li {
+			clear:both;
+			@include breakpoint($breakpoint-desktop){
+			float:left;
+			clear: none;
+			}
+			margin: 0px;
+			padding: 0px;
+			list-style-type: none;
+		}
+	}
+	a {
+		margin: 0px;
+		color: $v50white;
+		letter-spacing: -0.02em;
+		font-family: 'Oswald', Helvetica, Arial, sans-serif;
+		display: block;
+		padding: $v50basePadding;
+		&:hover {
+			color: $v50dkWhite;
+		}
+	}
+}
+
+// ribbon menu
+.persistentMenu {
+	background-color: $v50blue;
+	background-image: url('/sites/all/themes/v50theme/images/banner.png');
+	@include grid-span(12,1);
+	
+	ul {
+		margin: 0px;
+		line-height: 1em;
+		li {
+			//max-width: 20%;
+			float:left;
+			margin: 0px;
+			padding: 0px;
+			list-style-type: none;
+		}
+	}
+	a {
+		margin: 0px;
+		  letter-spacing: -0.02em;
+  font-family: 'Oswald', Helvetica, Arial, sans-serif;
+		color: $v50white;
+		display: block;
+		padding: 16px;
+		padding-left:13px;
+		padding-right:13px;
+		&:hover {
+			background-color: $v50dkBlue;
+		}
+	}
+}
+	
+.social {
+	ul {
+		li {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			a {
+				margin: $v50basePaddingSmall;
+				margin-left: 0px;
+				display: block;
+				height:40px;
+				width:40px;
+				float:right;
+				background-repeat: no-repeat;
+				background-position: center center;
+				&.facebook {
+					background-image: url('/sites/all/themes/v50theme/images/facebook_footer.png');	
+				}
+				&.twitter {
+					background-image: url('/sites/all/themes/v50theme/images/twitter_footer.png');	
+				}
+				&.youtube {
+					background-image: url('/sites/all/themes/v50theme/images/youtube_footer.png');	
+				}
+				&.linkedin {
+					background-image: url('/sites/all/themes/v50theme/images/linkedin_footer.png');	
+				}
+				&:hover {
+					background-color: $v50blue;
+					border-radius: 50%;
+				}
+			}
+		}
+	}
+
+}
+	
+
+
+//V50 Grid
+
+#vgrid {
+	background-color: $v50blue;
+	@include grid-span(12,1);
+
+ul, ol {
+	margin-left: $v50basePadding;
+}
+
+
+#v50vid_wrap{
+background-color: $v50grey;
+	@extend .v50texture;
+	@include breakpoint($breakpoint-desktop){
+	@include grid-span(12,1);
+		.flagBckrd {
+		background-image: url('/sites/all/themes/v50theme/images/Video_Slider_Background.png');
+		background-repeat: no-repeat;
+		}
+		
+	}
+	.arch {
+		background-image: url('/sites/all/themes/v50theme/images/arch.png');
+		background-position: right bottom;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+}
+
+
+
+.v50video {
+
+	.vidInterior {
+			max-width: $videoMaxWidth;
+			background-color: $v50red;
+			border: 10px solid $v50red;
+			margin-left: auto;
+			margin-right: auto;
+			a.transcript {
+				display:block;
+				float:left;
+				padding: $v50basePaddingSmall;
+				background-color: $v50grey;
+				color: $v50white;
+				&:hover {
+					background-color: $v50DkerGrey;
+				}
+			}
+
+			}
+	
+	
+	@include breakpoint($breakpoint-desktop){
+		
+		@include grid-span(9,1);
+	
+		
+		.vidInterior {
+			background-color: transparent;
+			margin-top: 50px;
+			margin-left: 47px;
+			width: 767px;
+			//height:400px;
+			border:none;
+			a.transcript {
+				margin-top: 8px;
+				margin-bottom: $v50basePadding;
+			}
+			}
+		
+	}
+}
+
+.v50link {
+	max-width: $videoMaxWidth;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	.actionButton {
+		font-family: 'Oswald', Helvetica, Arial, sans-serif;
+		background-color: $v50TransBlack;
+		padding: $v50basePaddingSmall;
+		text-align: center;
+		text-transform: uppercase;
+		color: $v50white;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 5px;
+		&:hover {
+			background-color: $v50red;
+		}
+	}
+	padding-top: 20px;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(3,10);
+	margin-right:30px;
+		padding-top: 320px;
+	
+}
+
+}
+
+#links {
+@extend .v50texture;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+		.bannerEndsLeft {
+			padding-left: 30px;
+			background-image: url('/sites/all/themes/v50theme/images/bottom_banner_ribbon_left.png');
+			background-repeat: no-repeat;
+			background-position: left top;
+			
+		}
+		.bannerEndsRight {
+			padding-right: 30px;
+			background-image: url('/sites/all/themes/v50theme/images/bottom_banner_ribbon_right.png');
+			background-repeat: no-repeat;
+			background-position: right top;
+		}
+		}
+	}
+	
+	
+.link_wrap {
+text-align: center;
+background-color: $v50DkerGrey;
+padding: $v50basePadding;
+@extend .v50texture;
+
+img {
+	margin-top: $v50basePaddingSmall;
+}
+	}
+
+.summits_link {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,1);
+		}
+	}
+	
+.incu_link {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,5);
+		}
+	}
+	
+.show_link {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,9);
+		
+	} 
+}
+.textInterior {
+	padding: $v50basePadding;
+	color: $v50Dkgrey;
+	
+}	
+
+.summits_link, .incu_link, .show_link {
+background-image: url('/sites/all/themes/v50theme/images/white_lines.png');
+color: $v50white;
+&:hover {
+	background-color: $v50grey;
+}
+
+h4 {
+	margin:0;
+	padding:0;
+	margin-bottom: 3px;
+	color: $v50blue;
+	
+}
+}
+
+// summits
+#summits {
+background-color: $v50incubatorGrey;
+color: $v50blue;
 a {
-	&.twitter, &.facebook {
+	color: $v50ltBlue;
+}
+@extend .v50texture;	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+		}
+
+
+// left
+	.centerImage {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,1);
+	}
+}
+
+// right
+	.textInterior {
+	color: $v50Dkgrey;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,7);
+	}	
+}
+}
+
+// join
+
+#join {
+color: $v50white;
+a, ul, li {
+	color: $v50white;
+}
+a:hover {
+	color: $v50dkWhite;
+}
+h2 {
+	margin-bottom: 50px;
+}
+background-image: url('/sites/all/themes/v50theme/images/social_bg.png');
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}	
+}
+
+.joinFlagTop {
+	
+	color: $v50white;
+	background-color: $v50ltBlue;
+	@include background-image(linear-gradient(to bottom right, $v50flagBlue, $v50flagBlueDk));
+	.v50texture {
+		padding: $v50basePadding;
+	}
+	.flagInterior {
+		float:left;
+		padding-left: $v50basePadding;
+		@include breakpoint($breakpoint-desktop){
+		width:300px;
+		.v50LMlink {
+			font-family: 'Oswald', Helvetica, Arial, sans-serif;
+		}
+		}
+		
+	}
+	.joinIcon {
+		float:left;
+		@include breakpoint($breakpoint-desktop){
+		margin-left: -80px;
+		margin-top: -40px;
+		}
+		width:150px;
+		height:150px;
+		background-repeat: no-repeat;
+		
+	}
+}
+.joinFlagBtm {
+	background-image: url('/sites/all/themes/v50theme/images/flag.png');
+	height:100px;
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+	.story {
+		.joinIcon {
+			background-image: url('/sites/all/themes/v50theme/images/share_story_icon.png');
+		}
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(5,2);
+	}
+}
+
+
+	.reconnect {
+	.joinIcon {
+			background-image: url('/sites/all/themes/v50theme/images/reconnect_icon.png');
+		}
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(5,8);
+	}	
+}	
+
+
+#social_share {
+	margin-top: 100px;
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	.textInterior {
+		color: $v50white;
+		p {
+		
+		line-height: 1.7em;
+		font-size: 1.2em;
+		}
+	}
+
+	a {
 		display:block;
 		text-transform: uppercase;
+		border-radius: 5px;
 		padding: $v50basePaddingSmall;
 		text-align: center;
 		color: $v50white;
 		text-decoration: none;
-	}
+		span {
+			
+			padding-left: 35px;
+			background-size: contain;
+			background-position: left center;
+		background-repeat: no-repeat;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+	
 	&.twitter {
 		background-color: $twitterBlue;
+		span {
+		background-image: url('/sites/all/themes/v50theme/images/twitter_share.png');
+		}
+		&:hover {
+			background-color: darken($twitterBlue, 10%);
+		}
 	}
-		&.facebook {
+	&.facebook {
 		background-color: $facebookBlue;
+		span {
+		background-image: url('/sites/all/themes/v50theme/images/facebook_share.png');
+		}
+		&:hover {
+			background-color: darken($facebookBlue, 10%);
+		}
 	}
 	}
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}
+}
 
-.share1, .share2, .share3 {
+	.twitterWrap {
+			@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,1);
+		
+	}
+	}
+	.facebookWrap {
+			@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,7);
+		
+	}
+	}
+	
+	.share1, .share2, .share3 {
 @include breakpoint($breakpoint-desktop){
-	border-bottom: 1px solid $v50white;
+	//border-bottom: 1px solid $v50white;
 	margin-bottom: $v50basePadding;
-	padding-bottom: $v50basePadding;
+	padding-bottom: $v50basePaddingSmall;
 	}
 	
 }
 
+.share1, .share4 {
 
-.photos {
-	background-color: red;
-	
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,1);
+	}
+}
+
+.share2, .share5 {
+
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,5);
+	}
+}
+.share3, .share6 {
+
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,9);
+	}
+}
+
+// Organize
+#organize {
+	h2 {
+		color: $v50white;
+	}
+	h4 {
+		color: $v50blue;
+	}
+color: $v50blue;
+background-color: $v50grey;
+@extend .v50texture;
+clear:both;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}
+}
+
+.organize_lt {
+text-align: center;
+clear:both;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,1);
+	}
+}
+
+.organize_rt {
+
+clear:both;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(8,5);
+	}
+}
+
+.tools {
+
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,1);
+	}
+}
+
+
+.help_desk {
+
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,7);
+	}
+}
+
+
+// Incubator
+#incubator {
+background-color: $v50incubatorGrey;
+color: $v50blue;
+@extend .v50texture;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}
+}
+
+.incu_works_img, .case_img {
+
+	text-align: center;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,1);
+	}
+}
+
+.incu_works, .case_works {
+
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(8,5);
+	}
+}
+
+
+#showcase {
+color: $v50blue;
+background-color: $v50solutionsGrey;
+.arrow {
+	background-image: url('/sites/all/themes/v50theme/images/arrow.png');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+@extend .v50texture;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}
+}
+
+#past {
+@extend .v50texture;
+color: $v50white;
+clear:both;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}
+}
+
+
+.pastWrap{
+	background-image: url('/sites/all/themes/v50theme/images/white_lines.png');
+	padding:40px;
+	@include breakpoint($breakpoint-desktop){
+		margin-left:100px;
+		margin-right:100px;
+		}
+}
+
+
+
+.pastInner {
+clear:both;
+
+@include background-image(linear-gradient(to bottom right, $v50DkerGrey, $v50Dkgrey));
+background-color: $v50Dkgrey;
+
+.v50texture {
+	@extend .v50texture;
+	padding: $v50basePadding;
+}
+h5 {
+	margin-bottom: 0px;
+	margin-top: $v50basePadding;
+}
+}
+
+// instagram images
+.insta {
+	img {
+		max-width: 20%;
+		width: auto;
+		height: auto;
+	}
+}
+.photoHeader {
+	text-align: center;
+	a {
+		color: $v50white;
+	}
+}
+
+.past_video1 {
+clear:both;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}
+}
+.past_video2 {
+margin-top: $v50basePadding;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,1);
+	}
+}
+.past_video3 {
+margin-top: $v50basePadding;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,7);
+	}
 }
 
 .mejs-audio {
 	border: 10px solid $v50red;
+	margin-top: $v50basePaddingSmall;
 }
+
+.audio_wrap {
+clear:both;
+@extend .v50texture;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}
+}
+
+.audio1, .audio3, .audio5 {
+
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,1);
+	}
+}
+
+.audio2, .audio4, .audio6 {
+
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,7);
+	}
+}
+
 
 .posters_wrap {
-	background-color: $v50Dkgrey;
-	
+clear:both;
+//background-color: $v50Dkgrey;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}
 }
 
-
 .posters {
-	background-color: $v50Dkgrey;
+clear:both;
+//background-color: $v50Dkgrey;
 	.views-row {
 		float:left;
 		max-width: 20%;
 	}
+//@extend .v50texture;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}
 }
 
-.future {
-	background-color: #c9c9c9;
-	background-image: url('/sites/default/files/texture.png');
+
+#future {
+color: $v50blue;
+background-color: $v50grey;
+@extend .v50texture;
+clear:both;
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(12,1);
+	}
+}
+
+.donate_info {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,1);
+	}
+}
+
+.pay {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,7);
+	}
+	.payInterior {
+		img {
+			border: $v50basePadding solid $v50red;
+		}
+	
 	
 }
+}
 
-.payInterior {
-	background-color: red;
-	padding: 20px;	
+
+
+// Footer ---------------------------------------------------
+.footer_area {
+background-color: $v50Dkgrey;
+padding-top: $v50basePadding;
+padding-bottom: $v50basePadding;
+// inner wrapper for footer
+.v50footerInterior {
+@include breakpoint($breakpoint-desktop){
+		width:$breakpoint-desktop;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	}
+}
+
+.footer_logo1 {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,1);
+	}
+}
+
+.footer_logo2 {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(2,3);
+	}
+}
+
+.footer_menu {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,5);
+	}
+}
+
+.footer_menu_rt, .footer_menu_lt {
+	a{
+		font-style: italic;
+		color: $v50white;
+	}
+}
+.footer_menu_rt {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,1);
+	}
+}
+
+.footer_menu_lt {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(6,7);
+	}
+}
+
+.social_bottom {
+	@include breakpoint($breakpoint-desktop){
+		@include grid-span(4,9);
+	}
+}
+}
+//end v50
+
+// modals
+#cboxContent {
+	
+	button {
+		background-image: none;
+		color: $v50white;
+		background-color: $v50grey;
+		border:none;
+		text-shadow: none;
+		&:hover {
+			background-color: $v50DkerGrey;
+		}
+		
+	}
+
+	  #cboxPrevious {
+        text-indent: 0px;
+      }
+
+      #cboxNext {
+        text-indent: 0px;
+      }
+
+      #cboxClose {
+        text-indent: 0px;
+      }
+
+
+	
 }

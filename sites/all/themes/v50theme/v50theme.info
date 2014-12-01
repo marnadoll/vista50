@@ -32,20 +32,10 @@ zones[branding] = 'Branding'
 zones[preface] = 'Preface'
 zones[postscript] = 'Postscript'
 
-stylesheets[all][] = css/menu.css
-stylesheets[all][] = css/grid.css
-stylesheets[all][] = css/global.css
-stylesheets[all][] = css/style.css
-stylesheets[all][] = css/v50.css
-stylesheets[all][] = css/v50-debug.css
-stylesheets[all][] = css/v50-default.css
-stylesheets[all][] = css/v50-menu.css
-stylesheets[all][] = css/v50-reset.css
-stylesheets[all][] = css/v50-text.css
-stylesheets[all][] = css/v50-v50.css
 
-stylesheets[all][] = sass/_variables.scss
-stylesheets[all][] = sass/_colors.scss
+stylesheets[all][] = css/v50-reset.css
+stylesheets[all][] = css/style.css
+
 
 css[v50-reset.css][name] = Reset
 css[v50-reset.css][description] = standard copy.
@@ -69,11 +59,5 @@ grids[v50_fluid][layouts][normal] = Normal
 grids[v50_fluid][columns][12] = 12 Columns
 grids[v50_fluid][columns][12] = 12 Columns
 grids[v50_fluid][columns][24] = 24 Columns
-
-
-
-scripts[] = sass/library/js/script.js
-scripts[] = sass/library/js/v50-debug.js
-scripts[] = sass/library/js/mediaelement.js
 
 version = '1.x'
